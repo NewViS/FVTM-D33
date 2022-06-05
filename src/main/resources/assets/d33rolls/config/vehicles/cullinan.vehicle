@@ -1,0 +1,50 @@
+{
+    "RegistryName": "d33rolls:cullinan",
+    "Addon": "fvtm:d33rolls",
+    "Name": "Rolls-Royce Cullinan",
+	"Model": "main_col;mirrors;podsteer;povor;inter;backseat;dver_cr;lamp;dno;kuz_bl;kuz_cr;farz;farp;reshet;ruk;statue;zercalo;logo_hud;logo_trunk;lamp_r;lamp_l;d33rolls:textures/model/cullinan.obj",
+    "PrimaryColor": "#6B1313",
+    "SecondaryColor": "#C2C2C2",
+    "Texture": "Default;fvp:textures/cars/c10.png",
+    
+    "Attributes": [
+    	{ "id":"weight", "type": "float", "value": 2480 }
+    ],
+    "Category": "car, crossover",
+    "WheelPositions":[
+        { "x":  27, "y": -5, "z":  12, "id": "left_front_wheel", "radius": 7, "drive": true, "steering": true },
+        { "x":  27, "y": -5, "z": -12, "id": "right_front_wheel", "radius": 7, "y_rot": 180, "drive": true, "steering": true },
+        { "x": -32.2, "y": -5, "z":  12, "id": "left_back_wheel", "radius": 7 },
+        { "x": -32.2, "y": -5, "z": -12, "id": "right_back_wheel", "radius": 7, "y_rot": 180 }
+    ],
+    "RequiredParts": [
+    	"right_front_wheel",
+        "left_front_wheel",
+        "right_back_wheel",
+        "left_back_wheel",
+        "seats",
+        "steering_wheel"
+    ],
+    "PreInstalled": {
+    	"seats": "d33rolls:cullinan_seats",
+    	"right_front_wheel": "d33rolls:cull_wheel",
+    	"left_front_wheel": "d33rolls:cull_wheel",
+    	"right_back_wheel": "d33rolls:cull_wheel",
+    	"left_back_wheel": "d33rolls:cull_wheel",
+    	"steering_wheel": "d33rolls:cullinan_steer",
+    	"engine": "gep:engine_petrol",
+    	"transmission": "gep:transmission"
+    },
+    "LegacyData":{
+    	"MaxPositiveThrottle": 2.33,
+    	"MaxNegativeThrottle": 0.89,
+    	"TurnLeftModifier": 0.8,
+    	"TurnRightModifier": 0.8
+    },
+    "LiftingPoints":{
+    	"left_front": [ 14, -3, 11, "left_rear" ],
+    	"left_rear": [ -14, -3, 11, "left_front" ],
+    	"right_front": [ 14, -3, -11, "right_rear" ],
+    	"right_rear": [ -14, -3, -11, "right_front" ]
+    }
+}

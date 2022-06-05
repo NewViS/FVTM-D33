@@ -1,0 +1,22 @@
+{
+    "RegistryName": "d33lambo:asvj_lights",
+    "Addon": "fvtm:d33lambo",
+    "Name": "Aventador SVJ Lights",
+    "Model": "head_lens_r;head_lens_l;tail_lens_r;tail_lens_l;brakes_r;brakes_l;brakes_reabump;d33lambo:textures/model/aventador_svj.obj",
+    "Category": "lights",
+    "CreativeTab": "d33lib:parts",
+    "Installation":{
+    	"Handler": "default",
+        "Removable": true,
+        "Compatible":[
+            { "vehicle": "d33lambo:avent_svj", "x": 0, "y": 0, "z": 0 }
+        ]
+    },
+    "Modifiers":[
+    	{
+    		"id": "weight", "type": "additive",
+    		"target": "vehicle:weight",
+    		"value": "10", "priority": "veryhigh"
+    	}
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "RegistryName": "d33vaz:v05_trunk",
+    "Addon": "fvtm:d33vaz",
+    "Name": "VAZ 2105 Trunk",
+    "Model": "trunk;trunk_tex;trunk_chrome;d33vaz:textures/model/vaz2105.obj",
+    "Category": "trunk",
+    "CreativeTab": "d33lib:parts",
+    "Installation":{
+    	"Handler": "default",
+        "Removable": true,
+        "Compatible":[
+            { "vehicle": "d33vaz:vaz2105", "x": 0, "y": 0, "z": 0 },
+            { "vehicle": "d33vaz:vaz2107", "x": 0, "y": 0, "z": 0 }
+        ]
+    },
+    "Attributes":[
+    	{ "id":"v05_trunk", "type": "boolean", "value": false, "editable": true, "seat": "driver" }
+    ],
+    "Modifiers":[
+    	{
+    		"id": "weight", "type": "additive",
+    		"target": "vehicle:weight",
+    		"value": "36.78", "priority": "veryhigh"
+    	}
+    ]
+}

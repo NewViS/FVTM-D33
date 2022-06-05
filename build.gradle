@@ -1,0 +1,244 @@
+buildscript {
+    repositories {
+        maven { url = 'https://maven.minecraftforge.net/' }
+        mavenCentral()
+        maven { url = "https://sizableshrimp.me/maven"}
+        jcenter()
+        
+        maven {
+    	// location of the maven that hosts JEI files
+   		name = "Progwml6 maven"
+    	url = "https://dvs1.progwml6.com/files/maven/"
+  		}
+  		
+  		maven {
+    	// location of a maven mirror for JEI files, as a fallback
+    	name = "ModMaven"
+    	url = "https://modmaven.dev"
+  		}
+    }
+    dependencies {
+        classpath 'net.minecraftforge.gradle:ForgeGradle:3.+'
+    }
+}
+allprojects {
+    repositories {
+        jcenter()
+        maven { url "https://jitpack.io" }
+        
+        maven { url = 'https://maven.minecraftforge.net/' }
+        mavenCentral()
+        maven { url = "https://sizableshrimp.me/maven"}
+    }
+}
+        
+apply plugin: 'net.minecraftforge.gradle'
+// Only edit below this line, the above code adds and enables the necessary things for Forge to be setup.
+apply plugin: 'eclipse'
+apply plugin: 'maven-publish'
+
+version = '1.0.0'
+group = 'net.fexcraft.mod.addon.YOURPACKID'
+archivesBaseName = 'YOUR-PACK-NAME'
+
+sourceCompatibility = targetCompatibility = compileJava.sourceCompatibility = compileJava.targetCompatibility = '1.8' // Need this here so eclipse task generates correctly.
+
+minecraft {
+    // The mappings can be changed at any time, and must be in the following format.
+    // snapshot_YYYYMMDD   Snapshot are built nightly.
+    // stable_#            Stables are built at the discretion of the MCP team.
+    // Use non-default mappings at your own risk. they may not always work.
+    // Simply re-run your setup task after changing the mappings to update your workspace.
+    //mappings channel: 'snapshot', version: '20171003-1.12'
+    mappings channel: 'stable', version: '39-1.12'
+    // makeObfSourceJar = false // an Srg named sources jar is made by default. uncomment this to disable.
+    
+    // accessTransformer = file('src/main/resources/META-INF/accesstransformer.cfg')
+
+    // Default run configurations.
+    // These can be tweaked, removed, or duplicated as needed.
+    runs {
+        client {
+            workingDirectory project.file('run')
+
+            // Recommended logging data for a userdev environment
+            property 'forge.logging.markers', 'SCAN,REGISTRIES,REGISTRYDUMP'
+
+            // Recommended logging level for the console
+            property 'forge.logging.console.level', 'debug'
+        }
+
+        server {
+
+            // Recommended logging data for a userdev environment
+            property 'forge.logging.markers', 'SCAN,REGISTRIES,REGISTRYDUMP'
+
+            // Recommended logging level for the console
+            property 'forge.logging.console.level', 'debug'
+        }
+    }
+}
+
+dependencies {
+    // Specify the version of Minecraft to use, If this is any group other then 'net.minecraft' it is assumed
+    // that the dep is a ForgeGradle 'patcher' dependency. And it's patches will be applied.
+    // The userdev artifact is a special name and will get all sorts of transformations applied to it.
+    minecraft 'net.minecraftforge:forge:1.12.2-14.23.5.2860'
+
+    // You may put jars on which you depend on in ./libs or you may define them like so..
+    // compile "some.group:artifact:version:classifier"
+    // compile "some.group:artifact:version"
+
+    // Real examples
+    // compile 'com.mod-buildcraft:buildcraft:6.0.8:dev'  // adds buildcraft to the dev env
+    // compile 'com.googlecode.efficient-java-matrix-library:ejml:0.24' // adds ejml to the dev env
+
+    // The 'provided' configuration is for optional dependencies that exist at compile-time but might not at runtime.
+    // provided 'com.mod-buildcraft:buildcraft:6.0.8:dev'
+
+    // These dependencies get remapped to your current MCP mappings
+    // deobf 'com.mod-buildcraft:buildcraft:6.0.8:dev'
+
+    // For more info...
+    // http://www.gradle.org/docs/current/userguide/artifact_dependencies_tutorial.html
+    // http://www.gradle.org/docs/current/userguide/dependency_management.html
+
+	//compile ('com.github.Fexcraft:FCL:1.12.2-SNAPSHOT'){ changing=true }
+	//compile ('com.github.Fexcraft:FVTM:1.12.2-SNAPSHOT'){ changing=true }
+	//compile ('com.github.Fexcraft:GEP:main-SNAPSHOT'){ changing=true }
+	
+	//compile project(':RecL')
+	//compile project(':JEI')
+	compile project(':FCL')
+    compile project(':FVTM')
+    compile project(':GEP')
+
+}
+
+// Example for how to get properties into the manifest for reading by the runtime..
+jar {
+    manifest {
+        attributes([
+            "Specification-Title": "YOUR-PACK-NAME",
+            "Specification-Vendor": "Pack Vendor Name",
+            "Specification-Version": "1", // We are version 1 of ourselves
+            "Implementation-Title": project.name,
+            "Implementation-Version": "${version}",
+            "Implementation-Vendor" :"Pack Vendor Name",
+            "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ")
+        ])
+    }
+}
+
+// Example configuration to allow publishing using the maven-publish task
+// This is the preferred method to reobfuscate your jar file
+jar.finalizedBy('reobfJar') 
+// However if you are in a multi-project build, dev time needs unobfed jar files, so you can delay the obfuscation until publishing by doing
+//publish.dependsOn('reobfJar')
+
+publishing {
+    publications {
+        mavenJava(MavenPublication) {
+            artifact jar
+        }
+    }
+    repositories {
+        maven {
+            url "file:///${project.projectDir}/mcmodsrepo"
+        }
+    }
+}
+
+task d33bmw(type: Jar){
+	from (zipTree("${destinationDir}/${archiveName}")) { include 'net/fexcraft/mod/addon/d33bmw/'}
+    from ('src/main/resources/') { include 'assets/d33bmw/'}
+    from ('src/main/resources/') { include 'pack.mcmeta'}
+    baseName = 'D33BMW'
+    appendix = 'FVTM'
+    version = '0.4'
+}
+
+task d33ford(type: Jar){
+	from (zipTree("${destinationDir}/${archiveName}")) { include 'net/fexcraft/mod/addon/d33ford/'}
+    from ('src/main/resources/') { include 'assets/d33ford/'}
+    from ('src/main/resources/') { include 'pack.mcmeta'}
+    baseName = 'D33FORD'
+    appendix = 'FVTM'
+    version = '0.1'
+}
+
+task d33rolls(type: Jar){
+	from (zipTree("${destinationDir}/${archiveName}")) { include 'net/fexcraft/mod/addon/d33rolls/'}
+    from ('src/main/resources/') { include 'assets/d33rolls/'}
+    from ('src/main/resources/') { include 'pack.mcmeta'}
+    baseName = 'D33Rolls-Royce'
+    appendix = 'FVTM'
+    version = '0.1'
+}
+task d33vaz(type: Jar){
+	from (zipTree("${destinationDir}/${archiveName}")) { include 'net/fexcraft/mod/addon/d33vaz/'}
+    from ('src/main/resources/') { include 'assets/d33vaz/'}
+    from ('src/main/resources/') { include 'pack.mcmeta'}
+    baseName = 'D33VAZ'
+    appendix = 'FVTM'
+    version = '0.2'
+}
+task d33trail(type: Jar){
+	from (zipTree("${destinationDir}/${archiveName}")) { include 'net/fexcraft/mod/addon/d33trail/'}
+    from ('src/main/resources/') { include 'assets/d33trail/'}
+    from ('src/main/resources/') { include 'pack.mcmeta'}
+    baseName = 'D33TRAIL'
+    appendix = 'FVTM'
+    version = '0.0'
+}
+task d33dodge(type: Jar){
+	from (zipTree("${destinationDir}/${archiveName}")) { include 'net/fexcraft/mod/addon/d33dodge/'}
+    from ('src/main/resources/') { include 'assets/d33dodge/'}
+    from ('src/main/resources/') { include 'pack.mcmeta'}
+    baseName = 'D33DODGE'
+    appendix = 'FVTM'
+    version = '0.1'
+}
+task d33lambo(type: Jar){
+	from (zipTree("${destinationDir}/${archiveName}")) { include 'net/fexcraft/mod/addon/d33lambo/'}
+    from ('src/main/resources/') { include 'assets/d33lambo/'}
+    from ('src/main/resources/') { include 'pack.mcmeta'}
+    baseName = 'D33LAMBORGHINI'
+    appendix = 'FVTM'
+    version = '0.1'
+}
+task d33porsche(type: Jar){
+	from (zipTree("${destinationDir}/${archiveName}")) { include 'net/fexcraft/mod/addon/d33porsche/'}
+    from ('src/main/resources/') { include 'assets/d33porsche/'}
+    from ('src/main/resources/') { include 'pack.mcmeta'}
+    baseName = 'D33PORSCHE'
+    appendix = 'FVTM'
+    version = '0.1'
+}
+task d33lib(type: Jar){
+	from (zipTree("${destinationDir}/${archiveName}")) { 
+		include 'net/fexcraft/mod/addon/d33lib/'
+		include 'ru/'
+		}
+    from ('src/main/resources/') { include 'assets/d33lib/'}
+    from ('src/main/resources/') { include 'pack.mcmeta'}
+    baseName = 'D33LIB'
+    appendix = 'FVTM'
+    version = '0.5'
+}
+
+task contentPacks(){
+	dependsOn d33bmw
+	dependsOn d33ford
+	dependsOn d33lib
+	dependsOn d33lambo
+	dependsOn d33porsche
+	dependsOn d33rolls
+	dependsOn d33vaz
+	dependsOn d33trail
+	dependsOn d33dodge
+}
+
+build{
+	dependsOn contentPacks
+}

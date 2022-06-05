@@ -1,0 +1,28 @@
+{
+    "RegistryName": "d33porsche:p991_bumf",
+    "Addon": "fvtm:d33porsche",
+    "Name": "Porsche 991 Bumper F",
+    "Model": "bump_f_ext;bump_f_col;d33porsche:textures/model/porsche991.obj",
+    "Category": "bumper_front",
+    "CreativeTab": "d33lib:parts",
+    "Installation":{
+    	"Handler": "default",
+        "Removable": true,
+        "Compatible":[
+            { "vehicle": "d33porsche:porsc991", "x": 0, "y": 0, "z": 0 }
+        ]
+    },
+    "Modifiers":[
+    	{
+    		"id": "weight", "type": "additive",
+    		"target": "vehicle:weight",
+    		"value": "20", "priority": "veryhigh"
+    	}
+    ],
+    "Function":{
+	    "id": "fvtm:part_slots",
+		"slots":[
+			[ 39.44, -6.85, 0.00, "license_plate", "license_plate_front", 4, [ 0, 0, 0 ] ]
+		]
+    }
+}

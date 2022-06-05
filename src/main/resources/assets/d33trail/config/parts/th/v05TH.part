@@ -1,0 +1,29 @@
+{
+    "RegistryName": "d33trail:v05_th",
+    "Addon": "fvtm:d33trail",
+    "Name": "Trailer Hitch",
+    "Model": "d33trail:textures/model/farcop.obj",
+    "Category": "trailer_hitch",
+    "Texture": "Default;d33trail:textures/model/black.png",
+    "Installation":{
+    	"Handler": "connector",
+        "Removable": true,
+        "Compatible":[
+            { "vehicle": "d33vaz:vaz2105", "x": -40.9, "y": -8.16 },
+            { "vehicle": "d33vaz:vaz2104", "x": -40.9, "y": -8.16 },
+            { "vehicle": "d33vaz:vaz2107", "x": -40.9, "y": -8.16 }
+        ],
+        "Rear": {
+        	"d33vaz:vaz2105": [ -40.9, -8.16, 0 ],
+        	"d33vaz:vaz2104": [ -40.9, -8.16, 0 ],
+        	"d33vaz:vaz2107": [ -40.9, -8.16, 0 ]
+        }
+    },
+    "Modifiers":[
+    	{
+    		"id": "weight", "type": "additive",
+    		"target": "vehicle:weight",
+    		"value": "24.5", "priority": "veryhigh"
+    	}
+    ]
+}

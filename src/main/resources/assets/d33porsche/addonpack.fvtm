@@ -1,0 +1,15 @@
+{
+  "RegistryName": "fvtm:d33porsche",
+  "Name": "D33 PORSCHE",
+  "URL": "https://www.curseforge.com/minecraft/mc-mods/d33-porsche-package",
+  "UpdateID": "addon-d33porsche",
+  "License": "http://fexcraft.net/license?id=mods",
+  "Dependencies": ["fvtm:gep","fvtm:d33lib"],
+  "Authors": [
+    "MaximD33"
+  ],
+  "Version": "1.0",
+  "GenerateItemJson": false,
+  "GenerateLang": false,
+  "CreativeTabs":[]
+}

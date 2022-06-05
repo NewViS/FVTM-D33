@@ -1,0 +1,21 @@
+{
+    "RegistryName": "d33dodge:ch15_steer",
+    "Addon": "fvtm:d33dodge",
+    "Name": "Challenger III Steer",
+    "Model": "LOD_B_STEERING_WHEEL_mm_cab;d33dodge:textures/model/challenger.obj",
+    "Category": "steering_wheel",
+    "Installation":{
+    	"Handler": "default",
+        "Removable": true,
+        "Compatible":[
+            { "vehicle": "d33dodge:challeng15", "x": 0, "y": 0, "z": 0 }
+        ]
+    },
+    "Modifiers":[
+    	{
+    		"id": "weight", "type": "additive",
+    		"target": "vehicle:weight",
+    		"value": "2", "priority": "veryhigh"
+    	}
+    ]
+}

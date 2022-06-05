@@ -1,0 +1,54 @@
+{
+    "RegistryName": "d33lambo:avent_svj",
+    "Addon": "fvtm:d33lambo",
+    "Name": "Lamborghini Aventador SVJ",
+	"Model": "interior;glass_r_bl;glass_l_bl;glass_fro_bl;glass_r_gl;glass_l_gl;glass_fro_gl;body_col;exhaust_ext;chassis_ext;body_ext;body_svj;d33lambo:textures/model/aventador_svj.obj",
+    "PrimaryColor": "#734E39",
+    "CreativeTab": "d33lib:vehicles",
+    "Attributes": [
+    	{ "id":"weight", "type": "float", "value": 1500 }
+    ],
+    "Category": "car,coupe",
+    "WheelPositions":[
+        { "x":  26.5, "y": -6.5, "z":  13.8, "id": "left_front_wheel", "radius": 7, "steering": true },
+        { "x":  26.5, "y": -6.5, "z": -13.8, "id": "right_front_wheel", "radius": 7, "y_rot": 180, "steering": true },
+        { "x": -28, "y": -6.5, "z":  14.8, "id": "left_back_wheel", "radius": 7, "drive": true },
+        { "x": -28, "y": -6.5, "z": -14.8, "id": "right_back_wheel", "radius": 7, "y_rot": 180, "drive": true }
+    ],
+    "RequiredParts": [
+    	"right_front_wheel",
+        "left_front_wheel",
+        "right_back_wheel",
+        "left_back_wheel",
+        "seats",
+        "steering_wheel"
+    ],
+    "PreInstalled": {
+    	"seats": "d33lambo:asvj_seats",
+    	"right_front_wheel": "d33lambo:svjb_wheel",
+    	"left_front_wheel": "d33lambo:svjb_wheel",
+    	"right_back_wheel": "d33lambo:svjb_wheel",
+    	"left_back_wheel": "d33lambo:svjb_wheel",
+    	"steering_wheel": "d33lambo:asvj_steer",
+    	"bumper_front": "d33lambo:asvj_bumf",
+    	"bumper_rear": "d33lambo:asvj_bumr",
+    	"hood": "d33lambo:asvj_hood",
+    	"lights": "d33lambo:asvj_lights",
+    	"trunk": "d33lambo:asvj_trunk",
+    	"doors": "d33lambo:asvj_doors",
+    	"engine": "gep:engine_petrol",
+    	"transmission": "gep:transmission"
+    },
+    "LegacyData":{
+    	"MaxPositiveThrottle": 3.26,
+    	"MaxNegativeThrottle": 0.89,
+    	"TurnLeftModifier": 0.8,
+    	"TurnRightModifier": 0.8
+    },
+    "LiftingPoints":{
+    	"left_front": [ 14, -2, 11, "left_rear" ],
+    	"left_rear": [ -14, -2, 11, "left_front" ],
+    	"right_front": [ 14, -2, -11, "right_rear" ],
+    	"right_rear": [ -14, -2, -11, "right_front" ]
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "RegistryName": "d33bmw:e34_bumfe",
+    "Addon": "fvtm:d33bmw",
+    "Name": "E34 Bumper Fe",
+    "Model": "bumperFe_body;bumperFe_plastic2;bumperFe_frame;bumperFe_bottom;bumperFe_black;bumperFe_detail_glass_clear;d33bmw:textures/model/bmwm5e34.obj",
+    "Category": "bumper_front",
+    "CreativeTab": "d33lib:parts",
+    "Installation":{
+    	"Handler": "default",
+        "Removable": true,
+        "Compatible":[
+            { "vehicle": "d33bmw:m5e34", "x": 0, "y": 0, "z": 0 }
+        ]
+    },
+    "Modifiers":[
+    	{
+    		"id": "weight", "type": "additive",
+    		"target": "vehicle:weight",
+    		"value": "20", "priority": "veryhigh"
+    	}
+    ]
+}

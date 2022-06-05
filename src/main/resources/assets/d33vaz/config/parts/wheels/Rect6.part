@@ -1,0 +1,30 @@
+{
+    "RegistryName": "d33vaz:rect6_wheel",
+    "Addon": "fvtm:d33vaz",
+    "Name": "VAZ 6 Rect Wheel",
+    "Model": "d33vaz:models/part/rect6_wheel",
+    "Category": "wheel",
+    "CreativeTab": "d33lib:rims",
+    "Functions": [
+    	"fvtm:wheel",
+    	{
+    		"id": "fvtm:tire",
+    		"stiffness": 6,
+    		"steering_stiffness": 5.8,
+    		"step_height": 1.2
+    	}	
+	],
+    "Texture": "Default;d33bmw:textures/model/wheel/e34wheel.png",
+    "Installation":{
+    	"Handler": "wheel",
+        "Removable": true,
+        "Radius": 5.5, "Width": 3
+    },
+    "Modifiers":[
+    	{
+    		"id": "weight", "type": "additive",
+    		"target": "vehicle:weight",
+    		"value": "30", "priority": "veryhigh"
+    	}
+    ]
+}

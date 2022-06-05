@@ -1,0 +1,22 @@
+{
+    "RegistryName": "d33bmw:f90_steer",
+    "Addon": "fvtm:d33bmw",
+    "Name": "F90 Steer",
+    "Model": "steer;d33bmw:textures/model/bmwm5f90.obj",
+    "Category": "steering_wheel",
+    "CreativeTab": "d33lib:parts",
+    "Installation":{
+    	"Handler": "default",
+        "Removable": true,
+        "Compatible":[
+            { "vehicle": "d33bmw:m5f90", "x": 0, "y": 0, "z": 0 }
+        ]
+    },
+    "Modifiers":[
+    	{
+    		"id": "weight", "type": "additive",
+    		"target": "vehicle:weight",
+    		"value": "2", "priority": "veryhigh"
+    	}
+    ]
+}

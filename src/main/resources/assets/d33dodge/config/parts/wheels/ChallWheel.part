@@ -1,0 +1,29 @@
+{
+    "RegistryName": "d33dodge:chall_wheel",
+    "Addon": "fvtm:d33dodge",
+    "Name": "Chall Wheel",
+    "Model": "d33dodge:textures/model/wheel/chall.obj",
+    "Category": "wheel",
+    "Functions": [
+    	"fvtm:wheel",
+    	{
+    		"id": "fvtm:tire",
+    		"stiffness": 6,
+    		"steering_stiffness": 5.8,
+    		"step_height": 1.2
+    	}	
+	],
+    "Texture": "Default;d33dodge:textures/model/wheel/chall_wheel.png",
+    "Installation":{
+    	"Handler": "wheel",
+        "Removable": true,
+        "Radius": 7, "Width": 4
+    },
+    "Modifiers":[
+    	{
+    		"id": "weight", "type": "additive",
+    		"target": "vehicle:weight",
+    		"value": "30", "priority": "veryhigh"
+    	}
+    ]
+}

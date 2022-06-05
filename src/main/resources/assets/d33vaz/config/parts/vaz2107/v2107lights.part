@@ -1,0 +1,23 @@
+{
+    "RegistryName": "d33vaz:v07_lights",
+    "Addon": "fvtm:d33vaz",
+    "Name": "VAZ 2107 Lights",
+    "Model": "pov;far_l;far_r;far_z;d33vaz:textures/model/vaz2107.obj",
+    "Category": "lights",
+    "CreativeTab": "d33lib:parts",
+    "Installation":{
+    	"Handler": "default",
+        "Removable": true,
+        "Compatible":[
+            { "vehicle": "d33vaz:vaz2107", "x": 0, "y": 0, "z": 0 },
+            { "vehicle": "d33vaz:vaz2105", "x": 0, "y": 0, "z": 0 }
+        ]
+    },
+    "Modifiers":[
+    	{
+    		"id": "weight", "type": "additive",
+    		"target": "vehicle:weight",
+    		"value": "20", "priority": "veryhigh"
+    	}
+    ]
+}

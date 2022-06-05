@@ -1,0 +1,23 @@
+{
+    "RegistryName": "d33vaz:v05_lights",
+    "Addon": "fvtm:d33vaz",
+    "Name": "VAZ 2105 Lights",
+    "Model": "pov_l;pov_r;pov_z_r;pov_z_l;far_pov_l;far_pov_r;far_l;far_r;far_z;rea_z_2;stop_z;d33vaz:textures/model/vaz2105.obj",
+    "Category": "lights",
+    "CreativeTab": "d33lib:parts",
+    "Installation":{
+    	"Handler": "default",
+        "Removable": true,
+        "Compatible":[
+            { "vehicle": "d33vaz:vaz2105", "x": 0, "y": 0, "z": 0 },
+            { "vehicle": "d33vaz:vaz2107", "x": 0, "y": 0, "z": 0 }
+        ]
+    },
+    "Modifiers":[
+    	{
+    		"id": "weight", "type": "additive",
+    		"target": "vehicle:weight",
+    		"value": "20", "priority": "veryhigh"
+    	}
+    ]
+}

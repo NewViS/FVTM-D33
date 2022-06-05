@@ -1,0 +1,17 @@
+[
+	{
+	  "modid": "d33bmw",
+	  "name": "D33 BMW",
+	  "description": "D33 BMW Package",
+	  "version": "${version}",
+	  "mcversion": "${mcversion}",
+	  "url": "",
+	  "updateUrl": "",
+	  "authorList": ["Victor98510"],
+	  "credits": "The Forge and FML guys, for making Forge & Stuff",
+	  "logoFile": "",
+	  "screenshots": [],
+	  "dependencies": [],
+	  "parent": "fvtm"
+	}
+]

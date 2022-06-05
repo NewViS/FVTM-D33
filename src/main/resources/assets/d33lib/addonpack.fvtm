@@ -1,0 +1,13 @@
+{
+  "RegistryName": "fvtm:d33lib",
+  "Name": "D33 LIB",
+  "URL": "http://fexcraft.net/download?modid=addon-yourpack",
+  "UpdateID": "addon-d33lib",
+  "License": "http://fexcraft.net/license?id=mods",
+  "Dependencies": ["fvtm:gep"],
+  "Authors": [
+    "MaximD33"
+  ],
+  "Version": "1.0",
+  "CreativeTabs":["parts","rims","vehicles"]
+}

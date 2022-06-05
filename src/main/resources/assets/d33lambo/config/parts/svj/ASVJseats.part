@@ -1,0 +1,29 @@
+{
+    "RegistryName": "d33lambo:asvj_seats",
+    "Addon": "fvtm:d33lambo",
+    "Name": "Aventador SVJ Seats",
+    "Model": "seats;d33lambo:textures/model/aventador_svj.obj",
+    "Category": "seats",
+    "CreativeTab": "d33lib:parts",
+    "Installation":{
+    	"Handler": "default",
+        "Removable": true,
+        "Compatible":[
+            { "vehicle": "d33lambo:avent_svj", "x": 0, "y": 0, "z": 0 }
+        ]
+    },
+    "Modifiers":[
+    	{
+    		"id": "weight", "type": "additive",
+    		"target": "vehicle:weight",
+    		"value": "20.00", "priority": "veryhigh"
+    	}
+    ],
+    "Function": {
+    	"id": "fvtm:seats",
+    	"seats":[
+    		{ "x": -2, "y": -3, "z": -8, "name": "driver", "driver": true, "min_yaw": -120, "max_yaw": 120 },
+    		{ "x": -2, "y": -3, "z": 8, "name": "pass_front" }
+    	]
+    }
+}

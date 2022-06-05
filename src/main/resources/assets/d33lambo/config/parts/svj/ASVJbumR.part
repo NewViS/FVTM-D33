@@ -1,0 +1,28 @@
+{
+    "RegistryName": "d33lambo:asvj_bumr",
+    "Addon": "fvtm:d33lambo",
+    "Name": "Aventador SVJ Bumper R",
+    "Model": "reabump_col;reabump_ext;d33lambo:textures/model/aventador_svj.obj",
+    "Category": "bumper_rear",
+    "CreativeTab": "d33lib:parts",
+    "Installation":{
+    	"Handler": "default",
+        "Removable": true,
+        "Compatible":[
+            { "vehicle": "d33lambo:avent_svj", "x": 0, "y": 0, "z": 0 }
+        ]
+    },
+    "Modifiers":[
+    	{
+    		"id": "weight", "type": "additive",
+    		"target": "vehicle:weight",
+    		"value": "20", "priority": "veryhigh"
+    	}
+    ],
+    "Function":{
+	    "id": "fvtm:part_slots",
+		"slots":[
+			[ -45.78, -6.94, 0, "license_plate", "license_plate_rear", 4, [ 0, 180, 0.0 ] ]
+		]
+    }
+}

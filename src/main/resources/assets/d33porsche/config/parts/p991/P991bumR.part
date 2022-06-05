@@ -1,0 +1,28 @@
+{
+    "RegistryName": "d33porsche:p991_bumr",
+    "Addon": "fvtm:d33porsche",
+    "Name": "Porsche 991 Bumper R",
+    "Model": "bump_r_ext;bump_r_col;d33porsche:textures/model/porsche991.obj",
+    "Category": "bumper_rear",
+    "CreativeTab": "d33lib:parts",
+    "Installation":{
+    	"Handler": "default",
+        "Removable": true,
+        "Compatible":[
+             { "vehicle": "d33porsche:porsc991", "x": 0, "y": 0, "z": 0 }
+        ]
+    },
+    "Modifiers":[
+    	{
+    		"id": "weight", "type": "additive",
+    		"target": "vehicle:weight",
+    		"value": "20", "priority": "veryhigh"
+    	}
+    ],
+    "Function":{
+	    "id": "fvtm:part_slots",
+		"slots":[
+			[ -37.51, -7.45, 0, "license_plate", "license_plate_rear", 4, [ 0, 180, -12.76 ] ]
+		]
+    }
+}

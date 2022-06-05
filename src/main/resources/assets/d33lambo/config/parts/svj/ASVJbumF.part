@@ -1,0 +1,28 @@
+{
+    "RegistryName": "d33lambo:asvj_bumf",
+    "Addon": "fvtm:d33lambo",
+    "Name": "Aventador SVJ Bumper F",
+    "Model": "frobump_col;frobump_badges;frobump_ext;d33lambo:textures/model/aventador_svj.obj",
+    "Category": "bumper_front",
+    "CreativeTab": "d33lib:parts",
+    "Installation":{
+    	"Handler": "default",
+        "Removable": true,
+        "Compatible":[
+            { "vehicle": "d33lambo:avent_svj", "x": 0, "y": 0, "z": 0 }
+        ]
+    },
+    "Modifiers":[
+    	{
+    		"id": "weight", "type": "additive",
+    		"target": "vehicle:weight",
+    		"value": "20", "priority": "veryhigh"
+    	}
+    ],
+    "Function":{
+	    "id": "fvtm:part_slots",
+		"slots":[
+			[ 50.70, -3.66, 0.00, "license_plate", "license_plate_front", 4, [ 0, 0, -48.1 ] ]
+		]
+    }
+}

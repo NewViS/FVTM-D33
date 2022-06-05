@@ -1,0 +1,31 @@
+{
+    "RegistryName": "d33dodge:ch15_seats",
+    "Addon": "fvtm:d33dodge",
+    "Name": "Challenger III Seats",
+    "Model": "seats;d33dodge:textures/model/challenger.obj",
+    "Category": "seats",
+    "Texture": "Default;fvp:textures/cars/c10.png",
+    "Installation":{
+    	"Handler": "default",
+        "Removable": true,
+        "Compatible":[
+            { "vehicle": "d33dodge:challeng15", "x": 0, "y": 0, "z": 0 }
+        ]
+    },
+    "Modifiers":[
+    	{
+    		"id": "weight", "type": "additive",
+    		"target": "vehicle:weight",
+    		"value": "120.50", "priority": "veryhigh"
+    	}
+    ],
+    "Function": {
+    	"id": "fvtm:seats",
+    	"seats":[
+    		{ "x": -2, "y": 0, "z": -8, "name": "driver", "driver": true, "min_yaw": -120, "max_yaw": 120 },
+    		{ "x": -2, "y": 0, "z": 8, "name": "pass_front" },
+    		{ "x": -15, "y": 1, "z": -8, "name": "pass_rear_left" },
+    		{ "x": -15, "y": 1, "z": 8, "name": "pass_rear_right" }
+    	]
+    }
+}

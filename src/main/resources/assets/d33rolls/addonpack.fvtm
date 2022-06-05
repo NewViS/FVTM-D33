@@ -1,0 +1,15 @@
+{
+  "RegistryName": "fvtm:d33rolls",
+  "Name": "D33 Rolls-Royce",
+  "URL": "http://fexcraft.net/download?modid=addon-d33rolls",
+  "UpdateID": "addon-d33rolls",
+  "License": "http://fexcraft.net/license?id=mods",
+  "Dependencies": ["fvtm:gep","fvtm:d33lib"],
+  "Authors": [
+    "MaximD33"
+  ],
+  "Version": "1.0",
+  "GenerateItemJson": false,
+  "GenerateLang": false,
+  "CreativeTabs":[]
+}

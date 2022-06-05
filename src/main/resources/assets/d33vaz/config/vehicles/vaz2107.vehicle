@@ -1,0 +1,60 @@
+{
+    "RegistryName": "d33vaz:vaz2107",
+    "Addon": "fvtm:d33vaz",
+    "Name": "VAZ 2107",
+	"Model": "body_color;dno;torpeda_tex;panel_tex;engine;obiv_salon;sedz;body_chrome;chrome_panel;grey_panel;reshet_chrome;logo_1;podves_grey;baraban;grey_salon;pol;body_black;reshet_black;black_salon;dvorniki;panel_lea;black_panel;prib;pruzin;white;d33vaz:textures/model/vaz2107.obj",
+    "PrimaryColor": "#4C0F20",
+    "SecondaryColor": "#C2C2C2",
+    "CreativeTab": "d33lib:vehicles",
+    "Attributes": [
+    	{ "id":"weight", "type": "float", "value": 976 }
+    ],
+    "Category": "car,sedan",
+    "WheelPositions":[
+        { "x":  28, "y": -5, "z":  12, "id": "left_front_wheel", "radius": 5.5, "drive": true, "steering": true },
+        { "x":  28, "y": -5, "z": -12, "id": "right_front_wheel", "radius": 5.5, "y_rot": 180, "drive": true, "steering": true },
+        { "x": -19, "y": -5, "z":  12, "id": "left_back_wheel", "radius": 5.5 },
+        { "x": -19, "y": -5, "z": -12, "id": "right_back_wheel", "radius": 5.5, "y_rot": 180 }
+    ],
+    "RequiredParts": [
+    	"right_front_wheel",
+        "left_front_wheel",
+        "right_back_wheel",
+        "left_back_wheel",
+        "seats",
+        "steering_wheel"
+    ],
+    "PreInstalled": {
+    	"seats": "d33vaz:v07_seats",
+    	"right_front_wheel": "d33vaz:rect5_wheel",
+    	"left_front_wheel": "d33vaz:rect5_wheel",
+    	"right_back_wheel": "d33vaz:rect5_wheel",
+    	"left_back_wheel": "d33vaz:rect5_wheel",
+    	"steering_wheel": "d33vaz:v07_steer",
+    	"bumper_front": "d33vaz:v07_bumf",
+    	"bumper_rear": "d33vaz:v07_bumr",
+    	"doors": "d33vaz:v05_doors",
+    	"hood": "d33vaz:v07_hood",
+    	"lights": "d33vaz:v07_lights",
+    	"trunk": "d33vaz:v07_trunk",
+    	"s:vehicle_partslots:engine:0": "d33lib:engine_2105",
+    	"transmission": "gep:transmission"
+    },
+    "LegacyData":{
+    	"MaxPositiveThrottle": 1.42,
+    	"MaxNegativeThrottle": 0.89,
+    	"TurnLeftModifier": 0.8,
+    	"TurnRightModifier": 0.8
+    },
+    "LiftingPoints":{
+    	"left_front": [ 18, -5, 13, "left_rear" ],
+    	"left_rear": [ -10, -5, 13, "left_front" ],
+    	"right_front": [ 18, -5, -13, "right_rear" ],
+    	"right_rear": [ -10, -5, -13, "right_front" ]
+    },
+    "PartSlots":[
+    	[ 23.3, -6.32, 0, "engine", "engine" ],
+    	[ 40.56, -7.73, 0, "license_plate", "license_plate_front", 4 ],
+    	[ -38.1, -13.13, 0, "license_plate", "license_plate_rear", 4, [ 0, 180, 0 ] ]
+    ]
+}

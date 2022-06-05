@@ -1,0 +1,15 @@
+{
+  "RegistryName": "fvtm:d33bmw",
+  "Name": "D33 BMW",
+  "URL": "http://fexcraft.net/download?modid=addon-yourpack",
+  "UpdateID": "addon-d33bmw",
+  "License": "http://fexcraft.net/license?id=mods",
+  "Dependencies": ["fvtm:gep","fvtm:d33lib"],
+  "Authors": [
+    "MaximD33"
+  ],
+  "Version": "1.0",
+  "GenerateItemJson": false,
+  "GenerateLang": false,
+  "CreativeTabs":[]
+}

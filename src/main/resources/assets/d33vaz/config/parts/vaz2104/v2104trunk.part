@@ -1,0 +1,30 @@
+{
+    "RegistryName": "d33vaz:v04_trunk",
+    "Addon": "fvtm:d33vaz",
+    "Name": "VAZ 2104 Trunk",
+    "Model": "bagcolor;bag_black;bag_chrome;baglamp;bagruk;d33vaz:textures/model/vaz2104.obj",
+    "Category": "trunk",
+    "CreativeTab": "d33lib:parts",
+    "Installation":{
+    	"Handler": "default",
+        "Removable": true,
+        "Compatible":[
+            { "vehicle": "d33vaz:vaz2104", "x": 27.8, "y": -25.2, "z": 0 }
+        ],
+        "SwivelPoint": "v04_trunk",
+        "SwivelPointRequired": true
+    },
+    "Modifiers":[
+    	{
+    		"id": "weight", "type": "additive",
+    		"target": "vehicle:weight",
+    		"value": "36.78", "priority": "veryhigh"
+    	}
+    ],
+    "Function":{
+	    "id": "fvtm:part_slots",
+		"slots":[
+			[ -36.4, 13.16, 0, "license_plate", "license_plate_rear", 4, [ 0, 180, -23.5 ] ]
+		]
+    }
+}

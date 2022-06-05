@@ -1,0 +1,29 @@
+{
+    "RegistryName": "d33vaz:circlerect_wheel",
+    "Addon": "fvtm:d33vaz",
+    "Name": "VAZ Circle Rect Wheel",
+    "Model": "d33vaz:models/part/circlerect_wheel",
+    "Category": "wheel",
+    "CreativeTab": "d33lib:rims",
+    "Functions": [
+    	"fvtm:wheel",
+    	{
+    		"id": "fvtm:tire",
+    		"stiffness": 6,
+    		"steering_stiffness": 5.8,
+    		"step_height": 1.2
+    	}	
+	],
+    "Installation":{
+    	"Handler": "wheel",
+        "Removable": true,
+        "Radius": 5.5, "Width": 3
+    },
+    "Modifiers":[
+    	{
+    		"id": "weight", "type": "additive",
+    		"target": "vehicle:weight",
+    		"value": "30", "priority": "veryhigh"
+    	}
+    ]
+}

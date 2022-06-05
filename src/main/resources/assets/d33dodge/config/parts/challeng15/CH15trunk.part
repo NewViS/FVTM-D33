@@ -1,0 +1,25 @@
+{
+    "RegistryName": "d33dodge:ch15_trunk",
+    "Addon": "fvtm:d33dodge",
+    "Name": "Challenger III Trunk",
+    "Model": "LOD_B_BOOT_mm_col;LOD_B_BOOT_mm_ext;d33dodge:textures/model/challenger.obj",
+    "Category": "trunk",
+    "Installation":{
+    	"Handler": "default",
+        "Removable": true,
+        "Compatible":[ 
+        { "vehicle": "d33dodge:challeng15", "x": 0, "y": 0, "z": 0 }
+        ]
+    },
+    "Attributes":[
+    	{ "id":"ch15_trunk", "type": "boolean", "value": false, "editable": true, "seat": "driver" }
+    ],
+    
+    "Modifiers":[
+    	{
+    		"id": "weight", "type": "additive",
+    		"target": "vehicle:weight",
+    		"value": "36.78", "priority": "veryhigh"
+    	}
+    ]
+}

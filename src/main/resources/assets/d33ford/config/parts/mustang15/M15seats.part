@@ -1,0 +1,31 @@
+{
+    "RegistryName": "d33ford:m15_seats",
+    "Addon": "fvtm:d33ford",
+    "Name": "Ford Mustang 15 Seats",
+    "Model": "seats;d33ford:textures/model/mustang15.obj",
+    "Category": "seats",
+    "CreativeTab": "d33lib:parts",
+    "Installation":{
+    	"Handler": "default",
+        "Removable": true,
+        "Compatible":[
+            { "vehicle": "d33ford:mustang15", "x": 0, "y": 0, "z": 0 }
+        ]
+    },
+    "Modifiers":[
+    	{
+    		"id": "weight", "type": "additive",
+    		"target": "vehicle:weight",
+    		"value": "20.00", "priority": "veryhigh"
+    	}
+    ],
+    "Function": {
+    	"id": "fvtm:seats",
+    	"seats":[
+    		{ "x": -4.3, "y": 0, "z": -6.8, "name": "driver", "driver": true, "min_yaw": -120, "max_yaw": 120 },
+    		{ "x": -4.3, "y": 0, "z": 6.8, "name": "pass_front" },
+		{ "x": -18, "y": -2, "z": -6.8, "name": "pass_rear_left" },
+		{ "x": -18, "y": -2, "z": 6.8, "name": "pass_rear_right" }
+    	]
+    }
+}

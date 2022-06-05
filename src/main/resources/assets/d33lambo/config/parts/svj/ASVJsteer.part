@@ -1,0 +1,22 @@
+{
+    "RegistryName": "d33lambo:asvj_steer",
+    "Addon": "fvtm:d33lambo",
+    "Name": "Aventador SVJ Steering Wheel",
+    "Model": "steer;d33lambo:textures/model/aventador_svj.obj",
+    "Category": "steering_wheel",
+    "CreativeTab": "d33lib:parts",
+    "Installation":{
+    	"Handler": "default",
+        "Removable": true,
+        "Compatible":[
+            { "vehicle": "d33lambo:avent_svj", "x": 0, "y": 0, "z": 0 }
+        ]
+    },
+    "Modifiers":[
+    	{
+    		"id": "weight", "type": "additive",
+    		"target": "vehicle:weight",
+    		"value": "2", "priority": "veryhigh"
+    	}
+    ]
+}

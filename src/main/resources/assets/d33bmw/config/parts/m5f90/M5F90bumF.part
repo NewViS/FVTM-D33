@@ -1,0 +1,28 @@
+{
+    "RegistryName": "d33bmw:f90_bumf",
+    "Addon": "fvtm:d33bmw",
+    "Name": "F90 Bumper F",
+    "Model": "bumplog;reshet;bumpf;d33bmw:textures/model/bmwm5f90.obj",
+    "Category": "bumper_front",
+    "CreativeTab": "d33lib:parts",
+    "Installation":{
+    	"Handler": "default",
+        "Removable": true,
+        "Compatible":[
+            { "vehicle": "d33bmw:m5f90", "x": 0, "y": 0, "z": 0 }
+        ]
+    },
+    "Modifiers":[
+    	{
+    		"id": "weight", "type": "additive",
+    		"target": "vehicle:weight",
+    		"value": "20", "priority": "veryhigh"
+    	}
+    ],
+    "Function":{
+	    "id": "fvtm:part_slots",
+		"slots":[
+			[ 49.23, -8.53, 0, "license_plate", "license_plate_front", 4, [ 0, 0, 0 ] ]
+		]
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "RegistryName": "d33dodge:ch15_doors",
+    "Addon": "fvtm:d33dodge",
+    "Name": "Challenger III Doors",
+    "Model": "LOD_B_DOOR_LEFT_mm_col;LOD_B_DOOR_RIGHT_mm_col;LOD_B_MIRROR_RIGHT_mm_ext;LOD_B_MIRROR_LEFT_mm_ext;LOD_B_DOOR_RIGHT_mm_ext;LOD_B_DOOR_LEFT_mm_ext;LOD_B_MIRROR_GLASS_LEFT_mm_ext;LOD_B_MIRROR_GLASS_RIGHT_mm_ext;LOD_B_DOOR_LEFT_mm_cab;LOD_B_DOOR_RIGHT_mm_cab;d33dodge:textures/model/challenger.obj",
+    "Category": "doors",
+    "Installation":{
+    	"Handler": "default",
+        "Removable": true,
+        "Compatible":[
+            { "vehicle": "d33dodge:challeng15", "x": 0, "y": 0, "z": 0 }
+        ]
+    },
+    "Attributes":[
+    	{ "id":"ch15_doors_fl", "type": "boolean", "value": false, "editable": true, "seat": "driver" },
+    	{ "id":"ch15_doors_fr", "type": "boolean", "value": false, "editable": true, "seat": "pass_front" }
+    ],
+    "Modifiers":[
+    	{
+    		"id": "weight", "type": "additive",
+    		"target": "vehicle:weight",
+    		"value": "125", "priority": "veryhigh"
+    	}
+    ]
+}

@@ -1,0 +1,77 @@
+{
+    "RegistryName": "d33vaz:vaz2104",
+    "Addon": "fvtm:d33vaz",
+    "Name": "VAZ 2104",
+	"Model": "body_color;dno;torpeda_te;engine;prib;potolok;sedz;lea_potol;prib2;body_chrom;torpeda_ch;body_;logo_1;podves_gre;baraban;grey_salon;pol;body_black;black_salo;dvorniki;panel_lea;polca;black_2;farz_black;bagajb;pruzin;white;d33vaz:textures/model/vaz2104.obj",
+    "PrimaryColor": "#2D6FA1",
+    "SecondaryColor": "#C2C2C2",
+    "CreativeTab": "d33lib:vehicles",
+    "Attributes": [
+    	{ "id":"weight", "type": "float", "value": 1000 },
+    	{ "id": "v04_trunk", "type": "boolean", "value": false, "editable": true, "seat": "driver" }
+    ],
+    "Category": "car,combi",
+    "WheelPositions":[
+        { "x":  28, "y": -5, "z":  12, "id": "left_front_wheel", "radius": 5.5, "drive": true, "steering": true },
+        { "x":  28, "y": -5, "z": -12, "id": "right_front_wheel", "radius": 5.5, "y_rot": 180, "drive": true, "steering": true },
+        { "x": -19, "y": -5, "z":  12, "id": "left_back_wheel", "radius": 5.5 },
+        { "x": -19, "y": -5, "z": -12, "id": "right_back_wheel", "radius": 5.5, "y_rot": 180 }
+    ],
+    "RequiredParts": [
+    	"right_front_wheel",
+        "left_front_wheel",
+        "right_back_wheel",
+        "left_back_wheel",
+        "seats",
+        "steering_wheel"
+    ],
+    "PreInstalled": {
+    	"seats": "d33vaz:v05_seats",
+    	"right_front_wheel": "d33vaz:rect5_wheel",
+    	"left_front_wheel": "d33vaz:rect5_wheel",
+    	"right_back_wheel": "d33vaz:rect5_wheel",
+    	"left_back_wheel": "d33vaz:rect5_wheel",
+    	"steering_wheel": "d33vaz:v05_steer",
+    	"bumper_front": "d33vaz:v05_bumf",
+    	"bumper_rear": "d33vaz:v05_bumr",
+    	"doors": "d33vaz:v04_doors",
+    	"hood": "d33vaz:v05_hood",
+    	"lights": "d33vaz:v04_lights",
+    	"trunk": "d33vaz:v04_trunk",
+    	"s:vehicle_partslots:engine:0": "d33lib:engine_2105",
+    	"transmission": "gep:transmission"
+    },
+    "LegacyData":{
+    	"MaxPositiveThrottle": 1.38,
+    	"MaxNegativeThrottle": 0.89,
+    	"TurnLeftModifier": 0.8,
+    	"TurnRightModifier": 0.8
+    },
+    "LiftingPoints":{
+    	"left_front": [ 18, -5, 13, "left_rear" ],
+    	"left_rear": [ -10, -5, 13, "left_front" ],
+    	"right_front": [ 18, -5, -13, "right_rear" ],
+    	"right_rear": [ -10, -5, -13, "right_front" ]
+    },
+    "PartSlots":[
+    	[ 23.3, -6.32, 0, "engine", "engine" ],
+    	[ 40.56, -7.73, 0, "license_plate", "license_plate_front", 4 ]
+    ],
+    "SwivelPoints":[
+		{
+			"id": "v04_trunk",
+			"parent": "vehicle",
+			"pos": [ -27.8, 25.2, 0 ],
+			"movers":[
+				{
+					"attribute": "v04_trunk",
+					"var": "pitch",
+					"speed": 3,
+					"bool_based": true,
+					"min": 0,
+					"max": 70
+				}
+			]
+		}
+	]
+}

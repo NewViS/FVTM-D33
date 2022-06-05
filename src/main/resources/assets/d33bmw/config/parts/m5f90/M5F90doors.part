@@ -1,0 +1,26 @@
+{
+    "RegistryName": "d33bmw:f90_doors",
+    "Addon": "fvtm:d33bmw",
+    "Name": "BMW M5 F90 Doors",
+    "Model": "doorlf_zercc;doorlf_zerc;doorrf_zercc;doorlf_col;doorrf_col;doorlf_bl;doorlf_zercb;doorrf_zercb;doorrf_bl;doorlf_int;doorrf_pov;doorlf_pov;d33bmw:textures/model/bmwm5f90.obj",
+    "Category": "doors",
+    "CreativeTab": "d33lib:parts",
+    "Installation":{
+    	"Handler": "default",
+        "Removable": true,
+        "Compatible":[
+            { "vehicle": "d33bmw:m5f90", "x": 0, "y": 0, "z": 0 }
+        ]
+    },
+    "Attributes":[
+    	{ "id":"f90_doors_fl", "type": "boolean", "value": false, "editable": true, "seat": "driver" },
+    	{ "id":"f90_doors_fr", "type": "boolean", "value": false, "editable": true, "seat": "pass_front" }
+    ],
+    "Modifiers":[
+    	{
+    		"id": "weight", "type": "additive",
+    		"target": "vehicle:weight",
+    		"value": "125", "priority": "veryhigh"
+    	}
+    ]
+}

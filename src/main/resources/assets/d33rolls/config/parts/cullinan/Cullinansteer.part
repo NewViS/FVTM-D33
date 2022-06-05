@@ -1,0 +1,21 @@
+{
+    "RegistryName": "d33rolls:cullinan_steer",
+    "Addon": "fvtm:d33rolls",
+    "Name": "Cullinan Steering Wheel",
+    "Model": "steer;d33rolls:textures/model/cullinan.obj",
+    "Category": "steering_wheel",
+    "Installation":{
+    	"Handler": "default",
+        "Removable": true,
+        "Compatible":[
+            { "vehicle": "d33rolls:cullinan", "x": 0, "y": 0, "z": 0 }
+        ]
+    },
+    "Modifiers":[
+    	{
+    		"id": "weight", "type": "additive",
+    		"target": "vehicle:weight",
+    		"value": "2", "priority": "veryhigh"
+    	}
+    ]
+}

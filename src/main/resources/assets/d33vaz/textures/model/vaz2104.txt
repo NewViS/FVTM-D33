@@ -1,0 +1,93 @@
+
+# Transform: rotation 0 0 1 180
+# Transform: rotation 0 1 0 90
+# Transform: scale 0.2
+# Transform: rescale_normal
+# FlipAxes: false
+# FlipV: true
+# Program: body_color fvtm:rgb_primary
+# Program: RF_color fvtm:rgb_primary
+# Program: lr_color fvtm:rgb_primary
+# Program: FR_color fvtm:rgb_primary
+# Program: rr_color fvtm:rgb_primary
+# Program: bonnet fvtm:rgb_primary
+# Program: bagcolor fvtm:rgb_primary
+# Program: grey_sed fvtm:bind_texture d33lib:textures/model/paint.png
+# Program: body_color fvtm:bind_texture d33lib:textures/model/paint.png
+# Program: RF_color fvtm:bind_texture d33lib:textures/model/paint.png
+# Program: lr_color fvtm:bind_texture d33lib:textures/model/paint.png
+# Program: FR_color fvtm:bind_texture d33lib:textures/model/paint.png
+# Program: rr_color fvtm:bind_texture d33lib:textures/model/paint.png
+# Program: bonnet fvtm:bind_texture d33lib:textures/model/paint.png
+# Program: bagcolor fvtm:bind_texture d33lib:textures/model/paint.png
+# Program: steer fvtm:bind_texture d33lib:textures/model/paint.png
+# Program: body_chrom fvtm:bind_texture d33lib:textures/model/paint.png
+# Program: RF_chrome fvtm:bind_texture d33lib:textures/model/paint.png
+# Program: bumpf_chrome fvtm:bind_texture d33lib:textures/model/paint.png
+# Program: bumpr_chrome fvtm:bind_texture d33lib:textures/model/paint.png
+# Program: bag_chrome fvtm:bind_texture d33lib:textures/model/paint.png
+# Program: steer d33:col 25 25 25
+# Program: steer d33:steer 1 -31.5 81 -49 30
+# Program: dno fvtm:bind_texture d33vaz:textures/model/black_dirt.png
+# Program: fazrz fvtm:bind_texture d33vaz:textures/model/fara2104.jpg
+# Program: pov fvtm:bind_texture d33vaz:textures/model/optika2.png
+# Program: torpeda_te fvtm:bind_texture d33vaz:textures/model/torpeda.png
+# Program: prib fvtm:bind_texture d33vaz:textures/model/pribor2105.png
+# Program: potolok fvtm:bind_texture d33vaz:textures/model/obivka2.png
+# Program: sed fvtm:bind_texture d33vaz:textures/model/obivka.png
+# Program: sedz fvtm:bind_texture d33vaz:textures/model/obivka.png
+# Program: RF_leather fvtm:bind_texture d33vaz:textures/model/obivka.png
+# Program: prib2 fvtm:bind_texture d33vaz:textures/model/torpeda_05.png
+# Program: body_chrom d33:col 128 128 128
+# Program: bumpf_chro d33:col 128 128 128
+# Program: RF_chrome d33:col 128 128 128
+# Program: FR_chrome d33:col 128 128 128
+# Program: rr_chrome d33:col 128 128 128
+# Program: lr_chrome d33:col 128 128 128
+# Program: bumpr_chro d33:col 128 128 128
+# Program: bag_chrome d33:col 128 128 128
+# Program: torpeda_ch d33:col 128 128 128
+# Program: body_ d33:col 128 128 128
+# Program: logo_1 d33:col 128 128 128
+# Program: body_chrom d33:col 128 128 128
+# Program: baglamp d33:col 128 128 128
+# Program: podves_gre d33:col 76 76 76
+# Program: baraban d33:col 76 76 76
+# Program: grey_salon d33:col 76 76 76
+# Program: grey_sed d33:col 76 76 76
+# Program: pol d33:col 76 76 76
+# Program: body_black d33:col 25 25 25
+# Program: RF_black d33:col 25 25 25
+# Program: lr_black d33:col 25 25 25
+# Program: rr_black d33:col 25 25 25
+# Program: FR_black d33:col 25 25 25
+# Program: black_salo d33:col 25 25 25
+# Program: bumpr_blac d33:col 25 25 25
+# Program: bumpf_blac d33:col 25 25 25
+# Program: bag_black d33:col 25 25 25
+# Program: dvorniki d33:col 25 25 25
+# Program: panel_lea d33:col 25 25 25
+# Program: polca d33:col 25 25 25
+# Program: farz_black d33:col 25 25 25
+# Program: bagajb d33:col 25 25 25
+# Program: black_2 d33:col 25 25 25
+# Program: bagruk d33:col 25 25 25
+# Program: pruzin d33:col 76 25 25
+# Program: white d33:col 229 229 229
+# Program: bonnet d33:atrot v05_hood true -60 0 -1 0 74.74 194.37 1 0 0
+# Program: RF_color d33:atrot v04_doors_fl true -60 0 -1 -74.86 0 87.21 0 1 0
+# Program: RF_leather d33:atrot v04_doors_fl true -60 0 -1 -74.86 0 87.21 0 1 0
+# Program: RF_black d33:atrot v04_doors_fl true -60 0 -1 -74.86 0 87.21 0 1 0
+# Program: RF_chrome d33:atrot v04_doors_fl true -60 0 -1 -74.86 0 87.21 0 1 0
+# Program: rr_color d33:atrot v04_doors_bl true -60 0 -1 -74.48 0 -0.56 0 1 0
+# Program: rr_lea d33:atrot v04_doors_bl true -60 0 -1 -74.48 0 -0.56 0 1 0
+# Program: rr_black d33:atrot v04_doors_bl true -60 0 -1 -74.48 0 -0.56 0 1 0
+# Program: rr_chrome d33:atrot v04_doors_bl true -60 0 -1 -74.48 0 -0.56 0 1 0
+# Program: lr_color d33:atrot v04_doors_br true 0 60 1 74.48 0 -0.56 0 1 0
+# Program: lr_lea d33:atrot v04_doors_br true 0 60 1 74.48 0 -0.56 0 1 0
+# Program: lr_black d33:atrot v04_doors_br true 0 60 1 74.48 0 -0.56 0 1 0
+# Program: lr_chrome d33:atrot v04_doors_br true 0 60 1 74.48 0 -0.56 0 1 0
+# Program: FR_color d33:atrot v04_doors_fr true 0 60 1 74.86 0 87.21 0 1 0
+# Program: FR_leather d33:atrot v04_doors_fr true 0 60 1 74.86 0 87.21 0 1 0
+# Program: FR_black d33:atrot v04_doors_fr true 0 60 1 74.86 0 87.21 0 1 0
+# Program: FR_chrome d33:atrot v04_doors_fr true 0 60 1 74.86 0 87.21 0 1 0

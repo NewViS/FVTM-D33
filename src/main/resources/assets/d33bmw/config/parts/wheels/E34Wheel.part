@@ -1,0 +1,30 @@
+{
+    "RegistryName": "d33bmw:e34_wheel",
+    "Addon": "fvtm:d33bmw",
+    "Name": "E34 Wheel",
+    "Model": "d33bmw:models/part/e34_wheel",
+    "Category": "wheel",
+    "CreativeTab": "d33lib:rims",
+    "Functions": [
+    	"fvtm:wheel",
+    	{
+    		"id": "fvtm:tire",
+    		"stiffness": 6,
+    		"steering_stiffness": 5.8,
+    		"step_height": 1.2
+    	}	
+	],
+    "Texture": "Default;d33bmw:textures/model/wheel/e34wheel.png",
+    "Installation":{
+    	"Handler": "wheel",
+        "Removable": true,
+        "Radius": 6, "Width": 3
+    },
+    "Modifiers":[
+    	{
+    		"id": "weight", "type": "additive",
+    		"target": "vehicle:weight",
+    		"value": "30", "priority": "veryhigh"
+    	}
+    ]
+}

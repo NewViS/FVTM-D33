@@ -1,0 +1,32 @@
+{
+    "RegistryName": "d33bmw:m5f90_seats",
+    "Addon": "fvtm:d33bmw",
+    "Name": "M5F90 Seats",
+    "Model": "sed;d33bmw:textures/model/bmwm5f90.obj",
+    "Category": "seats",
+    "CreativeTab": "d33lib:parts",
+    "Texture": "Default;fvp:textures/cars/c10.png",
+    "Installation":{
+    	"Handler": "default",
+        "Removable": true,
+        "Compatible":[
+            { "vehicle": "d33bmw:m5f90", "x": 0, "y": 0, "z": 0 }
+        ]
+    },
+    "Modifiers":[
+    	{
+    		"id": "weight", "type": "additive",
+    		"target": "vehicle:weight",
+    		"value": "120.50", "priority": "veryhigh"
+    	}
+    ],
+    "Function": {
+    	"id": "fvtm:seats",
+    	"seats":[
+    		{ "x": 0, "y": 3, "z": -8, "name": "driver", "driver": true, "min_yaw": -120, "max_yaw": 120 },
+    		{ "x": 0, "y": 3, "z": 8, "name": "pass_front" },
+    		{ "x": -19, "y": 3, "z": -8, "name": "pass_rear_left" },
+    		{ "x": -19, "y": 3, "z": 8, "name": "pass_rear_right" }
+    	]
+    }
+}

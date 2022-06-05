@@ -1,0 +1,29 @@
+{
+    "RegistryName": "d33ford:m15_wheel",
+    "Addon": "fvtm:d33ford",
+    "Name": "Mustang 15 Wheel",
+    "Model": "d33ford:models/part/m15_wheel",
+    "Category": "wheel",
+    "CreativeTab": "d33lib:rims",
+    "Functions": [
+    	"fvtm:wheel",
+    	{
+    		"id": "fvtm:tire",
+    		"stiffness": 6,
+    		"steering_stiffness": 5.8,
+    		"step_height": 1.2
+    	}	
+	],
+    "Installation":{
+    	"Handler": "wheel",
+        "Removable": true,
+        "Radius": 6.5, "Width": 4.5
+    },
+    "Modifiers":[
+    	{
+    		"id": "weight", "type": "additive",
+    		"target": "vehicle:weight",
+    		"value": "30", "priority": "veryhigh"
+    	}
+    ]
+}

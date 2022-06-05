@@ -1,0 +1,32 @@
+##Contributors:
+#> MaximD33
+#>
+#>
+#>
+
+item.d33vaz:v05_bumf.name=Передний Бампер ВАЗ 2105
+item.d33vaz:v05_bumr.name=Задний Бампер ВАЗ 2105
+item.d33vaz:v05_hood.name=Капот ВАЗ 2105
+item.d33vaz:v05_lights.name=Оптика ВАЗ 2105
+item.d33vaz:v05_seats.name=Сиденья ВАЗ 2105
+item.d33vaz:v05_steer.name=Руль ВАЗ 2105
+item.d33vaz:v05_trunk.name=Багажник ВАЗ 2105
+item.d33vaz:vaz2105.name=ВАЗ 2105
+item.d33vaz:v05_doors.name=Двери ВАЗ 2105
+item.d33vaz:rect5_wheel.name=Диски ВАЗ 2105
+item.d33vaz:v07_bumf.name=Передний Бампер ВАЗ 2107
+item.d33vaz:v07_bumr.name=Задний Бампер ВАЗ 2107
+item.d33vaz:v07_hood.name=Капот ВАЗ 2107
+item.d33vaz:v07_lights.name=Оптика ВАЗ 2107
+item.d33vaz:v07_seats.name=Сиденья ВАЗ 2107
+item.d33vaz:v07_steer.name=Руль ВАЗ 2107
+item.d33vaz:v07_trunk.name=Багажник ВАЗ 2107
+item.d33vaz:vaz2107.name=ВАЗ 2107
+item.d33vaz:v04_doors.name=Двери ВАЗ 2104
+item.d33vaz:v04_lights.name=Оптика ВАЗ 2104
+item.d33vaz:v04_trunk.name=Багажник ВАЗ 2104
+item.d33vaz:vaz2104.name=ВАЗ 2104
+item.d33vaz:circlerect_wheel.name=Диски ВАЗ 2101
+item.d33vaz:circle_wheel.name=Диски ВАЗ 2103
+item.d33vaz:kolpac_wheel.name=Диски ВАЗ 2103 С Колпаком
+item.d33vaz:rect6_wheel.name=Диски ВАЗ 2108

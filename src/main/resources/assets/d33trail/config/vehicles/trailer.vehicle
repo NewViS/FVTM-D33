@@ -1,0 +1,35 @@
+{
+    "RegistryName": "d33trail:trailer",
+    "Addon": "fvtm:d33trail",
+    "Name": "Trailer",
+	"Model": "d33trail:textures/model/trail.obj",
+	"Texture": "Default;d33trail:textures/model/trail.png",
+    "PrimaryColor": "#2D6FA1",
+    "Attributes": [
+    	{ "id":"weight", "type": "float", "value": 480 }
+    ],
+    "Category": "trailer,car_trailer",
+    "WheelPositions":[
+        { "x": -45.7, "y": -4.8, "z":  17.5, "id": "left_back_wheel", "radius": 5.5 },
+        { "x": -45.7, "y": -4.8, "z": -17.5, "id": "right_back_wheel", "radius": 5.5, "y_rot": 180 }
+    ],
+    "RequiredParts": [
+    	"right_back_wheel",
+        "left_back_wheel"
+    ],
+    "PreInstalled": {
+    	"right_back_wheel": "d33vaz:rect5_wheel",
+    	"left_back_wheel": "d33vaz:rect5_wheel"
+    },
+    "Trailer": true,
+    "LegacyData":{},
+    "LiftingPoints":{
+    	"left_front": [ -32.8, -5, 13.6, "left_rear" ],
+    	"left_rear": [ -64.8, -5, 13.6, "left_front" ],
+    	"right_front": [ -32.8, -5, -13.6, "right_rear" ],
+    	"right_rear": [ -64.8, -5, -13.6, "right_front" ]
+    },
+    "PartSlots":[
+    	[ -68.3, -5.5, 0, "license_plate", "license_plate_rear", 4, [ 0, 180, 0 ]]
+    ]
+}

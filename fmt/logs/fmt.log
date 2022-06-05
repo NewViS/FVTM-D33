@@ -1,0 +1,53 @@
+14 θών 2021 00:45:29(243) [main]: ==================================================
+14 θών 2021 00:45:29(262) [main]: Starting FMT! 2.6.5
+14 θών 2021 00:45:29(264) [main]: Running on Windows 10 / 10.0
+14 θών 2021 00:45:29(630) [main]: Loaded Root Texture (blank ) [.\resources\textures\blank.png]
+14 θών 2021 00:45:29(631) [main]: Loaded Root Texture (bordered) [.\resources\textures\bordered.png]
+14 θών 2021 00:45:29(632) [main]: Loaded Root Texture (cursor) [.\resources\textures\cursor.png]
+14 θών 2021 00:45:29(633) [main]: Loaded Root Texture (demo  ) [.\resources\textures\demo.png]
+14 θών 2021 00:45:29(635) [main]: Loaded Root Texture (dotted) [.\resources\textures\dotted.png]
+14 θών 2021 00:45:29(639) [main]: Loaded Root Texture (floor ) [.\resources\textures\floor.png]
+14 θών 2021 00:45:29(678) [main]: Loaded Root Texture (floor2) [.\resources\textures\floor2.png]
+14 θών 2021 00:45:29(680) [main]: Loaded Root Texture (icon  ) [.\resources\textures\icon.png]
+14 θών 2021 00:45:29(681) [main]: Loaded Root Texture (null  ) [.\resources\textures\null.png]
+14 θών 2021 00:45:29(682) [main]: Loaded Root Texture (steve ) [.\resources\textures\steve.png]
+14 θών 2021 00:45:29(685) [main]: Loaded Root Texture (t1p   ) [.\resources\textures\t1p.png]
+14 θών 2021 00:45:29(686) [main]: Loaded Root Texture (transparent) [.\resources\textures\transparent.png]
+14 θών 2021 00:45:29(856) [main]: Tried to find lang file as specified in settings, but the file seems to be missing.
+14 θών 2021 00:45:29(856) [main]: Resetting LANG_CODE setting to 'none'!
+14 θών 2021 00:45:33(618) [main]: Controlling session/login data...
+14 θών 2021 00:45:33(619) [main]: Loading auth data from FILE.
+14 θών 2021 00:45:34(004) [main]: Trying to re-login...
+14 θών 2021 00:45:34(155) [main]: Updated Session ID to: 39oppp8ahh93ca5uop88gs1mcm
+14 θών 2021 00:45:34(155) [main]: Login Response: Successfully logged in!
+14 θών 2021 00:45:34(155) [main]: Controlling session/login data...
+14 θών 2021 00:45:34(222) [main]: Fetching Username...
+14 θών 2021 00:45:34(290) [main]: Username updated to: Unregistered Account
+14 θών 2021 00:45:34(360) [main]: License updated to: Public Edition (free)
+14 θών 2021 00:45:40(371) [main]: Updating Vsync State [+-]
+14 θών 2021 00:45:52(506) [main]: Saving auth data to FILE.
+14 θών 2021 00:45:58(686) [main]: ==================================================
+14 θών 2021 00:45:58(688) [main]: Starting FMT! 2.6.5
+14 θών 2021 00:45:58(689) [main]: Running on Windows 10 / 10.0
+14 θών 2021 00:45:58(837) [main]: Loaded Root Texture (blank ) [.\resources\textures\blank.png]
+14 θών 2021 00:45:58(839) [main]: Loaded Root Texture (bordered) [.\resources\textures\bordered.png]
+14 θών 2021 00:45:58(840) [main]: Loaded Root Texture (cursor) [.\resources\textures\cursor.png]
+14 θών 2021 00:45:58(840) [main]: Loaded Root Texture (demo  ) [.\resources\textures\demo.png]
+14 θών 2021 00:45:58(842) [main]: Loaded Root Texture (dotted) [.\resources\textures\dotted.png]
+14 θών 2021 00:45:58(845) [main]: Loaded Root Texture (floor ) [.\resources\textures\floor.png]
+14 θών 2021 00:45:58(847) [main]: Loaded Root Texture (floor2) [.\resources\textures\floor2.png]
+14 θών 2021 00:45:58(848) [main]: Loaded Root Texture (icon  ) [.\resources\textures\icon.png]
+14 θών 2021 00:45:58(849) [main]: Loaded Root Texture (null  ) [.\resources\textures\null.png]
+14 θών 2021 00:45:58(850) [main]: Loaded Root Texture (steve ) [.\resources\textures\steve.png]
+14 θών 2021 00:45:58(853) [main]: Loaded Root Texture (t1p   ) [.\resources\textures\t1p.png]
+14 θών 2021 00:45:58(854) [main]: Loaded Root Texture (transparent) [.\resources\textures\transparent.png]
+14 θών 2021 00:45:58(936) [main]: Langauge is set to default, skipping translation parsing.
+14 θών 2021 00:46:00(943) [main]: Controlling session/login data...
+14 θών 2021 00:46:00(943) [main]: Loading auth data from FILE.
+14 θών 2021 00:46:01(084) [main]: Fetching Username...
+14 θών 2021 00:46:01(144) [main]: Username updated to: Unregistered Account
+14 θών 2021 00:46:01(145) [main]: >>>> Welcome back! <<<<
+14 θών 2021 00:46:01(207) [main]: License updated to: Public Edition (free)
+14 θών 2021 00:46:02(348) [main]: Updating Vsync State [+-]
+14 θών 2021 02:14:17(528) [main]: selected > no saving of current
+14 θών 2021 02:14:17(999) [main]: Saving auth data to FILE.

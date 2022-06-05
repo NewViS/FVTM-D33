@@ -1,0 +1,24 @@
+{
+    "RegistryName": "d33vaz:v05_steer",
+    "Addon": "fvtm:d33vaz",
+    "Name": "VAZ 2105 Steer",
+    "Model": "steer;d33vaz:textures/model/vaz2105.obj",
+    "Category": "steering_wheel",
+    "CreativeTab": "d33lib:parts",
+    "Installation":{
+    	"Handler": "default",
+        "Removable": true,
+        "Compatible":[
+            { "vehicle": "d33vaz:vaz2107", "x": 0, "y": 0, "z": 0 },
+            { "vehicle": "d33vaz:vaz2105", "x": 0, "y": 0, "z": 0 },
+            { "vehicle": "d33vaz:vaz2104", "x": 0, "y": 0, "z": 0 }
+        ]
+    },
+    "Modifiers":[
+    	{
+    		"id": "weight", "type": "additive",
+    		"target": "vehicle:weight",
+    		"value": "2", "priority": "veryhigh"
+    	}
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "RegistryName": "d33porsche:p991_wheel",
+    "Addon": "fvtm:d33porsche",
+    "Name": "Porsche 991 Wheel",
+    "Model": "d33porsche:models/part/p991_wheel",
+    "Category": "wheel",
+    "CreativeTab": "d33lib:rims",
+    "Functions": [
+    	"fvtm:wheel",
+    	{
+    		"id": "fvtm:tire",
+    		"stiffness": 6,
+    		"steering_stiffness": 5.8,
+    		"step_height": 1.2
+    	}	
+	],
+    "Installation":{
+    	"Handler": "wheel",
+        "Removable": true,
+        "Radius": 6, "Width": 4.5
+    },
+    "Modifiers":[
+    	{
+    		"id": "weight", "type": "additive",
+    		"target": "vehicle:weight",
+    		"value": "30", "priority": "veryhigh"
+    	}
+    ]
+}

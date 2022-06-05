@@ -1,0 +1,27 @@
+{
+    "RegistryName": "d33dodge:ch15_bumf",
+    "Addon": "fvtm:d33dodge",
+    "Name": "Challenger III Bumper F",
+    "Model": "LOD_B_FRONTBUMPER_mm_col;LOD_B_FRONTBUMPER_mm_ext;d33dodge:textures/model/challenger.obj",
+    "Category": "bumper_front",
+    "Installation":{
+    	"Handler": "default",
+        "Removable": true,
+        "Compatible":[
+            { "vehicle": "d33dodge:challeng15", "x": 0, "y": 0, "z": 0 }
+        ]
+    },
+    "Modifiers":[
+    	{
+    		"id": "weight", "type": "additive",
+    		"target": "vehicle:weight",
+    		"value": "20", "priority": "veryhigh"
+    	}
+    ],
+    "Function":{
+	    "id": "fvtm:part_slots",
+		"slots":[
+			[ 44.98, -9.85, 9.09, "license_plate", "license_plate_front", 4, [ 0, -11.5, 0 ] ]
+		]
+    }
+}

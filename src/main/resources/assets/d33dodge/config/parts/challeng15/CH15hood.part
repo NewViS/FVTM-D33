@@ -1,0 +1,25 @@
+{
+    "RegistryName": "d33dodge:ch15_hood",
+    "Addon": "fvtm:d33dodge",
+    "Name": "Challenger III Hood",
+    "Model": "LOD_B_HOOD_mm_col;LOD_B_HOOD_mm_ext;d33dodge:textures/model/challenger.obj",
+    "Category": "hood",
+    "Texture": "Default;d33lib:items/hood",
+    "Installation":{
+    	"Handler": "default",
+        "Removable": true,
+        "Compatible":[
+            { "vehicle": "d33dodge:challeng15", "x": 0, "y": 0, "z": 0 }
+        ]
+    },
+    "Attributes":[
+    	{ "id":"ch15_hood", "type": "boolean", "value": false, "editable": true, "seat": "driver" }
+    ],
+    "Modifiers":[
+    	{
+    		"id": "weight", "type": "additive",
+    		"target": "vehicle:weight",
+    		"value": "50", "priority": "veryhigh"
+    	}
+    ]
+}

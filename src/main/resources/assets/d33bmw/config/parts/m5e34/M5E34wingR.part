@@ -1,0 +1,27 @@
+{
+    "RegistryName": "d33bmw:e34_wingr",
+    "Addon": "fvtm:d33bmw",
+    "Name": "E34 Wing Race",
+    "Model": "wingrace_carbon_fiber;wingrace_chrome;wingrace_rubber_trim;d33bmw:textures/model/bmwm5e34.obj",
+    "Category": "wing",
+    "CreativeTab": "d33lib:parts",
+    "Installation":{
+    	"Handler": "default",
+        "Removable": true,
+        "Compatible":[
+             { "vehicle": "d33bmw:m5e34", "x": 35.2, "y": -20.9, "z": 0 }
+        ],
+        "Required": [
+            { "vehicle": "d33bmw:m5e34", "parts": [ "trunk" ] }
+        ],
+        "SwivelPoint": "e34_trunk",
+        "SwivelPointRequired": true
+    },
+    "Modifiers":[
+    	{
+    		"id": "weight", "type": "additive",
+    		"target": "vehicle:weight",
+    		"value": "20", "priority": "veryhigh"
+    	}
+    ]
+}

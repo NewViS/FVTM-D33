@@ -1,0 +1,31 @@
+{
+    "RegistryName": "d33bmw:f90_trunk",
+    "Addon": "fvtm:d33bmw",
+    "Name": "F90 Trunk",
+    "Model": "bag;bagins;farb;gl_bag;logob;d33bmw:textures/model/bmwm5f90.obj",
+    "Category": "trunk",
+    "CreativeTab": "d33lib:parts",
+    "Installation":{
+    	"Handler": "default",
+        "Removable": true,
+        "Compatible":[ 
+        { "vehicle": "d33bmw:m5f90", "x": 35.2, "y": -20.9, "z": 0 }
+        ],
+        "SwivelPoint": "f90_trunk",
+        "SwivelPointRequired": true
+    },
+    
+    "Modifiers":[
+    	{
+    		"id": "weight", "type": "additive",
+    		"target": "vehicle:weight",
+    		"value": "36.78", "priority": "veryhigh"
+    	}
+    ],
+    "Function":{
+	    "id": "fvtm:part_slots",
+		"slots":[
+			[ -46.76, 16.9, 0, "license_plate", "license_plate_rear", 4, [ 0, 180, -15.33 ] ]
+		]
+    }
+}

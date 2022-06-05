@@ -1,0 +1,165 @@
+{
+  "format": 1,
+  "settings": {
+    "animate": {
+      "type": "boolean",
+      "value": false
+    },
+    "background_color": {
+      "type": "float_array",
+      "value": [
+        0.5,
+        0.5,
+        0.5,
+        0.2
+      ]
+    },
+    "bottombar": {
+      "type": "boolean",
+      "value": false
+    },
+    "boundingbox_color": {
+      "type": "rgb",
+      "value": "#ff00"
+    },
+    "camera_movespeed": {
+      "type": "float",
+      "value": 2.0
+    },
+    "center_marker": {
+      "type": "boolean",
+      "value": false
+    },
+    "cube": {
+      "type": "boolean",
+      "value": true
+    },
+    "cullface": {
+      "type": "boolean",
+      "value": true
+    },
+    "dark_theme": {
+      "type": "boolean",
+      "value": false
+    },
+    "decimal_sizes": {
+      "type": "boolean",
+      "value": false
+    },
+    "demo": {
+      "type": "boolean",
+      "value": false
+    },
+    "discord_rpc-enabled": {
+      "type": "boolean",
+      "value": true
+    },
+    "discord_rpc-reset_timer_on_new_model": {
+      "type": "boolean",
+      "value": true
+    },
+    "discord_rpc-show_model": {
+      "type": "boolean",
+      "value": true
+    },
+    "drag_painting": {
+      "type": "boolean",
+      "value": false
+    },
+    "floor": {
+      "type": "boolean",
+      "value": true
+    },
+    "internal_cursor": {
+      "type": "boolean",
+      "value": false
+    },
+    "internal_filechooser": {
+      "type": "boolean",
+      "value": false
+    },
+    "language_code": {
+      "type": "string",
+      "value": "default"
+    },
+    "last_file": {
+      "type": "string",
+      "value": "null"
+    },
+    "light0_position": {
+      "type": "float_array",
+      "value": [
+        0.0,
+        10.0,
+        0.0,
+        1.0
+      ]
+    },
+    "lighting": {
+      "type": "boolean",
+      "value": false
+    },
+    "lines": {
+      "type": "boolean",
+      "value": true
+    },
+    "mouse_sensivity": {
+      "type": "float",
+      "value": 2.0
+    },
+    "no_scroll_fields": {
+      "type": "boolean",
+      "value": false
+    },
+    "numberfield_arrows": {
+      "type": "boolean",
+      "value": true
+    },
+    "oc_center_on_part": {
+      "type": "boolean",
+      "value": true
+    },
+    "old_rotation": {
+      "type": "boolean",
+      "value": true
+    },
+    "orbital_camera": {
+      "type": "boolean",
+      "value": false
+    },
+    "polygon_marker": {
+      "type": "boolean",
+      "value": true
+    },
+    "preview_colorpicker": {
+      "type": "boolean",
+      "value": false
+    },
+    "rounding_digits": {
+      "type": "integer",
+      "value": 4
+    },
+    "selection_color": {
+      "type": "rgb",
+      "value": "#ffff00"
+    },
+    "selection_color2": {
+      "type": "rgb",
+      "value": "#ffffff"
+    },
+    "ui_debug": {
+      "type": "boolean",
+      "value": false
+    },
+    "vsync": {
+      "type": "boolean",
+      "value": true
+    },
+    "vsync_half": {
+      "type": "boolean",
+      "value": false
+    }
+  },
+  "last_fmt_version_used": "2.6.5",
+  "last_fmt_exit": "14|06|2021 02:14:17"
+}

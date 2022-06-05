@@ -1,0 +1,25 @@
+{
+    "RegistryName": "d33lambo:asvj_doors",
+    "Addon": "fvtm:d33lambo",
+    "Name": "Aventador SVJ Doors",
+    "Model": "mirr_r_col;mirr_l_col;mirr_r_cr;mirr_l_cr;door_r_ext;door_l_ext;door_r_int;door_l_int;door_r_col;door_l_col;door_r_gl;door_l_gl;d33lambo:textures/model/aventador_svj.obj",
+    "Category": "doors",
+    "Installation":{
+    	"Handler": "default",
+        "Removable": true,
+        "Compatible":[
+            { "vehicle": "d33lambo:avent_svj", "x": 0, "y": 0, "z": 0 }
+        ]
+    },
+    "Attributes":[
+    	{ "id":"asvj_doors_fl", "type": "boolean", "value": false, "editable": true, "seat": "driver" },
+    	{ "id":"asvj_doors_fr", "type": "boolean", "value": false, "editable": true, "seat": "pass_front" }
+    ],
+    "Modifiers":[
+    	{
+    		"id": "weight", "type": "additive",
+    		"target": "vehicle:weight",
+    		"value": "125", "priority": "veryhigh"
+    	}
+    ]
+}

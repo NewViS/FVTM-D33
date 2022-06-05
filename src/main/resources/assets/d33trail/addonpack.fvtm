@@ -1,0 +1,13 @@
+{
+  "RegistryName": "fvtm:d33trail",
+  "Name": "D33 TRAIL",
+  "URL": "http://fexcraft.net/download?modid=addon-yourpack",
+  "UpdateID": "addon-d33trail",
+  "License": "http://fexcraft.net/license?id=mods",
+  "Dependencies": ["fvtm:gep"],
+  "Authors": [
+    "MaximD33"
+  ],
+  "Version": "1.0",
+  "CreativeTabs":[]
+}

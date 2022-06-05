@@ -1,0 +1,22 @@
+{
+    "RegistryName": "d33bmw:e34_skirt",
+    "Addon": "fvtm:d33bmw",
+    "Name": "E34 Skirt",
+    "Model": "skirtLa_body;skirtRa_body;skirtLa_stripe_badge;skirtRa_stripe_badge;d33bmw:textures/model/bmwm5e34.obj",
+    "Category": "skirt",
+    "CreativeTab": "d33lib:parts",
+    "Installation":{
+    	"Handler": "default",
+        "Removable": true,
+        "Compatible":[
+            { "vehicle": "d33bmw:m5e34", "x": 0, "y": 0, "z": 0 }
+        ]
+    },
+    "Modifiers":[
+    	{
+    		"id": "weight", "type": "additive",
+    		"target": "vehicle:weight",
+    		"value": "20", "priority": "veryhigh"
+    	}
+    ]
+}

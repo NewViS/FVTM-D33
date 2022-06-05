@@ -1,0 +1,55 @@
+{
+    "RegistryName": "d33dodge:challeng15",
+    "Addon": "fvtm:d33dodge",
+    "Name": "Dodge Challenger III",
+	"Model": "LOD_B_BODY_mm_col;LOD_B_BODY_mm_ext;LOD_B_CHASSIS_mm_ext;LOD_B_EXHAUST_mm_ext;LOD_B_INTERIOR_mm_ext;LOD_B_INTERIOR_mm_cab;LOD_B_GLASS_FRONT_mm_windowsb;LOD_B_GLASS_REAR_mm_windowsb;LOD_B_GLASS_mm_windows;d33dodge:textures/model/challenger.obj",
+    "PrimaryColor": "#0080D0",
+    "CreativeTab": "d33lib:vehicles",
+    "Attributes": [
+    	{ "id":"weight", "type": "float", "value": 2000 },
+    	{ "id":"ch15_sunroof", "type": "boolean", "value": false, "editable": true, "seat": "driver" }
+    ],
+    "Category": "car,coupe",
+    "WheelPositions":[
+        { "x":  29, "y": -6, "z":  11, "id": "left_front_wheel", "radius": 7, "drive": true, "steering": true },
+        { "x":  29, "y": -6, "z": -11, "id": "right_front_wheel", "radius": 7, "y_rot": 180, "drive": true, "steering": true },
+        { "x": -24.2, "y": -6, "z":  11, "id": "left_back_wheel", "radius": 7 },
+        { "x": -24.2, "y": -6, "z": -11, "id": "right_back_wheel", "radius": 7, "y_rot": 180 }
+    ],
+    "RequiredParts": [
+    	"right_front_wheel",
+        "left_front_wheel",
+        "right_back_wheel",
+        "left_back_wheel",
+        "seats",
+        "steering_wheel"
+    ],
+    "PreInstalled": {
+    	"seats": "d33dodge:ch15_seats",
+    	"right_front_wheel": "d33dodge:chall_wheel",
+    	"left_front_wheel": "d33dodge:chall_wheel",
+    	"right_back_wheel": "d33dodge:chall_wheel",
+    	"left_back_wheel": "d33dodge:chall_wheel",
+    	"steering_wheel": "d33dodge:ch15_steer",
+    	"bumper_front": "d33dodge:ch15_bumf",
+    	"bumper_rear": "d33dodge:ch15_bumr",
+    	"hood": "d33dodge:ch15_hood",
+    	"lights": "d33dodge:ch15_lights",
+    	"trunk": "d33dodge:ch15_trunk",
+    	"doors": "d33dodge:ch15_doors",
+    	"engine": "gep:engine_petrol",
+    	"transmission": "gep:transmission"
+    },
+    "LegacyData":{
+    	"MaxPositiveThrottle": 3.04,
+    	"MaxNegativeThrottle": 0.89,
+    	"TurnLeftModifier": 0.8,
+    	"TurnRightModifier": 0.8
+    },
+    "LiftingPoints":{
+    	"left_front": [ 14, -4, 11, "left_rear" ],
+    	"left_rear": [ -14, -4, 11, "left_front" ],
+    	"right_front": [ 14, -4, -11, "right_rear" ],
+    	"right_rear": [ -14, -4, -11, "right_front" ]
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "RegistryName": "d33bmw:m5f90",
+    "Addon": "fvtm:d33bmw",
+    "Name": "BMW M5 F90",
+	"Model": "body;doorrf_zerc;carbone;gluh;stop;int;reaglb;bl;plast;doorrr_bl;doorlr_bl;reshrad;dno;black;windscreb;m5;eng;d33bmw:textures/model/bmwm5f90.obj",
+    "PrimaryColor": "#212C2F",
+    "Texture": "Default;fvp:textures/cars/c10.png",
+    "CreativeTab": "d33lib:vehicles",
+    "Attributes": [
+    	{ "id":"weight", "type": "float", "value": 1900 },
+    	{ "id": "f90_trunk", "type": "boolean", "value": false, "editable": true, "seat": "driver" }
+    ],
+    "Category": "car,sedan",
+    "WheelPositions":[
+        { "x":  32, "y": -5.8, "z":  13.2, "id": "left_front_wheel", "radius": 7, "drive": true, "steering": true },
+        { "x":  32, "y": -5.8, "z": -13.2, "id": "right_front_wheel", "radius": 7, "y_rot": 180, "drive": true, "steering": true },
+        { "x": -27.2, "y": -5.8, "z":  13.2, "id": "left_back_wheel", "radius": 7 },
+        { "x": -27.2, "y": -5.8, "z": -13.2, "id": "right_back_wheel", "radius": 7, "y_rot": 180 }
+    ],
+    "RequiredParts": [
+    	"right_front_wheel",
+        "left_front_wheel",
+        "right_back_wheel",
+        "left_back_wheel",
+        "seats",
+        "steering_wheel"
+    ],
+    "PreInstalled": {
+    	"seats": "d33bmw:m5f90_seats",
+    	"right_front_wheel": "d33bmw:f90_wheel",
+    	"left_front_wheel": "d33bmw:f90_wheel",
+    	"right_back_wheel": "d33bmw:f90_wheel",
+    	"left_back_wheel": "d33bmw:f90_wheel",
+    	"steering_wheel": "d33bmw:f90_steer",
+    	"bumper_front": "d33bmw:f90_bumf",
+    	"bumper_rear": "d33bmw:f90_bumr",
+    	"doors": "d33bmw:f90_doors",
+    	"hood": "d33bmw:f90_hood",
+    	"lights": "d33bmw:f90_lights",
+    	"trunk": "d33bmw:f90_trunk",
+    	"engine": "gep:engine_petrol",
+    	"transmission": "gep:transmission"
+    },
+    "LegacyData":{
+    	"MaxPositiveThrottle": 2.84,
+    	"MaxNegativeThrottle": 0.89,
+    	"TurnLeftModifier": 0.8,
+    	"TurnRightModifier": 0.8
+    },
+    "LiftingPoints":{
+    	"left_front": [ 14, -3, 11, "left_rear" ],
+    	"left_rear": [ -14, -3, 11, "left_front" ],
+    	"right_front": [ 14, -3, -11, "right_rear" ],
+    	"right_rear": [ -14, -3, -11, "right_front" ]
+    },
+    "SwivelPoints":[
+		{
+			"id": "f90_trunk",
+			"parent": "vehicle",
+			"pos": [ -35.2, 20.9, 0 ],
+			"movers":[
+				{
+					"attribute": "f90_trunk",
+					"var": "pitch",
+					"speed": 3,
+					"bool_based": true,
+					"min": 0,
+					"max": 60
+				}
+			]
+		}
+	]
+}

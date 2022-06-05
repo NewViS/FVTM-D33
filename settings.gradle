@@ -1,0 +1,10 @@
+include ':FCL'
+project(':FCL').projectDir = new File(settingsDir, '../FCL')
+include ':FVTM'
+project(':FVTM').projectDir = new File(settingsDir, '../FVTM')
+include ':GEP'
+project(':GEP').projectDir = new File(settingsDir, '../GEP')
+//include ':JEI'
+//project(':JEI').projectDir = new File(settingsDir, '../JEI')
+//include ':RecL'
+//project(':RecL').projectDir = new File(settingsDir, '../RecL')

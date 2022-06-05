@@ -1,0 +1,54 @@
+{
+    "RegistryName": "d33porsche:porsc991",
+    "Addon": "fvtm:d33porsche",
+    "Name": "Porsche 911 Carrera S",
+	"Model": "exhaust_ext;chassis_ext;body_ext;body_col;glass_f_bl;glass_l_bl;glass_r_bl;glass_r_bl1;inter_int;d33porsche:textures/model/porsche991.obj",
+    "PrimaryColor": "#661717",
+    "CreativeTab": "d33lib:vehicles",
+    "Attributes": [
+    	{ "id":"weight", "type": "float", "value": 1380 }
+    ],
+    "Category": "car, coupe",
+    "WheelPositions":[
+        { "x":  22.2, "y": -5, "z":  10.3, "id": "left_front_wheel", "radius": 6, "steering": true },
+        { "x":  22.2, "y": -5, "z": -10.3, "id": "right_front_wheel", "radius": 6, "y_rot": 180, "steering": true },
+        { "x": -19.9, "y": -5, "z":  10.3, "id": "left_back_wheel", "radius": 6, "drive": true },
+        { "x": -19.9, "y": -5, "z": -10.3, "id": "right_back_wheel", "radius": 6, "y_rot": 180, "drive": true }
+    ],
+    "RequiredParts": [
+    	"right_front_wheel",
+        "left_front_wheel",
+        "right_back_wheel",
+        "left_back_wheel",
+        "seats",
+        "steering_wheel"
+    ],
+    "PreInstalled": {
+    	"seats": "d33porsche:p991_seats",
+    	"right_front_wheel": "d33porsche:p991_wheel",
+    	"left_front_wheel": "d33porsche:p991_wheel",
+    	"right_back_wheel": "d33porsche:p991_wheel",
+    	"left_back_wheel": "d33porsche:p991_wheel",
+    	"steering_wheel": "d33porsche:p991_steer",
+    	"bumper_front": "d33porsche:p991_bumf",
+    	"bumper_rear": "d33porsche:p991_bumr",
+    	"hood": "d33porsche:p991_hood",
+    	"lights": "d33porsche:p991_lights",
+    	"trunk": "d33porsche:p991_trunk",
+    	"doors": "d33porsche:p991_doors",
+    	"engine": "gep:engine_petrol",
+    	"transmission": "gep:transmission"
+    },
+    "LegacyData":{
+    	"MaxPositiveThrottle": 2.88,
+    	"MaxNegativeThrottle": 0.89,
+    	"TurnLeftModifier": 0.8,
+    	"TurnRightModifier": 0.8
+    },
+    "LiftingPoints":{
+    	"left_front": [ 11, -2, 11, "left_rear" ],
+    	"left_rear": [ -14, -2, 11, "left_front" ],
+    	"right_front": [ 11, -2, -11, "right_rear" ],
+    	"right_rear": [ -14, -2, -11, "right_front" ]
+    }
+}

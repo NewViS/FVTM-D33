@@ -1,0 +1,22 @@
+{
+    "RegistryName": "d33bmw:f90_bumr",
+    "Addon": "fvtm:d33bmw",
+    "Name": "F90 Bumper R",
+    "Model": "bumpr;bumprp;bumprl;d33bmw:textures/model/bmwm5f90.obj",
+    "Category": "bumper_rear",
+    "CreativeTab": "d33lib:parts",
+    "Installation":{
+    	"Handler": "default",
+        "Removable": true,
+        "Compatible":[
+            { "vehicle": "d33bmw:m5f90", "x": 0, "y": 0, "z": 0 }
+        ]
+    },
+    "Modifiers":[
+    	{
+    		"id": "weight", "type": "additive",
+    		"target": "vehicle:weight",
+    		"value": "20", "priority": "veryhigh"
+    	}
+    ]
+}

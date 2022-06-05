@@ -1,0 +1,16 @@
+# Program: trunk_lights_glass fvtm:window 0xffffff
+# Program: glassRTL_lights_glass fvtm:window 0xffffff
+# Program: glassLTL_lights_glass fvtm:window 0xffffff
+# Program: glassRHL_detail_glass_clear fvtm:front_lights
+# Program: glassLHL_detail_glass_clear fvtm:front_lights
+# Program: taillightR_tail_light fvtm:brake_lights
+# Program: taillightL_tail_light fvtm:brake_lights
+# Program: winge_tail_light fvtm:brake_lights
+# Program: bumperFa_lights_glass fvtm:fog_lights
+# Program: bumperFe_detail_glass_clear fvtm:fog_lights
+# Program: bumperFrace_lights_glass fvtm:fog_lights
+# Program: trunk_reverse_light fvtm:reverse_lights
+# Program: taillightL_reflector fvtm:turn_signal_left
+# Program: headlightL_lights_glass fvtm:turn_signal_left
+# Program: taillightR_reflector fvtm:turn_signal_right
+# Program: headlightR_lights_glass fvtm:turn_signal_right

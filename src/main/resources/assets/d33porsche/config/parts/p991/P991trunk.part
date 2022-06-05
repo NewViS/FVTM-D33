@@ -1,0 +1,26 @@
+{
+    "RegistryName": "d33porsche:p991_hood",
+    "Addon": "fvtm:d33porsche",
+    "Name": "Porsche 991 Hood",
+    "Model": "boot_ext;boot_col;d33porsche:textures/model/porsche991.obj",
+    "Category": "hood",
+    "CreativeTab": "d33lib:parts",
+    "Installation":{
+    	"Handler": "default",
+        "Removable": true,
+        "Compatible":[
+            { "vehicle": "d33porsche:porsc991", "x": 0, "y": 0, "z": 0 }
+        ]
+    },
+    "Attributes":[
+    	{ "id":"p991_hood", "type": "boolean", "value": false, "editable": true, "seat": "driver" }
+    ],
+    
+    "Modifiers":[
+    	{
+    		"id": "weight", "type": "additive",
+    		"target": "vehicle:weight",
+    		"value": "20.00", "priority": "veryhigh"
+    	}
+    ]
+}

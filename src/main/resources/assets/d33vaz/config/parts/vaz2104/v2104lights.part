@@ -1,0 +1,22 @@
+{
+    "RegistryName": "d33vaz:v04_lights",
+    "Addon": "fvtm:d33vaz",
+    "Name": "VAZ 2104 Lights",
+    "Model": "pov;far_l;far_r;fazrz;shild;d33vaz:textures/model/vaz2104.obj",
+    "Category": "lights",
+    "CreativeTab": "d33lib:parts",
+    "Installation":{
+    	"Handler": "default",
+        "Removable": true,
+        "Compatible":[
+            { "vehicle": "d33vaz:vaz2104", "x": 0, "y": 0, "z": 0 }
+        ]
+    },
+    "Modifiers":[
+    	{
+    		"id": "weight", "type": "additive",
+    		"target": "vehicle:weight",
+    		"value": "20", "priority": "veryhigh"
+    	}
+    ]
+}

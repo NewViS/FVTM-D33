@@ -1,0 +1,22 @@
+{
+    "RegistryName": "d33bmw:e34_bumfrace",
+    "Addon": "fvtm:d33bmw",
+    "Name": "E34 Bumper F Race",
+    "Model": "bumperFrace_body;bumperFrace_stripe_badge;bumperFrace_plastic2;bumperFrace_frame;bumperFrace_bottom;bumperFrace_black;bumperFrace_chrome;bumperFrace_matte_colors;bumperFrace_carbon_fiber;bumperFrace_lights_glass;d33bmw:textures/model/bmwm5e34.obj",
+    "Category": "bumper_front",
+    "CreativeTab": "d33lib:parts",
+    "Installation":{
+    	"Handler": "default",
+        "Removable": true,
+        "Compatible":[
+            { "vehicle": "d33bmw:m5e34", "x": 0, "y": 0, "z": 0 }
+        ]
+    },
+    "Modifiers":[
+    	{
+    		"id": "weight", "type": "additive",
+    		"target": "vehicle:weight",
+    		"value": "20", "priority": "veryhigh"
+    	}
+    ]
+}

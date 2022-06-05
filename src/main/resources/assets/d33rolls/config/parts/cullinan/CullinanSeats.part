@@ -1,0 +1,30 @@
+{
+    "RegistryName": "d33rolls:cullinan_seats",
+    "Addon": "fvtm:d33rolls",
+    "Name": "Cullinan Seats",
+    "Model": "froseat;d33rolls:textures/model/cullinan.obj",
+    "Category": "seats",
+    "Installation":{
+    	"Handler": "default",
+        "Removable": true,
+        "Compatible":[
+            { "vehicle": "d33rolls:cullinan", "x": 0, "y": 0, "z": 0 }
+        ]
+    },
+    "Modifiers":[
+    	{
+    		"id": "weight", "type": "additive",
+    		"target": "vehicle:weight",
+    		"value": "120.50", "priority": "veryhigh"
+    	}
+    ],
+    "Function": {
+    	"id": "fvtm:seats",
+    	"seats":[
+    		{ "x": -3, "y": 4, "z": -8, "name": "driver", "driver": true, "min_yaw": -120, "max_yaw": 120 },
+    		{ "x": -3, "y": 4, "z": 8, "name": "pass_front" },
+    		{ "x": -23, "y": 4, "z": -8, "name": "pass_rear_left" },
+    		{ "x": -23, "y": 4, "z": 8, "name": "pass_rear_right" }
+    	]
+    }
+}

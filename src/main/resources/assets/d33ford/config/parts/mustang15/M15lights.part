@@ -1,0 +1,22 @@
+{
+    "RegistryName": "d33ford:m15_lights",
+    "Addon": "fvtm:d33ford",
+    "Name": "Ford Mustang 15 Lights",
+    "Model": "headli_r;headli_l;tail_r;tail_l;d33ford:textures/model/mustang15.obj",
+    "Category": "lights",
+    "CreativeTab": "d33lib:parts",
+    "Installation":{
+    	"Handler": "default",
+        "Removable": true,
+        "Compatible":[
+            { "vehicle": "d33ford:mustang15", "x": 0, "y": 0, "z": 0 }
+        ]
+    },
+    "Modifiers":[
+    	{
+    		"id": "weight", "type": "additive",
+    		"target": "vehicle:weight",
+    		"value": "10", "priority": "veryhigh"
+    	}
+    ]
+}

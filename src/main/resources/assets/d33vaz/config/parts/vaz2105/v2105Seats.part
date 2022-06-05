@@ -1,0 +1,34 @@
+{
+    "RegistryName": "d33vaz:v05_seats",
+    "Addon": "fvtm:d33vaz",
+    "Name": "VAZ 2105 Seats",
+    "Model": "sed;grey_sed;d33vaz:textures/model/vaz2105.obj",
+    "Category": "seats",
+    "CreativeTab": "d33lib:parts",
+    "Texture": "Default;fvp:textures/cars/c10.png",
+    "Installation":{
+    	"Handler": "default",
+        "Removable": true,
+        "Compatible":[
+            { "vehicle": "d33vaz:vaz2104", "x": 0, "y": 0, "z": 0 },
+            { "vehicle": "d33vaz:vaz2107", "x": 0, "y": 0, "z": 0 },
+            { "vehicle": "d33vaz:vaz2105", "x": 0, "y": 0, "z": 0 }
+        ]
+    },
+    "Modifiers":[
+    	{
+    		"id": "weight", "type": "additive",
+    		"target": "vehicle:weight",
+    		"value": "120.50", "priority": "veryhigh"
+    	}
+    ],
+    "Function": {
+    	"id": "fvtm:seats",
+    	"seats":[
+    		{ "x": 4, "y": 1, "z": -8, "name": "driver", "driver": true, "min_yaw": -120, "max_yaw": 120 },
+    		{ "x": 4, "y": 1, "z": 8, "name": "pass_front" },
+    		{ "x": -14, "y": 1, "z": -8, "name": "pass_rear_left" },
+    		{ "x": -14, "y": 1, "z": 8, "name": "pass_rear_right" }
+    	]
+    }
+}

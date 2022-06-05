@@ -1,0 +1,29 @@
+{
+    "RegistryName": "d33vaz:v05_doors",
+    "Addon": "fvtm:d33vaz",
+    "Name": "VAZ 2105 Doors",
+    "Model": "RF_color;RL_color;FR_color;RR_color;RF_leather;FR_leather;RR_leather;RL_leather;RF_chrome;FR_chrome;RR_chrome;RL_chrome;RF_black;RL_black;FR_black;RR_black;d33vaz:textures/model/vaz2105.obj",
+    "Category": "doors",
+    "CreativeTab": "d33lib:parts",
+    "Installation":{
+    	"Handler": "default",
+        "Removable": true,
+        "Compatible":[
+            { "vehicle": "d33vaz:vaz2107", "x": 0, "y": 0, "z": 0 },
+            { "vehicle": "d33vaz:vaz2105", "x": 0, "y": 0, "z": 0 }
+        ]
+    },
+    "Attributes":[
+    	{ "id":"v05_doors_fl", "type": "boolean", "value": false, "editable": true, "seat": "driver" },
+    	{ "id":"v05_doors_fr", "type": "boolean", "value": false, "editable": true, "seat": "pass_front" },
+    	{ "id":"v05_doors_bl", "type": "boolean", "value": false, "editable": true, "seat": "pass_rear_left" },
+    	{ "id":"v05_doors_br", "type": "boolean", "value": false, "editable": true, "seat": "pass_rear_right" }
+    ],
+    "Modifiers":[
+    	{
+    		"id": "weight", "type": "additive",
+    		"target": "vehicle:weight",
+    		"value": "125", "priority": "veryhigh"
+    	}
+    ]
+}

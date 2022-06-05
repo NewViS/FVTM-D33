@@ -1,0 +1,21 @@
+{
+	"vaz_engine": {
+		"category" : "player",
+		"sounds" : [ "d33lib:vaz_engine" ]
+	},
+	
+	"vaz_start": {
+		"category" : "player",
+		"sounds" : [ "d33lib:vaz_start" ]
+	},
+	
+	"inj_start": {
+		"category" : "player",
+		"sounds" : [ "d33lib:inj_start" ]
+	},
+	
+	"inj_engine": {
+		"category" : "player",
+		"sounds" : [ "d33lib:inj_engine" ]
+	}
+}
