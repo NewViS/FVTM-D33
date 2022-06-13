@@ -12,7 +12,7 @@ public class P991_rim extends D33Wheel{
 	public P991_rim(){
 		super(mdl_rim, mdl_tyre);
 		
-		rad = 1.1;
+		rad = 1.05;
 		wid = 1.4;
 		
 		e34wheel = new ResourceLocation("d33porsche:textures/model/wheel/p991_rim.png");

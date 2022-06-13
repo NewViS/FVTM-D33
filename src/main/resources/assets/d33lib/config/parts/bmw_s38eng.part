@@ -1,8 +1,8 @@
 {
-    "RegistryName": "d33lib:engine_2105",
+    "RegistryName": "d33lib:engine_s38",
     "Addon": "fvtm:d33lib",
-    "Name": "Vaz 2105 Engine",
-    "Model": "eng2105;d33lib:textures/model/vaz2105engine.obj",
+    "Name": "BMW S38 Engine",
+    "Model": "eng_s38;d33lib:textures/model/s38eng.obj",
     "CreativeTab": "d33lib:parts",
     "Category": [
     	"engine", "ballast", "decoration"
@@ -21,7 +21,7 @@
 	    	"id": "fvtm:engine",
 	    	"engine_speed": 1,
 	    	"idle_consumption": 1.5,
-	    	"active_consumption": 9,
+	    	"active_consumption": 14,
 	    	"consumptions": {
 	    		"super95": 10,
 	    		"super98": 8,
@@ -29,13 +29,16 @@
 	    	},
 	    	"fuel_group": "petrol",
 
-	    	"min_rpm": 1000,
-		    "max_rpm": 6000,
+	    	"min_rpm": 1500,
+		    "max_rpm": 7500,
 		    "torque_chart":{
-		        "1000": 59,
-		        "3000": 108,
-		        "5000": 113,
-		        "6000": 88
+		        "1500": 242,
+		        "2500": 280,
+		        "3000": 290,
+		        "4000": 350,
+		        "5000": 360,
+		        "7000": 330,
+		        "7500": 280
 		    },
 		    "__comment": "example/testing values"
 	    },

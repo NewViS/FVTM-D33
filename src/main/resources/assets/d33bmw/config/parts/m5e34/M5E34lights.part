@@ -2,7 +2,7 @@
     "RegistryName": "d33bmw:e34_lights",
     "Addon": "fvtm:d33bmw",
     "Name": "E34 Lights",
-    "Model": "taillightR_plastic2;taillightR_black;taillightL_plastic2;taillightL_black;headlightR_plastic2;headlightR_chrome;headlightR_black;headlightL_plastic2;headlightL_chrome;headlightL_black;headlightL_lights_glass;headlightR_lights_glass;glassRTL_lights_glass;glassRHL_detail_glass_clear;glassLTL_lights_glass;glassLHL_detail_glass_clear;taillightR_reflector;taillightL_reflector;taillightR_tail_light;taillightL_tail_light;taillightR_textured_reflector;taillightL_textured_reflector;d33bmw:textures/model/bmwm5e34.obj",
+    "Model": "taillightR_plastic2;taillightR_black;taillightL_plastic2;taillightL_black;headlightR_plastic2;headlightR_chrome;headlightR_black;headlightL_plastic2;headlightL_chrome;headlightL_black;headlightL_lights_glass;headlightR_lights_glass;glassRHL_detail_glass_clear;glassLHL_detail_glass_clear;taillightR_reflector;taillightL_reflector;taillightR_tail_light;taillightL_tail_light;taillightR_textured_reflector;taillightL_textured_reflector;glassLTL_lights_glass;glassRTL_lights_glass;d33bmw:textures/model/bmwm5e34.obj",
     "Category": "lights",
     "CreativeTab": "d33lib:parts",
     "Installation":{

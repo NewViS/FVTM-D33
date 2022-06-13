@@ -2,7 +2,7 @@
     "RegistryName": "d33bmw:m5e34",
     "Addon": "fvtm:d33bmw",
     "Name": "BMW M5 E34",
-	"Model": "body_body;body_body_2;mirrorR_body;mirrorL_body;body_black_glass;body_chrome;bumperFrameR_bumper_frame;bumperFrameF_bumper_frame;body_reflector;interior_interior;interior_chrome;mirrorR_chrome;mirrorL_chrome;body_weatherstrip;body_rubber_trim;body_plastic2;body_black;body_badge;exhausta_misc;exhausta_chrome;exhausta_black;steering_wheel_interior;body_frame;undercarriagea_undercarriage;d33bmw:textures/model/bmwm5e34.obj",
+	"Model": "body_body;undercarriage_color;body_body_2;body_black_glass;body_chrome;bumperFrameR_bumper_frame;bumperFrameF_bumper_frame;body_reflector_r;body_reflector_l;interior_interior;interior_chrome;body_weatherstrip;body_rubber_trim;body_plastic2;body_black;body_badge;exhausta_misc;exhausta_chrome;exhausta_black;steering_wheel_interior;body_frame;engine_ext;undercarriagea_undercarriage;d33bmw:textures/model/bmwm5e34.obj",
     "PrimaryColor": "#F0F0F0",
     "SecondaryColor": "#C2C2C2",
     "Texture": "Default;fvp:textures/cars/c10.png",
@@ -36,10 +36,11 @@
     	"bumper_front": "d33bmw:e34_bumf",
     	"bumper_rear": "d33bmw:e34_bumr",
     	"hood": "d33bmw:e34_hood",
+    	"doors": "d33bmw:e34_doors",
     	"lights": "d33bmw:e34_lights",
     	"skirt": "d33bmw:e34_skirt",
     	"trunk": "d33bmw:e34_trunk",
-    	"engine": "gep:engine_petrol",
+    	"s:vehicle_partslots:engine:0": "d33lib:engine_s38",
     	"transmission": "gep:transmission"
     },
     "LegacyData":{
@@ -55,6 +56,7 @@
     	"right_rear": [ -14, -3, -11, "right_front" ]
     },
     "PartSlots":[
+    	[ 23.8, -4.96, 0, "engine", "engine" ],
     	[ 47.5, -7.5, 0, "license_plate", "license_plate_front", 4]
     ],
     "SwivelPoints":[
