@@ -6,7 +6,12 @@
     "Category": [ "license_plate_12x3", "license_plate" ],
     "CreativeTab": "d33lib:parts",
     "Textures": [
-    	"SPB;d33lib:textures/model/hold_spb.png"
+    	"Black;d33lib:textures/model/hold_black.png",
+    	"SPB;d33lib:textures/model/hold_spb.png",
+    	"RF;d33lib:textures/model/hold_rf.png",
+    	"Auto Centre;d33lib:textures/model/hold_acpulkovo.png",
+    	"Electrician;d33lib:textures/model/hold_electric.png",
+    	"Hohloma;d33lib:textures/model/hold_hohloma.png"
     ],
     "Installation":{
     	"Handler": "default",

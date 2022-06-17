@@ -13,5 +13,11 @@
         "Removable": true,
         "SlotBased": true,
         "HotSwap": true
+    },
+    
+    "ModelData":{
+		"Programs": [
+        "plate fvtm:attr_text_renderer -6 5 -1 0 90 180 18 true license_plate"
+    	]
     }
 }
