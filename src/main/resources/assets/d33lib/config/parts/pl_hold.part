@@ -1,0 +1,24 @@
+{
+    "RegistryName": "d33lib:plate_holder",
+    "Addon": "fvtm:d33lib",
+    "Name": "License Plate Holder (12x3)",
+    "Model": "d33lib:textures/model/plat_hold.obj",
+    "Category": [ "license_plate_12x3", "license_plate" ],
+    "CreativeTab": "d33lib:parts",
+    "Textures": [
+    	"SPB;d33lib:textures/model/hold_spb.png"
+    ],
+    "Installation":{
+    	"Handler": "default",
+        "Removable": true,
+        "SlotBased": true,
+        "HotSwap": true
+    },
+    "Function":{
+	    "id": "fvtm:part_slots",
+		"slots":[
+			[ 0.017, 0, 0, "license_plate_12x3", "*_lp"]
+		],
+		"copy_rot": true
+    }
+}

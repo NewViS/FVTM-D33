@@ -1,0 +1,17 @@
+{
+    "RegistryName": "d33lib:license_plate",
+    "Addon": "fvtm:d33lib",
+    "Name": "Generic License Plate (12x3)",
+    "Model": "d33lib:textures/model/lic_plate.obj",
+    "Category": [ "license_plate_12x3", "license_plate" ],
+    "CreativeTab": "d33lib:parts",
+    "Textures": [
+    	"RUS;d33lib:textures/model/rus_new.png"
+    ],
+    "Installation":{
+    	"Handler": "default",
+        "Removable": true,
+        "SlotBased": true,
+        "HotSwap": true
+    }
+}

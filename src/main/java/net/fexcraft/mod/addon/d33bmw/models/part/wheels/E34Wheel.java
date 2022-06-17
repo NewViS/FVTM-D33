@@ -5,6 +5,7 @@ import net.fexcraft.lib.common.utils.ObjParser;
 import net.fexcraft.lib.common.utils.ObjParser.ObjModel;
 import net.fexcraft.lib.mc.api.registry.fModel;
 import net.fexcraft.lib.tmt.ModelRendererTurbo;
+import net.fexcraft.mod.fvtm.data.part.PartData;
 import net.fexcraft.mod.fvtm.model.DefaultPrograms;
 import net.fexcraft.mod.fvtm.model.ModelGroup;
 import net.fexcraft.mod.fvtm.model.PartModel;
@@ -64,7 +65,7 @@ public class E34Wheel extends PartModel {
 		GL11.glPopMatrix();
 	}
 	@Override
-	public void renderItem(TransformType type, ItemStack item, EntityLivingBase entity){
+	public void renderItem(ItemStack item, PartData data){
         GL11.glPushMatrix();
         GL11.glScaled(1.1, 1.1, 1.2);
         Minecraft.getMinecraft().renderEngine.bindTexture(e34wheel);

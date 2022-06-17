@@ -10,10 +10,10 @@
     ],
     "Category": "car, coupe",
     "WheelPositions":[
-        { "x":  22.2, "y": -5.5, "z":  10.3, "id": "left_front_wheel", "radius": 6, "steering": true },
-        { "x":  22.2, "y": -5.5, "z": -10.3, "id": "right_front_wheel", "radius": 6, "y_rot": 180, "steering": true },
-        { "x": -19.9, "y": -5.5, "z":  10.3, "id": "left_back_wheel", "radius": 6, "drive": true },
-        { "x": -19.9, "y": -5.5, "z": -10.3, "id": "right_back_wheel", "radius": 6, "y_rot": 180, "drive": true }
+        { "x":  22.2, "y": -5.2, "z":  10.3, "id": "left_front_wheel", "radius": 6, "steering": true },
+        { "x":  22.2, "y": -5.2, "z": -10.3, "id": "right_front_wheel", "radius": 6, "y_rot": 180, "steering": true },
+        { "x": -19.9, "y": -5.2, "z":  10.8, "id": "left_back_wheel", "radius": 6, "drive": true },
+        { "x": -19.9, "y": -5.2, "z": -10.8, "id": "right_back_wheel", "radius": 6, "y_rot": 180, "drive": true }
     ],
     "RequiredParts": [
     	"right_front_wheel",
