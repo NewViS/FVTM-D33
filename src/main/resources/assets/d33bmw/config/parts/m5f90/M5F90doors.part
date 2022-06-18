@@ -2,7 +2,7 @@
     "RegistryName": "d33bmw:f90_doors",
     "Addon": "fvtm:d33bmw",
     "Name": "BMW M5 F90 Doors",
-    "Model": "doorlf_zercc;doorlf_zerc;doorrf_zercc;doorlf_col;doorrf_col;doorlf_bl;doorlf_zercb;doorrf_zercb;doorrf_bl;doorlf_int;doorrf_pov;doorlf_pov;d33bmw:textures/model/bmwm5f90.obj",
+    "Model": "doorlf_zercc;doorlf_zerc;doorrf_zercc;doorlf_col;door_rr_col;door_rl_col;doorrf_col;doorlf_bl;door_lr_bl;door_rr_bl;doorlf_zercb;doorrf_zercb;doorrf_bl;doorlf_int;door_lr_int;door_rr_int;doorrf_pov;doorlf_pov;d33bmw:textures/model/bmwm5f90.obj",
     "Category": "doors",
     "CreativeTab": "d33lib:parts",
     "Installation":{
@@ -14,7 +14,9 @@
     },
     "Attributes":[
     	{ "id":"f90_doors_fl", "type": "boolean", "value": false, "editable": true, "seat": "driver" },
-    	{ "id":"f90_doors_fr", "type": "boolean", "value": false, "editable": true, "seat": "pass_front" }
+    	{ "id":"f90_doors_fr", "type": "boolean", "value": false, "editable": true, "seat": "pass_front" },
+    	{ "id":"f90_doors_bl", "type": "boolean", "value": false, "editable": true, "seat": "pass_rear_left" },
+    	{ "id":"f90_doors_br", "type": "boolean", "value": false, "editable": true, "seat": "pass_rear_right" }
     ],
     "Modifiers":[
     	{

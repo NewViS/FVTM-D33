@@ -1,9 +1,9 @@
 {
-    "RegistryName": "d33lib:plate_holder",
+    "RegistryName": "d33lib:europlate_holder",
     "Addon": "fvtm:d33lib",
-    "Name": "License Plate Holder (12x3)",
+    "Name": "Europlate Holder",
     "Model": "d33lib:textures/model/plat_hold.obj",
-    "Category": [ "license_plate_12x3", "license_plate" ],
+    "Category": [ "license_plate_euro", "license_plate" ],
     "CreativeTab": "d33lib:parts",
     "Textures": [
     	"Black;d33lib:textures/model/hold_black.png",
@@ -11,6 +11,7 @@
     	"RF;d33lib:textures/model/hold_rf.png",
     	"Auto Centre;d33lib:textures/model/hold_acpulkovo.png",
     	"Electrician;d33lib:textures/model/hold_electric.png",
+    	"Audi Sport;d33lib:textures/model/hold_audi.png",
     	"Hohloma;d33lib:textures/model/hold_hohloma.png"
     ],
     "Installation":{
@@ -22,7 +23,7 @@
     "Function":{
 	    "id": "fvtm:part_slots",
 		"slots":[
-			[ 0.017, 0, 0, "license_plate_12x3", "*_lp"]
+			[ 0.017, 0, 0, "license_plate_euro", "*_lp"]
 		],
 		"copy_rot": true
     }

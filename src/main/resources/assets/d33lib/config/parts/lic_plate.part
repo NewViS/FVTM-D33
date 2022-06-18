@@ -1,9 +1,9 @@
 {
-    "RegistryName": "d33lib:license_plate",
+    "RegistryName": "d33lib:license_plate_rus",
     "Addon": "fvtm:d33lib",
-    "Name": "Generic License Plate (12x3)",
-    "Model": "d33lib:textures/model/lic_plate.obj",
-    "Category": [ "license_plate_12x3", "license_plate" ],
+    "Name": "Russian License Plate",
+    "Model": "plate;reg;d33lib:textures/model/lic_plate.obj",
+    "Category": [ "license_plate_euro", "license_plate" ],
     "CreativeTab": "d33lib:parts",
     "Textures": [
     	"RUS;d33lib:textures/model/rus_new.png"
@@ -15,9 +15,15 @@
         "HotSwap": true
     },
     
+    "Attributes": [
+    	{ "id": "plate_id", "type": "string", "value": "a001aa", "editable": true, "external": true },
+    	{ "id": "plate_reg", "type": "string", "value": "77", "editable": true, "external": true }
+    ],
+    
     "ModelData":{
 		"Programs": [
-        "plate fvtm:attr_text_renderer -6 5 -1 0 90 180 18 true license_plate"
+        "plate fvtm:attr_text_renderer -6 5 -1 0 90 180 18 true plate_id",
+        "reg fvtm:attr_text_renderer 19.6 5 -1 0 90 180 12 true plate_reg"
     	]
     }
 }

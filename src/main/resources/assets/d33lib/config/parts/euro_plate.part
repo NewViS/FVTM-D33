@@ -1,0 +1,55 @@
+{
+    "RegistryName": "d33lib:license_plate_euro",
+    "Addon": "fvtm:d33lib",
+    "Name": "European License Plate",
+    "Model": "d33lib:textures/model/lic_plate.obj",
+    "Category": [ "license_plate_euro", "license_plate" ],
+    "CreativeTab": "d33lib:parts",
+    "Textures": [
+    	"Albania;d33lib:textures/model/plate_al.png",
+    	"Belarus;d33lib:textures/model/plate_by.png",
+    	"Bosnia and Herzegovina;d33lib:textures/model/plate_bih.png",
+    	"Bulgaria;d33lib:textures/model/plate_bg.png",
+    	"Croatia;d33lib:textures/model/plate_hr.png",
+    	"Cyprus;d33lib:textures/model/plate_cy.png",
+    	"Czech Republic;d33lib:textures/model/plate_cz.png",
+    	"Denmark;d33lib:textures/model/plate_dk.png",
+    	"Estonia;d33lib:textures/model/plate_est.png",
+    	"Finland;d33lib:textures/model/plate_fin.png",
+    	"Germany;d33lib:textures/model/plate_d.png",
+    	"Greece;d33lib:textures/model/plate_gr.png",
+    	"Hungary;d33lib:textures/model/plate_h.png",
+    	"Ireland;d33lib:textures/model/plate_irl.png",
+    	"Latvia;d33lib:textures/model/plate_lv.png",
+    	"Lithuania;d33lib:textures/model/plate_lt.png",
+    	"Luxembourg;d33lib:textures/model/plate_l.png",
+    	"Malta;d33lib:textures/model/plate_m.png",
+    	"Moldova;d33lib:textures/model/plate_md.png",
+    	"Montenegro;d33lib:textures/model/plate_mne.png",
+    	"Netherlands;d33lib:textures/model/plate_nl.png",
+    	"North Macedonia;d33lib:textures/model/plate_nmk.png",
+    	"Norway;d33lib:textures/model/plate_n.png",
+    	"Poland;d33lib:textures/model/plate_pl.png",
+    	"Portugal;d33lib:textures/model/plate_p.png",
+    	"Romania;d33lib:textures/model/plate_ro.png",
+    	"Serbia;d33lib:textures/model/plate_srb.png",
+    	"Slovakia;d33lib:textures/model/plate_sk.png",
+    	"Slovenia;d33lib:textures/model/plate_slo.png",
+    	"Spain;d33lib:textures/model/plate_e.png",
+    	"Sweden;d33lib:textures/model/plate_s.png",
+    	"Switzerland;d33lib:textures/model/plate_ch.png",
+    	"Ukraine;d33lib:textures/model/plate_ua.png"
+    ],
+    "Installation":{
+    	"Handler": "default",
+        "Removable": true,
+        "SlotBased": true,
+        "HotSwap": true
+    },
+        
+    "ModelData":{
+		"Programs": [
+        "plate fvtm:attr_text_renderer 2 5 -1 0 90 180 18 true license_plate"
+    	]
+    }
+}
