@@ -5,6 +5,7 @@
     "Model": "pov;far_l;far_r;far_z;d33vaz:textures/model/vaz2107.obj",
     "Category": "lights",
     "CreativeTab": "d33lib:parts",
+    "ItemTexture": "d33lib:textures/items/lights.png",
     "Installation":{
     	"Handler": "default",
         "Removable": true,

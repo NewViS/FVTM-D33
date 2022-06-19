@@ -4,7 +4,8 @@
     "Name": "Challenger III Seats",
     "Model": "seats;d33dodge:textures/model/challenger.obj",
     "Category": "seats",
-    "Texture": "Default;fvp:textures/cars/c10.png",
+    "CreativeTab": "d33lib:parts",
+    "ItemTexture": "d33lib:textures/items/seat.png",
     "Installation":{
     	"Handler": "default",
         "Removable": true,

@@ -4,6 +4,8 @@
     "Name": "Challenger III Trunk",
     "Model": "LOD_B_BOOT_mm_col;LOD_B_BOOT_mm_ext;d33dodge:textures/model/challenger.obj",
     "Category": "trunk",
+    "CreativeTab": "d33lib:parts",
+    "ItemTexture": "d33lib:textures/items/trunk.png",
     "Installation":{
     	"Handler": "default",
         "Removable": true,

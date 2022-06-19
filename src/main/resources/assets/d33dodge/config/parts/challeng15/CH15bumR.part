@@ -4,6 +4,8 @@
     "Name": "Challenger III Bumper R",
     "Model": "LOD_B_REARBUMPER_mm_col;LOD_B_REARBUMPER_mm_ext;d33dodge:textures/model/challenger.obj",
     "Category": "bumper_rear",
+    "CreativeTab": "d33lib:parts",
+    "ItemTexture": "d33lib:textures/items/bumr.png",
     "Installation":{
     	"Handler": "default",
         "Removable": true,

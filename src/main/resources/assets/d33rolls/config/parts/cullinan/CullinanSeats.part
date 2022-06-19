@@ -4,6 +4,7 @@
     "Name": "Cullinan Seats",
     "Model": "froseat;d33rolls:textures/model/cullinan.obj",
     "Category": "seats",
+    "ItemTexture": "d33lib:textures/items/seat.png",
     "Installation":{
     	"Handler": "default",
         "Removable": true,

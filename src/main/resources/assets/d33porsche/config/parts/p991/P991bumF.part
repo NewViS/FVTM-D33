@@ -5,6 +5,7 @@
     "Model": "bump_f_ext;bump_f_col;d33porsche:textures/model/porsche991.obj",
     "Category": "bumper_front",
     "CreativeTab": "d33lib:parts",
+    "ItemTexture": "d33lib:textures/items/bumf.png",
     "Installation":{
     	"Handler": "default",
         "Removable": true,

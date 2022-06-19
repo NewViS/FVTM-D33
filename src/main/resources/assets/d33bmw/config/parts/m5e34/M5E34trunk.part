@@ -5,6 +5,7 @@
     "Model": "trunk_body;trunk_black;trunk_badge;trunk_plastic2;trunk_reverse_light;trunk_textured_reflector;trunk_lights_glass;d33bmw:textures/model/bmwm5e34.obj",
     "Category": "trunk",
     "CreativeTab": "d33lib:parts",
+    "ItemTexture": "d33lib:textures/items/trunk.png",
     "Installation":{
     	"Handler": "default",
         "Removable": true,

@@ -5,6 +5,7 @@
     "Model": "steer;d33porsche:textures/model/porsche991.obj",
     "Category": "steering_wheel",
     "CreativeTab": "d33lib:parts",
+    "ItemTexture": "d33lib:textures/items/steer.png",
     "Installation":{
     	"Handler": "default",
         "Removable": true,

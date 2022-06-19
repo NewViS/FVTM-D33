@@ -5,6 +5,7 @@
     "Model": "bumperRa_body;bumperRa_stripe_badge;bumperRa_plastic2;bumperRa_black;d33bmw:textures/model/bmwm5e34.obj",
     "Category": "bumper_rear",
     "CreativeTab": "d33lib:parts",
+    "ItemTexture": "d33lib:textures/items/bumr.png",
     "Installation":{
     	"Handler": "default",
         "Removable": true,

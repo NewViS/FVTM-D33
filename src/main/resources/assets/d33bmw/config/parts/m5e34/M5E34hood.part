@@ -4,8 +4,8 @@
     "Name": "E34 Hood",
     "Model": "hooda_body;hooda_misc;hooda_black;hooda_badge;d33bmw:textures/model/bmwm5e34.obj",
     "Category": "hood",
-    "Texture": "Default;d33lib:items/hood",
     "CreativeTab": "d33lib:parts",
+    "ItemTexture": "d33lib:textures/items/hood.png",
     "Installation":{
     	"Handler": "default",
         "Removable": true,

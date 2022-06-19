@@ -5,7 +5,7 @@
     "Model": "cap_color;cap_chrome;cap_black;d33vaz:textures/model/vaz2107.obj",
     "Category": "hood",
     "CreativeTab": "d33lib:parts",
-    "Texture": "Default;d33lib:items/hood",
+    "ItemTexture": "d33lib:textures/items/hood.png",
     "Installation":{
     	"Handler": "default",
         "Removable": true,

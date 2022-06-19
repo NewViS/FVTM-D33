@@ -5,8 +5,8 @@
 	"Model": "main_col;mirrors;podsteer;povor;inter;backseat;dver_cr;lamp;dno;kuz_bl;kuz_cr;farz;farp;reshet;ruk;statue;zercalo;logo_hud;logo_trunk;lamp_r;lamp_l;d33rolls:textures/model/cullinan.obj",
     "PrimaryColor": "#6B1313",
     "SecondaryColor": "#C2C2C2",
-    "Texture": "Default;fvp:textures/cars/c10.png",
     
+    "CreativeTab": "d33lib:vehicles",
     "Attributes": [
     	{ "id":"weight", "type": "float", "value": 2480 }
     ],

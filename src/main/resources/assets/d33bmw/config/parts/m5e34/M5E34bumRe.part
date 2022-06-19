@@ -5,6 +5,7 @@
     "Model": "bumperRe_body;bumperRe_plastic2;bumperRe_bottom;bumperRe_frame;bumperRe_black;bumperRe_grille2;d33bmw:textures/model/bmwm5e34.obj",
     "Category": "bumper_rear",
     "CreativeTab": "d33lib:parts",
+    "ItemTexture": "d33lib:textures/items/bumr.png",
     "Installation":{
     	"Handler": "default",
         "Removable": true,

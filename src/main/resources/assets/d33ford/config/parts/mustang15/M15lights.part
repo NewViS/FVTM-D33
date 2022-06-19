@@ -5,6 +5,7 @@
     "Model": "headli_r;headli_l;tail_r;tail_l;d33ford:textures/model/mustang15.obj",
     "Category": "lights",
     "CreativeTab": "d33lib:parts",
+    "ItemTexture": "d33lib:textures/items/lights.png",
     "Installation":{
     	"Handler": "default",
         "Removable": true,

@@ -5,6 +5,7 @@
     "Model": "seat;d33porsche:textures/model/porsche991.obj",
     "Category": "seats",
     "CreativeTab": "d33lib:parts",
+    "ItemTexture": "d33lib:textures/items/seat.png",
     "Installation":{
     	"Handler": "default",
         "Removable": true,

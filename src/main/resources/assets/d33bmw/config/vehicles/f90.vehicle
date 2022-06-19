@@ -2,7 +2,7 @@
     "RegistryName": "d33bmw:m5f90",
     "Addon": "fvtm:d33bmw",
     "Name": "BMW M5 F90",
-	"Model": "body;doorrf_zerc;carbone;gluh;stop;int;reaglb;bl;plast;doorrr_bl;doorlr_bl;reshrad;dno;black;windscreb;m5;eng;d33bmw:textures/model/bmwm5f90.obj",
+	"Model": "body;doorrf_zerc;carbone;gluh;stop;int;reaglb;bl;plast;doorrr_bl;doorlr_bl;reshrad;dno;zashit;black;windscreb;m5;eng;d33bmw:textures/model/bmwm5f90.obj",
     "PrimaryColor": "#212C2F",
     "Texture": "Default;fvp:textures/cars/c10.png",
     "CreativeTab": "d33lib:vehicles",
@@ -38,7 +38,7 @@
     	"hood": "d33bmw:f90_hood",
     	"lights": "d33bmw:f90_lights",
     	"trunk": "d33bmw:f90_trunk",
-    	"engine": "gep:engine_petrol",
+    	"s:vehicle_partslots:engine:0": "d33lib:engine_s63",
     	"transmission": "gep:transmission"
     },
     "LegacyData":{
@@ -53,6 +53,9 @@
     	"right_front": [ 14, -3, -11, "right_rear" ],
     	"right_rear": [ -14, -3, -11, "right_front" ]
     },
+    "PartSlots":[
+    	[ 25.1, -6.37, 0, "engine", "engine" ]
+    ],
     "SwivelPoints":[
 		{
 			"id": "f90_trunk",

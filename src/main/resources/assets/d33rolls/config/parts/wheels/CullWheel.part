@@ -4,6 +4,7 @@
     "Name": "Cull Wheel",
     "Model": "d33rolls:textures/model/wheel/cull_rim.obj",
     "Category": "wheel",
+    "CreativeTab": "d33lib:rims",
     "Functions": [
     	"fvtm:wheel",
     	{

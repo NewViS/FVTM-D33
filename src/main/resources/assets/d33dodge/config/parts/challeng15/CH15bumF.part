@@ -4,6 +4,8 @@
     "Name": "Challenger III Bumper F",
     "Model": "LOD_B_FRONTBUMPER_mm_col;LOD_B_FRONTBUMPER_mm_ext;d33dodge:textures/model/challenger.obj",
     "Category": "bumper_front",
+    "CreativeTab": "d33lib:parts",
+    "ItemTexture": "d33lib:textures/items/bumf.png",
     "Installation":{
     	"Handler": "default",
         "Removable": true,

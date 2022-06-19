@@ -5,6 +5,7 @@
     "Model": "bumperFe_body;bumperFe_plastic2;bumperFe_frame;bumperFe_bottom;bumperFe_black;bumperFe_detail_glass_clear;d33bmw:textures/model/bmwm5e34.obj",
     "Category": "bumper_front",
     "CreativeTab": "d33lib:parts",
+    "ItemTexture": "d33lib:textures/items/bumf.png",
     "Installation":{
     	"Handler": "default",
         "Removable": true,

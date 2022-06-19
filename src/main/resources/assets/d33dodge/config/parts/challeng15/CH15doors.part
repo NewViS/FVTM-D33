@@ -4,6 +4,8 @@
     "Name": "Challenger III Doors",
     "Model": "LOD_B_DOOR_LEFT_mm_col;LOD_B_DOOR_RIGHT_mm_col;LOD_B_MIRROR_RIGHT_mm_ext;LOD_B_MIRROR_LEFT_mm_ext;LOD_B_DOOR_RIGHT_mm_ext;LOD_B_DOOR_LEFT_mm_ext;LOD_B_MIRROR_GLASS_LEFT_mm_ext;LOD_B_MIRROR_GLASS_RIGHT_mm_ext;LOD_B_DOOR_LEFT_mm_cab;LOD_B_DOOR_RIGHT_mm_cab;d33dodge:textures/model/challenger.obj",
     "Category": "doors",
+    "CreativeTab": "d33lib:parts",
+    "ItemTexture": "d33lib:textures/items/doors.png",
     "Installation":{
     	"Handler": "default",
         "Removable": true,

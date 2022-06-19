@@ -5,6 +5,7 @@
     "Model": "bumpf_chrome;bumpf_black;d33vaz:textures/model/vaz2105.obj",
     "Category": "bumper_front",
     "CreativeTab": "d33lib:parts",
+    "ItemTexture": "d33lib:textures/items/bumf.png",
     "Installation":{
     	"Handler": "default",
         "Removable": true,

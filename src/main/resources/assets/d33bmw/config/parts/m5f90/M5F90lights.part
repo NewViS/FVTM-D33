@@ -5,6 +5,7 @@
     "Model": "farz;katafr;kataf;farpr;far;farpl;farprgl;farpgll;fongll;fonglr;d33bmw:textures/model/bmwm5f90.obj",
     "Category": "lights",
     "CreativeTab": "d33lib:parts",
+    "ItemTexture": "d33lib:textures/items/lights.png",
     "Installation":{
     	"Handler": "default",
         "Removable": true,

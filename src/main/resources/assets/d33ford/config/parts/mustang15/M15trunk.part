@@ -5,6 +5,7 @@
     "Model": "boot_ext;boot_col;d33ford:textures/model/mustang15.obj",
     "Category": "trunk",
     "CreativeTab": "d33lib:parts",
+    "ItemTexture": "d33lib:textures/items/trunk.png",
     "Installation":{
     	"Handler": "default",
         "Removable": true,

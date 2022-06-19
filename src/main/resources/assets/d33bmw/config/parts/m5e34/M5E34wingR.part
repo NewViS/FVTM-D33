@@ -5,6 +5,7 @@
     "Model": "wingrace_carbon_fiber;wingrace_chrome;wingrace_rubber_trim;d33bmw:textures/model/bmwm5e34.obj",
     "Category": "wing",
     "CreativeTab": "d33lib:parts",
+    "ItemTexture": "d33lib:textures/items/wing.png",
     "Installation":{
     	"Handler": "default",
         "Removable": true,

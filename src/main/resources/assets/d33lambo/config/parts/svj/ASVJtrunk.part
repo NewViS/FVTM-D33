@@ -5,6 +5,7 @@
     "Model": "glass_rea_bl;glass_rea_gl;boot_col;boot_ext;d33lambo:textures/model/aventador_svj.obj",
     "Category": "hood",
     "CreativeTab": "d33lib:parts",
+    "ItemTexture": "d33lib:textures/items/trunk.png",
     "Installation":{
     	"Handler": "default",
         "Removable": true,

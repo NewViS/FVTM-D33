@@ -5,6 +5,7 @@
     "Model": "head_lens_r;head_lens_l;tail_lens_r;tail_lens_l;brakes_r;brakes_l;brakes_reabump;d33lambo:textures/model/aventador_svj.obj",
     "Category": "lights",
     "CreativeTab": "d33lib:parts",
+    "ItemTexture": "d33lib:textures/items/lights.png",
     "Installation":{
     	"Handler": "default",
         "Removable": true,

@@ -5,6 +5,7 @@
     "Model": "door_l_int;door_r_int;door_l_ext;door_r_ext;mirr_l_ext;mirr_r_ext;door_l_col;mirr_l_col;mirr_r_col;door_r_col;d33porsche:textures/model/porsche991.obj",
     "Category": "doors",
     "CreativeTab": "d33lib:parts",
+    "ItemTexture": "d33lib:textures/items/doors.png",
     "Installation":{
     	"Handler": "default",
         "Removable": true,

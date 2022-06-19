@@ -5,6 +5,7 @@
     "Model": "reabump_col;reabump_ext;d33lambo:textures/model/aventador_svj.obj",
     "Category": "bumper_rear",
     "CreativeTab": "d33lib:parts",
+    "ItemTexture": "d33lib:textures/items/bumr.png",
     "Installation":{
     	"Handler": "default",
         "Removable": true,

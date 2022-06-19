@@ -5,6 +5,7 @@
     "Model": "steer;d33lambo:textures/model/aventador_svj.obj",
     "Category": "steering_wheel",
     "CreativeTab": "d33lib:parts",
+    "ItemTexture": "d33lib:textures/items/steer.png",
     "Installation":{
     	"Handler": "default",
         "Removable": true,

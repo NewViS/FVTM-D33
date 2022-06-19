@@ -1,0 +1,80 @@
+{
+    "RegistryName": "d33lib:engine_s63",
+    "Addon": "fvtm:d33lib",
+    "Name": "BMW S63 Engine",
+    "Model": "d33lib:textures/model/s63eng.obj",
+    "CreativeTab": "d33lib:parts",
+    "Texture": "Default;d33lib:textures/model/eng_s63.png",
+    "Category": [
+    	"engine", "ballast", "decoration"
+    ],
+    "Textures": "fvtm:textures/entity/null.png",
+    "Installation":{
+    	"Handler": "default",
+        "Removable": true,
+        "SlotBased": true
+    },
+    "Modifiers":[
+    	{ "id": "weight", "type": "additive", "target": "vehicle:weight", "value": "104", "priority": "veryhigh" }
+    ],
+    "Functions": [
+    	{
+	    	"id": "fvtm:engine",
+	    	"engine_speed": 1,
+	    	"idle_consumption": 1.5,
+	    	"active_consumption": 14,
+	    	"consumptions": {
+	    		"super98": 10.8,
+	    		"e10": 8.7
+	    	},
+	    	"fuel_group": "petrol",
+
+	    	"min_rpm": 1500,
+		    "max_rpm": 6600,
+		    "torque_chart":{
+		        "1000": 242,
+		        "2000": 300,
+		        "2700": 460,
+		        "3600": 514,
+		        "4700": 510,
+		        "6000": 350,
+		        "6600": 250
+		    },
+		    "__comment": "example/testing values"
+	    },
+    	{
+    		"id": "fvtm_potr:emission_emitter",
+    		"emissions": [ 0.25, 0.01, 0.25 ],
+    		"engine": true
+    	}
+	],
+    "Sounds":[
+    	{
+    		"event": "engine_start",
+    		"sound": "d33lib:vaz_start"
+    	},
+    	{
+    		"event": "engine_stop",
+    		"sound": "minecraft:block.dispenser.fail"
+    	},
+    	{
+    		"event": "engine_running",
+    		"sound": "d33lib:vaz_engine",
+    		"volume": 0.2
+    	}
+    ],
+    
+    "ModelData":{	
+    	"Authors":["author"],
+    
+		"Transforms": [
+			"rotation 0 0 1 180",
+			"rotation 0 1 0 90",
+			"scale 0.2",
+			"rescale_normal"
+		],
+		
+		"FlipV": true
+		
+	}
+}

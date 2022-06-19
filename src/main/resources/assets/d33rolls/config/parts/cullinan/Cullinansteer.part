@@ -4,6 +4,7 @@
     "Name": "Cullinan Steering Wheel",
     "Model": "steer;d33rolls:textures/model/cullinan.obj",
     "Category": "steering_wheel",
+    "ItemTexture": "d33lib:textures/items/steer.png",
     "Installation":{
     	"Handler": "default",
         "Removable": true,

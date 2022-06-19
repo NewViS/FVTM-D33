@@ -4,6 +4,8 @@
     "Name": "Aventador SVJ Doors",
     "Model": "mirr_r_col;mirr_l_col;mirr_r_cr;mirr_l_cr;door_r_ext;door_l_ext;door_r_int;door_l_int;door_r_col;door_l_col;door_r_gl;door_l_gl;d33lambo:textures/model/aventador_svj.obj",
     "Category": "doors",
+    "CreativeTab": "d33lib:parts",
+    "ItemTexture": "d33lib:textures/items/doors.png",
     "Installation":{
     	"Handler": "default",
         "Removable": true,

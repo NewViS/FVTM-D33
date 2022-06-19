@@ -5,6 +5,7 @@
     "Model": "bag;bagins;farb;gl_bag;logob;d33bmw:textures/model/bmwm5f90.obj",
     "Category": "trunk",
     "CreativeTab": "d33lib:parts",
+    "ItemTexture": "d33lib:textures/items/trunk.png",
     "Installation":{
     	"Handler": "default",
         "Removable": true,

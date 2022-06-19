@@ -4,6 +4,8 @@
     "Name": "Challenger III Lights",
     "Model": "LOD_B_TAILLIGHT_LENS_REARBUMPER_LEFT_mm_ext;LOD_B_TAILLIGHT_LENS_REARBUMPER_RIGHT_mm_ext;LOD_B_HEADLIGHT_LENS_LEFT_mm_windows;LOD_B_HEADLIGHT_LENS_RIGHT_mm_windows;d33dodge:textures/model/challenger.obj",
     "Category": "lights",
+    "CreativeTab": "d33lib:parts",
+    "ItemTexture": "d33lib:textures/items/lights.png",
     "Installation":{
     	"Handler": "default",
         "Removable": true,

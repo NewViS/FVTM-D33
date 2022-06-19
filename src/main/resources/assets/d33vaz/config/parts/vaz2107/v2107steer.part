@@ -5,6 +5,7 @@
     "Model": "steer_bl;steer_chrome;d33vaz:textures/model/vaz2107.obj",
     "Category": "steering_wheel",
     "CreativeTab": "d33lib:parts",
+    "ItemTexture": "d33lib:textures/items/steer.png",
     "Installation":{
     	"Handler": "default",
         "Removable": true,

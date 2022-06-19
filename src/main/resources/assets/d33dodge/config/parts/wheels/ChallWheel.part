@@ -4,6 +4,7 @@
     "Name": "Chall Wheel",
     "Model": "d33dodge:textures/model/wheel/chall.obj",
     "Category": "wheel",
+    "CreativeTab": "d33lib:rims",
     "Functions": [
     	"fvtm:wheel",
     	{

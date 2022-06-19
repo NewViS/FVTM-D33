@@ -4,7 +4,9 @@
     "Name": "Challenger III Hood",
     "Model": "LOD_B_HOOD_mm_col;LOD_B_HOOD_mm_ext;d33dodge:textures/model/challenger.obj",
     "Category": "hood",
-    "Texture": "Default;d33lib:items/hood",
+    "CreativeTab": "d33lib:parts",
+    "ItemTexture": "d33lib:textures/items/hood.png",
+    
     "Installation":{
     	"Handler": "default",
         "Removable": true,

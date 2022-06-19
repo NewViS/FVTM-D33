@@ -5,6 +5,7 @@
     "Model": "trunk;trunk_tex;trunk_chrome;trunk_black;d33vaz:textures/model/vaz2107.obj",
     "Category": "trunk",
     "CreativeTab": "d33lib:parts",
+    "ItemTexture": "d33lib:textures/items/trunk.png",
     "Installation":{
     	"Handler": "default",
         "Removable": true,

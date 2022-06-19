@@ -5,6 +5,7 @@
     "Model": "seats;d33lambo:textures/model/aventador_svj.obj",
     "Category": "seats",
     "CreativeTab": "d33lib:parts",
+    "ItemTexture": "d33lib:textures/items/seat.png",
     "Installation":{
     	"Handler": "default",
         "Removable": true,

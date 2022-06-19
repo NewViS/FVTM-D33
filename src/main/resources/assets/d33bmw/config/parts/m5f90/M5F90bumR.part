@@ -5,6 +5,7 @@
     "Model": "bumpr;bumprp;bumprl;d33bmw:textures/model/bmwm5f90.obj",
     "Category": "bumper_rear",
     "CreativeTab": "d33lib:parts",
+    "ItemTexture": "d33lib:textures/items/bumr.png",
     "Installation":{
     	"Handler": "default",
         "Removable": true,

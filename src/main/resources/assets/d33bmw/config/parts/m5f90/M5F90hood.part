@@ -6,6 +6,7 @@
     "Category": "hood",
     "Texture": "Default;d33lib:items/hood",
     "CreativeTab": "d33lib:parts",
+    "ItemTexture": "d33lib:textures/items/hood.png",
     "Installation":{
     	"Handler": "default",
         "Removable": true,

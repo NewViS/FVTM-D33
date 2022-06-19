@@ -5,6 +5,7 @@
     "Model": "RF_color;lr_color;FR_color;rr_color;RF_leather;FR_leather;rr_lea;lr_lea;RF_chrome;FR_chrome;rr_chrome;lr_chrome;RF_black;lr_black;FR_black;rr_black;d33vaz:textures/model/vaz2104.obj",
     "Category": "doors",
     "CreativeTab": "d33lib:parts",
+    "ItemTexture": "d33lib:textures/items/doors.png",
     "Installation":{
     	"Handler": "default",
         "Removable": true,

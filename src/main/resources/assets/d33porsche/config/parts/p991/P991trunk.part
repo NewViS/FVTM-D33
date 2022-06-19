@@ -5,6 +5,7 @@
     "Model": "boot_ext;boot_col;d33porsche:textures/model/porsche991.obj",
     "Category": "hood",
     "CreativeTab": "d33lib:parts",
+    "ItemTexture": "d33lib:textures/items/trunk.png",
     "Installation":{
     	"Handler": "default",
         "Removable": true,

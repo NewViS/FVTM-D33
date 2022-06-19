@@ -5,6 +5,7 @@
     "Model": "door_rr_col;mirrorL_body;mirrorR_body;door_rf_col;door_lr_col;door_lf_col;door_rr_black;door_rf_black;door_lr_black;door_lf_black;door_rr_int;door_rf_int;door_lf_int;door_lr_int;door_rr_plastic2;mirrorL_chrome;mirrorR_chrome;door_rf_plastic2;door_lr_plastic2;door_lf_plastic2;door_rf_badge;door_lf_badge;d33bmw:textures/model/bmwm5e34.obj",
     "Category": "doors",
     "CreativeTab": "d33lib:parts",
+    "ItemTexture": "d33lib:textures/items/doors.png",
     "Installation":{
     	"Handler": "default",
         "Removable": true,

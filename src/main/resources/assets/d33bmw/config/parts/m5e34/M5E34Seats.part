@@ -5,7 +5,7 @@
     "Model": "seatR_interior;seatL_interior;d33bmw:textures/model/bmwm5e34.obj",
     "Category": "seats",
     "CreativeTab": "d33lib:parts",
-    "Texture": "Default;fvp:textures/cars/c10.png",
+    "ItemTexture": "d33lib:textures/items/seat.png",
     "Installation":{
     	"Handler": "default",
         "Removable": true,

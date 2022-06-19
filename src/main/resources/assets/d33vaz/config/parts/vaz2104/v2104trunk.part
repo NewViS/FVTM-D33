@@ -5,6 +5,7 @@
     "Model": "bagcolor;bag_black;bag_chrome;baglamp;bagruk;d33vaz:textures/model/vaz2104.obj",
     "Category": "trunk",
     "CreativeTab": "d33lib:parts",
+    "ItemTexture": "d33lib:textures/items/trunk.png",
     "Installation":{
     	"Handler": "default",
         "Removable": true,
