@@ -32,7 +32,7 @@
     	"left_front_wheel": "d33bmw:e34_wheel",
     	"right_back_wheel": "d33bmw:e34_wheel",
     	"left_back_wheel": "d33bmw:e34_wheel",
-    	"steering_wheel": "d33bmw:e34_steer",
+    	"s:vehicle_partslots:steering_wheel:2": "d33bmw:e34_steer",
     	"bumper_front": "d33bmw:e34_bumf",
     	"bumper_rear": "d33bmw:e34_bumr",
     	"hood": "d33bmw:e34_hood",
@@ -57,7 +57,8 @@
     },
     "PartSlots":[
     	[ 23.8, -4.96, 0, "engine", "engine" ],
-    	[ 47.5, -7.5, 0, "license_plate", "license_plate_front", 4]
+    	[ 47.5, -7.5, 0, "license_plate", "license_plate_front", 4],
+    	[ 8.8, -17.8, 7.8, "steering_wheel", "steering_wheel", 4, [ 0, 0, 19 ]]
     ],
     "SwivelPoints":[
 		{

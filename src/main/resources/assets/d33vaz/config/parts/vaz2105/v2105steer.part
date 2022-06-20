@@ -9,11 +9,8 @@
     "Installation":{
     	"Handler": "default",
         "Removable": true,
-        "Compatible":[
-            { "vehicle": "d33vaz:vaz2107", "x": 0, "y": 0, "z": 0 },
-            { "vehicle": "d33vaz:vaz2105", "x": 0, "y": 0, "z": 0 },
-            { "vehicle": "d33vaz:vaz2104", "x": 0, "y": 0, "z": 0 }
-        ]
+        "SlotBased": true,
+        "HotSwap": true
     },
     "Modifiers":[
     	{

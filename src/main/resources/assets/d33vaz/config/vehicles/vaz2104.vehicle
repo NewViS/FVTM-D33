@@ -31,7 +31,7 @@
     	"left_front_wheel": "d33vaz:rect5_wheel",
     	"right_back_wheel": "d33vaz:rect5_wheel",
     	"left_back_wheel": "d33vaz:rect5_wheel",
-    	"steering_wheel": "d33vaz:v05_steer",
+    	"s:vehicle_partslots:steering_wheel:2": "d33vaz:v05_steer",
     	"bumper_front": "d33vaz:v05_bumf",
     	"bumper_rear": "d33vaz:v05_bumr",
     	"doors": "d33vaz:v04_doors",
@@ -55,7 +55,8 @@
     },
     "PartSlots":[
     	[ 23.3, -6.32, 0, "engine", "engine" ],
-    	[ 40.56, -7.73, 0, "license_plate", "license_plate_front", 4 ]
+    	[ 40.56, -7.73, 0, "license_plate", "license_plate_front", 4 ],
+    	[ 11.4, -15.8, 6.3, "steering_wheel", "steering_wheel", 4, [ 0, 0, 30]]
     ],
     "SwivelPoints":[
 		{

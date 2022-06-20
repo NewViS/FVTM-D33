@@ -65,9 +65,7 @@
     ],
     
     "ModelData":{	
-    	"Authors":["author"],
-    
-		"Transforms": [
+    	"Transforms": [
 			"rotation 0 0 1 180",
 			"rotation 0 1 0 90",
 			"scale 0.2",

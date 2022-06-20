@@ -31,7 +31,7 @@
     	"left_front_wheel": "d33bmw:f90_wheel",
     	"right_back_wheel": "d33bmw:f90_wheel",
     	"left_back_wheel": "d33bmw:f90_wheel",
-    	"steering_wheel": "d33bmw:f90_steer",
+    	"s:vehicle_partslots:steering_wheel:1": "d33bmw:f90_steer",
     	"bumper_front": "d33bmw:f90_bumf",
     	"bumper_rear": "d33bmw:f90_bumr",
     	"doors": "d33bmw:f90_doors",
@@ -54,7 +54,8 @@
     	"right_rear": [ -14, -3, -11, "right_front" ]
     },
     "PartSlots":[
-    	[ 25.1, -6.37, 0, "engine", "engine" ]
+    	[ 25.1, -6.37, 0, "engine", "engine" ],
+    	[ 9.5, -17.6, 7.9, "steering_wheel", "steering_wheel", 4, [ 0, 0, 21]]
     ],
     "SwivelPoints":[
 		{
