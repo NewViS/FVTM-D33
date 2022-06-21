@@ -3,8 +3,7 @@
     "Addon": "fvtm:d33bmw",
     "Name": "BMW M5 E34",
 	"Model": "body_body;undercarriage_color;body_body_2;body_black_glass;body_chrome;bumperFrameR_bumper_frame;bumperFrameF_bumper_frame;body_reflector_r;body_reflector_l;interior_interior;interior_chrome;body_weatherstrip;body_rubber_trim;body_plastic2;body_black;body_badge;exhausta_misc;exhausta_chrome;exhausta_black;steering_wheel_interior;body_frame;engine_ext;undercarriagea_undercarriage;d33bmw:textures/model/bmwm5e34.obj",
-    "PrimaryColor": "#F0F0F0",
-    "SecondaryColor": "#C2C2C2",
+    "PrimaryColor": "#19557A",
     "Texture": "Default;fvp:textures/cars/c10.png",
     "CreativeTab": "d33lib:vehicles",
     "Attributes": [
@@ -13,10 +12,10 @@
     ],
     "Category": "car,sedan",
     "WheelPositions":[
-        { "x":  31, "y": -6.625, "z":  13, "id": "left_front_wheel", "radius": 7, "drive": true, "steering": true },
-        { "x":  31, "y": -6.625, "z": -13, "id": "right_front_wheel", "radius": 7, "y_rot": 180, "drive": true, "steering": true },
-        { "x": -27, "y": -6.625, "z":  13, "id": "left_back_wheel", "radius": 7 },
-        { "x": -27, "y": -6.625, "z": -13, "id": "right_back_wheel", "radius": 7, "y_rot": 180 }
+        { "x":  31, "y": -6.625, "z":  13, "id": "left_front_wheel", "radius": 7, "steering": true },
+        { "x":  31, "y": -6.625, "z": -13, "id": "right_front_wheel", "radius": 7, "y_rot": 180, "steering": true },
+        { "x": -27, "y": -6.625, "z":  13, "id": "left_back_wheel", "radius": 7, "drive": true },
+        { "x": -27, "y": -6.625, "z": -13, "id": "right_back_wheel", "radius": 7, "y_rot": 180, "drive": true }
     ],
     "RequiredParts": [
     	"right_front_wheel",

@@ -1,0 +1,31 @@
+{
+    "RegistryName": "d33lib:license_plate_rus_jpa",
+    "Addon": "fvtm:d33lib",
+    "Name": "Russian Square License Plate",
+    "Model": "plate;reg;downline;d33lib:textures/model/jpa_plate.obj",
+    "Category": [ "license_plate_jpa", "license_plate" ],
+    "CreativeTab": "d33lib:parts",
+    "Textures": [
+    	"RUS;d33lib:textures/model/rus_new_jpa.png"
+    ],
+    "Installation":{
+    	"Handler": "default",
+        "Removable": true,
+        "SlotBased": true,
+        "HotSwap": true
+    },
+    
+    "Attributes": [
+    	{ "id": "plate_up", "type": "string", "value": "A 001", "editable": false, "external": true },
+    	{ "id": "plate_down", "type": "string", "value": "AA", "editable": false, "external": true },
+    	{ "id": "plate_reg", "type": "string", "value": "77", "editable": false, "external": true }
+    ],
+    
+    "ModelData":{
+		"Programs": [
+        	"plate fvtm:attr_text_renderer 0 9 -1 0 90 180 18 true plate_up",
+        	"downline fvtm:attr_text_renderer -6.3 1 -1 0 90 180 18 true plate_down",
+        	"reg fvtm:attr_text_renderer 8.47 0.5 -1 0 90 180 12 true plate_reg"
+    	]
+    }
+}

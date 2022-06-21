@@ -41,7 +41,7 @@
 # Program: boot_tex fvtm:bind_texture d33vaz:textures/model/exterior2101.png
 # Program: lf_tex fvtm:bind_texture d33vaz:textures/model/doors2101.png
 # Program: fara_pered fvtm:bind_texture d33vaz:textures/model/exterior2101.png
-# Program: steer fvtm:bind_texture d33vaz:textures/model/210113.png
+# Program: steer fvtm:bind_texture d33vaz:textures/model/salon2101.png
 
 # Program: bumper fvtm:bind_texture d33vaz:textures/model/21011.png
 # Program: zbump fvtm:bind_texture d33vaz:textures/model/21011.png

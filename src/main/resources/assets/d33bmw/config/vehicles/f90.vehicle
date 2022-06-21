@@ -12,10 +12,10 @@
     ],
     "Category": "car,sedan",
     "WheelPositions":[
-        { "x":  32, "y": -5.8, "z":  13.2, "id": "left_front_wheel", "radius": 7, "drive": true, "steering": true },
-        { "x":  32, "y": -5.8, "z": -13.2, "id": "right_front_wheel", "radius": 7, "y_rot": 180, "drive": true, "steering": true },
-        { "x": -27.2, "y": -5.8, "z":  13.2, "id": "left_back_wheel", "radius": 7 },
-        { "x": -27.2, "y": -5.8, "z": -13.2, "id": "right_back_wheel", "radius": 7, "y_rot": 180 }
+        { "x":  32, "y": -5.8, "z":  13.2, "id": "left_front_wheel", "radius": 7, "steering": true },
+        { "x":  32, "y": -5.8, "z": -13.2, "id": "right_front_wheel", "radius": 7, "y_rot": 180, "steering": true },
+        { "x": -27.2, "y": -5.8, "z":  13.2, "id": "left_back_wheel", "radius": 7, "drive": true },
+        { "x": -27.2, "y": -5.8, "z": -13.2, "id": "right_back_wheel", "radius": 7, "y_rot": 180, "drive": true }
     ],
     "RequiredParts": [
     	"right_front_wheel",

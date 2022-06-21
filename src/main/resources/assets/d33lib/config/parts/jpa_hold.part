@@ -1,0 +1,24 @@
+{
+    "RegistryName": "d33lib:jpa_plate_holder",
+    "Addon": "fvtm:d33lib",
+    "Name": "JPA Plate Holder",
+    "Model": "d33lib:textures/model/jpa_hold.obj",
+    "Category": [ "license_plate_jpa", "license_plate" ],
+    "CreativeTab": "d33lib:parts",
+    "Textures": [
+    	"Black;d33lib:textures/model/jhold_black.png"
+    ],
+    "Installation":{
+    	"Handler": "default",
+        "Removable": true,
+        "SlotBased": true,
+        "HotSwap": true
+    },
+    "Function":{
+	    "id": "fvtm:part_slots",
+		"slots":[
+			[ 0.017, 0, 0, "license_plate_jpa", "*_lp"]
+		],
+		"copy_rot": true
+    }
+}

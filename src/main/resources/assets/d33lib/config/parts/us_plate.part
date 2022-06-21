@@ -1,0 +1,34 @@
+{
+    "RegistryName": "d33lib:license_plate_us",
+    "Addon": "fvtm:d33lib",
+    "Name": "United States License Plate",
+    "Model": "d33lib:textures/model/jpa_plate.obj",
+    "Category": [ "license_plate_jpa", "license_plate" ],
+    "CreativeTab": "d33lib:parts",
+    "Textures": [
+    	"Alabama;d33lib:textures/model/us_plate/usplate_alabama.png",
+    	"Alaska;d33lib:textures/model/us_plate/usplate_alaska.png",
+    	"Arizona;d33lib:textures/model/us_plate/usplate_arizona.png",
+    	"Arkansas;d33lib:textures/model/us_plate/usplate_arkansas.png",
+    	"California;d33lib:textures/model/us_plate/usplate_california.png",
+    	"Colorado;d33lib:textures/model/us_plate/usplate_colorado.png",
+    	"Connecticut;d33lib:textures/model/us_plate/usplate_connecticut.png",
+    	"Washington DC;d33lib:textures/model/us_plate/usplate_dc.png",
+    	"Florida;d33lib:textures/model/us_plate/usplate_florida.png",
+    	"Illinois;d33lib:textures/model/us_plate/usplate_illinois.png",
+    	"New York;d33lib:textures/model/us_plate/usplate_newyork.png",
+    	"Texas;d33lib:textures/model/us_plate/usplate_texas.png"
+    ],
+    "Installation":{
+    	"Handler": "default",
+        "Removable": true,
+        "SlotBased": true,
+        "HotSwap": true
+    },
+    
+    "ModelData":{
+		"Programs": [
+        	"plate fvtm:attr_text_renderer 0 5 -1 0 90 180 16 true license_plate"
+        ]
+    }
+}
