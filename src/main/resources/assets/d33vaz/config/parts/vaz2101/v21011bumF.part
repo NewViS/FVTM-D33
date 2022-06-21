@@ -1,8 +1,8 @@
 {
-    "RegistryName": "d33vaz:v01_bumf",
+    "RegistryName": "d33vaz:v011_bumf",
     "Addon": "fvtm:d33vaz",
-    "Name": "VAZ 2101 Bumper F",
-    "Model": "bumpf_chrome;bumpf_tex;d33vaz:textures/model/vaz2101.obj",
+    "Name": "VAZ 21011 Bumper F",
+    "Model": "bumper;d33vaz:textures/model/vaz2101.obj",
     "Category": "bumper_front",
     "CreativeTab": "d33lib:parts",
     "ItemTexture": "d33lib:textures/items/bumf.png",
@@ -29,7 +29,7 @@
     "Function":{
 	    "id": "fvtm:part_slots",
 		"slots":[
-			[ 40, -7, 0, "license_plate", "license_plate_front", 4, [ 0, 0, 0 ] ]
+			[ 39.4, -7, 0, "license_plate", "license_plate_front", 4, [ 0, 0, 0 ] ]
 		]
     }
 }

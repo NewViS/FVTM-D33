@@ -11,10 +11,10 @@
     ],
     "Category": "car,sedan",
     "WheelPositions":[
-        { "x":  28.4, "y": -5, "z":  11.5, "id": "left_front_wheel", "radius": 5.5, "drive": true, "steering": true },
-        { "x":  28.4, "y": -5, "z": -11.5, "id": "right_front_wheel", "radius": 5.5, "y_rot": 180, "drive": true, "steering": true },
-        { "x": -20, "y": -5, "z":  11, "id": "left_back_wheel", "radius": 5.5 },
-        { "x": -20, "y": -5, "z": -11, "id": "right_back_wheel", "radius": 5.5, "y_rot": 180 }
+        { "x":  28.4, "y": -5, "z":  12, "id": "left_front_wheel", "radius": 5.5, "drive": true, "steering": true },
+        { "x":  28.4, "y": -5, "z": -12, "id": "right_front_wheel", "radius": 5.5, "y_rot": 180, "drive": true, "steering": true },
+        { "x": -20, "y": -5, "z":  12, "id": "left_back_wheel", "radius": 5.5 },
+        { "x": -20, "y": -5, "z": -12, "id": "right_back_wheel", "radius": 5.5, "y_rot": 180 }
     ],
     "RequiredParts": [
     	"right_front_wheel",
@@ -26,14 +26,15 @@
     ],
     "PreInstalled": {
     	"seats": "d33vaz:v01_seats",
-    	"right_front_wheel": "d33vaz:rect5_wheel",
-    	"left_front_wheel": "d33vaz:rect5_wheel",
-    	"right_back_wheel": "d33vaz:rect5_wheel",
-    	"left_back_wheel": "d33vaz:rect5_wheel",
+    	"right_front_wheel": "d33vaz:circlerect_wheel",
+    	"left_front_wheel": "d33vaz:circlerect_wheel",
+    	"right_back_wheel": "d33vaz:circlerect_wheel",
+    	"left_back_wheel": "d33vaz:circlerect_wheel",
     	"s:vehicle_partslots:steering_wheel:2": "d33vaz:v01_steer",
     	"bumper_front": "d33vaz:v01_bumf",
     	"bumper_rear": "d33vaz:v01_bumr",
     	"doors": "d33vaz:v01_doors",
+    	"mirror": "d33vaz:v01_mirror",
     	"hood": "d33vaz:v01_hood",
     	"lights": "d33vaz:v01_lights",
     	"trunk": "d33vaz:v01_trunk",
@@ -53,8 +54,8 @@
     	"right_rear": [ -10, -5, -13, "right_front" ]
     },
     "PartSlots":[
-    	[ 23.3, -6.32, 0, "engine", "engine" ],
-    	[ -38.1, -13.13, 0, "license_plate", "license_plate_rear", 4, [ 0, 180, 0 ] ],
-    	[ 12.52, -15.8, 6.1, "steering_wheel", "steering_wheel", 4, [ 0, 0, 30]]
+    	[ 22.8, -6.32, 0, "engine", "engine" ],
+    	[ -38.4, -11.8, 0, "license_plate", "license_plate_rear", 4, [ 0, 180, 6.6 ] ],
+    	[ 12.52, -15.8, 6.5, "steering_wheel", "steering_wheel", 4, [ 0, 0, 30]]
     ]
 }

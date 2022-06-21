@@ -1,0 +1,23 @@
+{
+    "RegistryName": "d33vaz:v011_lights",
+    "Addon": "fvtm:d33vaz",
+    "Name": "VAZ 21011 Lights",
+    "Model": "fara_pered;pov_pered;shild;fz;fonar;far;farzad;pov_;d33vaz:textures/model/vaz2101.obj",
+    "Category": "lights",
+    "CreativeTab": "d33lib:parts",
+    "ItemTexture": "d33lib:textures/items/lights.png",
+    "Installation":{
+    	"Handler": "default",
+        "Removable": true,
+        "Compatible":[
+            { "vehicle": "d33vaz:vaz2101", "x": 0, "y": 0, "z": 0 }
+        ]
+    },
+    "Modifiers":[
+    	{
+    		"id": "weight", "type": "additive",
+    		"target": "vehicle:weight",
+    		"value": "20", "priority": "veryhigh"
+    	}
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "RegistryName": "d33vaz:v011_steer",
+    "Addon": "fvtm:d33vaz",
+    "Name": "VAZ 21011 Steer",
+    "Model": "steer011;d33vaz:textures/model/vaz2101.obj",
+    "Category": "steering_wheel",
+    "CreativeTab": "d33lib:parts",
+    "ItemTexture": "d33lib:textures/items/steer.png",
+    "Installation":{
+    	"Handler": "default",
+        "Removable": true,
+        "SlotBased": true,
+        "HotSwap": true
+    },
+    "Modifiers":[
+    	{
+    		"id": "weight", "type": "additive",
+    		"target": "vehicle:weight",
+    		"value": "2", "priority": "veryhigh"
+    	}
+    ]
+}
