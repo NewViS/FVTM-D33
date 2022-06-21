@@ -1,0 +1,27 @@
+{
+    "RegistryName": "d33vaz:v01_hood",
+    "Addon": "fvtm:d33vaz",
+    "Name": "VAZ 2101 Hood",
+    "Model": "bonnet_color;d33vaz:textures/model/vaz2101.obj",
+    "Category": "hood",
+    "CreativeTab": "d33lib:parts",
+    "ItemTexture": "d33lib:textures/items/hood.png",
+    "Installation":{
+    	"Handler": "default",
+        "Removable": true,
+        "Compatible":[
+            { "vehicle": "d33vaz:vaz2101", "x": 0, "y": 0, "z": 0 },
+            { "vehicle": "d33vaz:vaz2102", "x": 0, "y": 0, "z": 0 }
+        ]
+    },
+    "Attributes":[
+    	{ "id":"v01_hood", "type": "boolean", "value": false, "editable": true, "seat": "driver" }
+    ],
+    "Modifiers":[
+    	{
+    		"id": "weight", "type": "additive",
+    		"target": "vehicle:weight",
+    		"value": "50", "priority": "veryhigh"
+    	}
+    ]
+}

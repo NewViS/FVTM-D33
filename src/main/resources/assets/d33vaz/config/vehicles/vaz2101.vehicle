@@ -1,0 +1,60 @@
+{
+    "RegistryName": "d33vaz:vaz2101",
+    "Addon": "fvtm:d33vaz",
+    "Name": "VAZ 2101",
+	"Model": "body_color;salon_color;under_color;reshet;gluh;body_chrome1;body_chrome;torpeda_chrome1;salon_chrome;pered_chrome;body_grey;baraban;torpeda_pol;torpeda_black2_torpeda_chrome;torpeda_black;body_ark;uplot1;salon_black;uplot;uplotn;arki;pered_black;torpeda_lea;pol;torpeda_black1;pol1;under_black;pruzin;dno;torpeda_derev;melochi_tex;melochi_tex1;torpeda_salon;torpeda_tex1;dvigatel;kozir;sidushki;potol;logo;d33vaz:textures/model/vaz2101.obj",
+    "PrimaryColor": "#C8C1A5",
+    "SecondaryColor": "#C2C2C2",
+    "CreativeTab": "d33lib:vehicles",
+    "Attributes": [
+    	{ "id":"weight", "type": "float", "value": 976 }
+    ],
+    "Category": "car,sedan",
+    "WheelPositions":[
+        { "x":  28.4, "y": -5, "z":  11.5, "id": "left_front_wheel", "radius": 5.5, "drive": true, "steering": true },
+        { "x":  28.4, "y": -5, "z": -11.5, "id": "right_front_wheel", "radius": 5.5, "y_rot": 180, "drive": true, "steering": true },
+        { "x": -20, "y": -5, "z":  11, "id": "left_back_wheel", "radius": 5.5 },
+        { "x": -20, "y": -5, "z": -11, "id": "right_back_wheel", "radius": 5.5, "y_rot": 180 }
+    ],
+    "RequiredParts": [
+    	"right_front_wheel",
+        "left_front_wheel",
+        "right_back_wheel",
+        "left_back_wheel",
+        "seats",
+        "steering_wheel"
+    ],
+    "PreInstalled": {
+    	"seats": "d33vaz:v01_seats",
+    	"right_front_wheel": "d33vaz:rect5_wheel",
+    	"left_front_wheel": "d33vaz:rect5_wheel",
+    	"right_back_wheel": "d33vaz:rect5_wheel",
+    	"left_back_wheel": "d33vaz:rect5_wheel",
+    	"s:vehicle_partslots:steering_wheel:2": "d33vaz:v01_steer",
+    	"bumper_front": "d33vaz:v01_bumf",
+    	"bumper_rear": "d33vaz:v01_bumr",
+    	"doors": "d33vaz:v01_doors",
+    	"hood": "d33vaz:v01_hood",
+    	"lights": "d33vaz:v01_lights",
+    	"trunk": "d33vaz:v01_trunk",
+    	"s:vehicle_partslots:engine:0": "d33lib:engine_2105",
+    	"transmission": "gep:transmission"
+    },
+    "LegacyData":{
+    	"MaxPositiveThrottle": 1.40,
+    	"MaxNegativeThrottle": 0.89,
+    	"TurnLeftModifier": 0.8,
+    	"TurnRightModifier": 0.8
+    },
+    "LiftingPoints":{
+    	"left_front": [ 18, -5, 13, "left_rear" ],
+    	"left_rear": [ -10, -5, 13, "left_front" ],
+    	"right_front": [ 18, -5, -13, "right_rear" ],
+    	"right_rear": [ -10, -5, -13, "right_front" ]
+    },
+    "PartSlots":[
+    	[ 23.3, -6.32, 0, "engine", "engine" ],
+    	[ -38.1, -13.13, 0, "license_plate", "license_plate_rear", 4, [ 0, 180, 0 ] ],
+    	[ 12.52, -15.8, 6.1, "steering_wheel", "steering_wheel", 4, [ 0, 0, 30]]
+    ]
+}

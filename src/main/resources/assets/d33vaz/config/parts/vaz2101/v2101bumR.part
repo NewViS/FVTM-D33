@@ -1,8 +1,8 @@
 {
-    "RegistryName": "d33vaz:v07_bumr",
+    "RegistryName": "d33vaz:v01_bumr",
     "Addon": "fvtm:d33vaz",
-    "Name": "VAZ 2107 Bumper R",
-    "Model": "bumpr_chrome;bumpr_black;d33vaz:textures/model/vaz2107.obj",
+    "Name": "VAZ 2101 Bumper R",
+    "Model": "bumpr_chrome;bumpr_tex;d33vaz:textures/model/vaz2101.obj",
     "Category": "bumper_rear",
     "CreativeTab": "d33lib:parts",
     "ItemTexture": "d33lib:textures/items/bumr.png",
@@ -10,13 +10,13 @@
     	"Handler": "default",
         "Removable": true,
         "Compatible":[
-            { "vehicle": "d33vaz:vaz2101", "x": -1, "y": 0, "z": 0 },
-            { "vehicle": "d33vaz:vaz2102", "x": -1, "y": 0, "z": 0 },
+            { "vehicle": "d33vaz:vaz2101", "x": 0, "y": 0, "z": 0 },
+            { "vehicle": "d33vaz:vaz2102", "x": 0, "y": 0, "z": 0 },
             { "vehicle": "d33vaz:vaz2103", "x": 0, "y": 0, "z": 0 },
-            { "vehicle": "d33vaz:vaz2104", "x": 0, "y": 0, "z": 0 },
+            { "vehicle": "d33vaz:vaz2104", "x": 1, "y": 0, "z": 0 },
             { "vehicle": "d33vaz:vaz2106", "x": 0, "y": 0, "z": 0 },
-            { "vehicle": "d33vaz:vaz2107", "x": 0, "y": 0, "z": 0 },
-            { "vehicle": "d33vaz:vaz2105", "x": 0, "y": 0, "z": 0 }
+            { "vehicle": "d33vaz:vaz2107", "x": 1, "y": 0, "z": 0 },
+            { "vehicle": "d33vaz:vaz2105", "x": 1, "y": 0, "z": 0 }
         ]
     },
     "Modifiers":[

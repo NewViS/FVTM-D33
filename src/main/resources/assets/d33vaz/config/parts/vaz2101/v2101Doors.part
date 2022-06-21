@@ -1,0 +1,35 @@
+{
+    "RegistryName": "d33vaz:v01_doors",
+    "Addon": "fvtm:d33vaz",
+    "Name": "VAZ 2101 Doors",
+    "Model": "lf_color;lf_chrome;lr_color;lr_chrome;rr_color;rr_chrome;rf_color;rf_chrome;lf_tex;lr_tex;rr_tex;rf_tex;d33vaz:textures/model/vaz2101.obj",
+    "Category": "doors",
+    "CreativeTab": "d33lib:parts",
+    "ItemTexture": "d33lib:textures/items/doors.png",
+    "Installation":{
+    	"Handler": "default",
+        "Removable": true,
+        "Compatible":[
+            { "vehicle": "d33vaz:vaz2101", "x": 0, "y": 0, "z": 0 }
+        ]
+    },
+    "Attributes":[
+    	{ "id":"v01_doors_fl", "type": "boolean", "value": false, "editable": true, "seat": "driver" },
+    	{ "id":"v01_doors_fr", "type": "boolean", "value": false, "editable": true, "seat": "pass_front" },
+    	{ "id":"v01_doors_bl", "type": "boolean", "value": false, "editable": true, "seat": "pass_rear_left" },
+    	{ "id":"v01_doors_br", "type": "boolean", "value": false, "editable": true, "seat": "pass_rear_right" }
+    ],
+    "Modifiers":[
+    	{
+    		"id": "weight", "type": "additive",
+    		"target": "vehicle:weight",
+    		"value": "125", "priority": "veryhigh"
+    	}
+    ],
+    "Function":{
+	    "id": "fvtm:part_slots",
+		"slots":[
+			[ 0, 0, 0, "mirror", "mirror", 4]
+		]
+    }
+}
