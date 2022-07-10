@@ -2,3 +2,12 @@
 itemGroup.fvtm:d33lib.parts=D33 Parts
 itemGroup.fvtm:d33lib.rims=D33 Rims
 itemGroup.fvtm:d33lib.vehicles=D33 Vehicles
+item.d33lib:engine_s38.name=BMW S38 Engine
+item.d33lib:engine_s63.name=BMW S63 Engine
+item.d33lib:europlate_holder.name=European License Plate Holder
+item.d33lib:license_plate_rus.name=Russian License Plate
+item.d33lib:license_plate_euro.name=European License Plate
+item.d33lib:engine_2105.name= VAZ 2105 Engine
+item.d33lib:license_plate_rus_jpa.name=Russian License Plate (Square)
+item.d33lib:jpa_plate_holder.name=US/JP License Plate Holder
+item.d33lib:license_plate_us.name=US License Plate

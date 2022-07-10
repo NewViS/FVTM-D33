@@ -1,0 +1,18 @@
+##Contributors:
+#> MaximD33
+#>
+#>
+#>
+
+itemGroup.fvtm:d33lib.parts=D33 Parts
+itemGroup.fvtm:d33lib.rims=D33 Rims
+itemGroup.fvtm:d33lib.vehicles=D33 Vehicles
+item.d33lib:engine_s38.name=Двигатель BMW S38
+item.d33lib:engine_s63.name=Двигатель BMW S63 
+item.d33lib:europlate_holder.name=Евро-Рамка Номера  
+item.d33lib:license_plate_rus.name=Российские Номерные Знаки
+item.d33lib:license_plate_euro.name=Европейские Номерные Знаки
+item.d33lib:engine_2105.name=Двигатель ВАЗ 2105
+item.d33lib:license_plate_rus_jpa.name=Российские Номерные Знаки Квадратные
+item.d33lib:jpa_plate_holder.name=Квадратная Рамка Номера 
+item.d33lib:license_plate_us.name=Американские Номерные Знаки
