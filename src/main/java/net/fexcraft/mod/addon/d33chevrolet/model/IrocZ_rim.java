@@ -6,7 +6,7 @@ import net.minecraft.util.ResourceLocation;
 
 @fModel(registryname = "d33chevrolet:models/part/irocz_wheel") 
 public class IrocZ_rim extends D33Wheel{
-	static ResourceLocation mdl_rim = new ResourceLocation("d33chevrolet:textures/model/wheel/irocz_ri.obj");
+	static ResourceLocation mdl_rim = new ResourceLocation("d33chevrolet:textures/model/wheel/irocz_rim.obj");
 
 	public IrocZ_rim(){
 		super(mdl_rim);
