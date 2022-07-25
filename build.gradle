@@ -164,7 +164,7 @@ task d33ford(type: Jar){
     from ('src/main/resources/') { include 'pack.mcmeta'}
     baseName = 'D33FORD'
     appendix = 'FVTM'
-    version = '0.1'
+    version = '0.3'
 }
 
 task d33rolls(type: Jar){
@@ -173,7 +173,7 @@ task d33rolls(type: Jar){
     from ('src/main/resources/') { include 'pack.mcmeta'}
     baseName = 'D33Rolls-Royce'
     appendix = 'FVTM'
-    version = '0.1'
+    version = '0.3'
 }
 task d33vaz(type: Jar){
 	from (zipTree("${destinationDir}/${archiveName}")) { include 'net/fexcraft/mod/addon/d33vaz/'}
@@ -181,7 +181,7 @@ task d33vaz(type: Jar){
     from ('src/main/resources/') { include 'pack.mcmeta'}
     baseName = 'D33VAZ'
     appendix = 'FVTM'
-    version = '0.2'
+    version = '0.4'
 }
 task d33trail(type: Jar){
 	from (zipTree("${destinationDir}/${archiveName}")) { include 'net/fexcraft/mod/addon/d33trail/'}
@@ -197,7 +197,7 @@ task d33dodge(type: Jar){
     from ('src/main/resources/') { include 'pack.mcmeta'}
     baseName = 'D33DODGE'
     appendix = 'FVTM'
-    version = '0.1'
+    version = '0.3'
 }
 task d33lambo(type: Jar){
 	from (zipTree("${destinationDir}/${archiveName}")) { include 'net/fexcraft/mod/addon/d33lambo/'}
@@ -205,7 +205,7 @@ task d33lambo(type: Jar){
     from ('src/main/resources/') { include 'pack.mcmeta'}
     baseName = 'D33LAMBORGHINI'
     appendix = 'FVTM'
-    version = '0.1'
+    version = '0.3'
 }
 task d33porsche(type: Jar){
 	from (zipTree("${destinationDir}/${archiveName}")) { include 'net/fexcraft/mod/addon/d33porsche/'}
@@ -213,7 +213,7 @@ task d33porsche(type: Jar){
     from ('src/main/resources/') { include 'pack.mcmeta'}
     baseName = 'D33PORSCHE'
     appendix = 'FVTM'
-    version = '0.1'
+    version = '0.3'
 }
 task d33lib(type: Jar){
 	from (zipTree("${destinationDir}/${archiveName}")) { 
@@ -224,7 +224,7 @@ task d33lib(type: Jar){
     from ('src/main/resources/') { include 'pack.mcmeta'}
     baseName = 'D33LIB'
     appendix = 'FVTM'
-    version = '0.5'
+    version = '0.7'
 }
 
 task contentPacks(){

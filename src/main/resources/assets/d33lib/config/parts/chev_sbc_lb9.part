@@ -1,0 +1,83 @@
+{
+    "RegistryName": "d33lib:engine_lb9",
+    "Addon": "fvtm:d33lib",
+    "Name": "Chevrolet Small-Block LB9 Engine",
+    "Model": "eng_ext;eng_pumbas;eng_motor;eng_bl;eng_detal;d33lib:textures/model/gm_sbc_lb9.obj",
+    "CreativeTab": "d33lib:parts",
+    "Category": [
+    	"engine", "ballast", "decoration"
+    ],
+    "Textures": "fvtm:textures/entity/null.png",
+    "Installation":{
+    	"Handler": "default",
+        "Removable": true,
+        "SlotBased": true
+    },
+    "Modifiers":[
+    	{ "id": "weight", "type": "additive", "target": "vehicle:weight", "value": "104", "priority": "veryhigh" }
+    ],
+    "Functions": [
+    	{
+	    	"id": "fvtm:engine",
+	    	"engine_speed": 1,
+	    	"idle_consumption": 1.5,
+	    	"active_consumption": 14,
+	    	"consumptions": {
+	    		"super98": 10.8,
+	    		"e10": 8.7
+	    	},
+	    	"fuel_group": "petrol",
+
+	    	"min_rpm": 1500,
+		    "max_rpm": 6600,
+		    "torque_chart":{
+		        "1000": 242,
+		        "2000": 300,
+		        "2700": 460,
+		        "3600": 514,
+		        "4700": 510,
+		        "6000": 350,
+		        "6600": 250
+		    },
+		    "__comment": "example/testing values"
+	    },
+    	{
+    		"id": "fvtm_potr:emission_emitter",
+    		"emissions": [ 0.25, 0.01, 0.25 ],
+    		"engine": true
+    	}
+	],
+    "Sounds":[
+    	{
+    		"event": "engine_start",
+    		"sound": "d33lib:vaz_start"
+    	},
+    	{
+    		"event": "engine_stop",
+    		"sound": "minecraft:block.dispenser.fail"
+    	},
+    	{
+    		"event": "engine_running",
+    		"sound": "d33lib:vaz_engine",
+    		"volume": 0.2
+    	}
+    ],
+    
+    "ModelData":{	
+    	"Transforms": [
+			"rotation 0 0 1 180",
+			"rotation 0 1 0 90",
+			"scale 0.2",
+			"rescale_normal"
+		],
+		
+		"Programs": [
+			"eng_ext fvtm:bind_texture d33lib:textures/model/camaro_exterior.png",
+			"eng_pumbas fvtm:bind_texture d33lib:textures/model/camaro_pumbars.png",
+			"eng_motor fvtm:bind_texture d33lib:textures/model/gm_engine.png"
+		],
+		
+		"FlipV": true
+		
+	}
+}

@@ -1,0 +1,51 @@
+{
+    "RegistryName": "d33chevrolet:cam3_bumf",
+    "Addon": "fvtm:d33chevrolet",
+    "Name": "Camaro III Bumper F",
+    "Category": "bumper_front",
+    "CreativeTab": "d33lib:parts",
+    "ItemTexture": "d33lib:textures/items/bumf.png",
+    "Installation":{
+    	"Handler": "default",
+        "Removable": true,
+        "Compatible":[
+            { "vehicle": "d33chevrolet:camaro3", "x": 0, "y": 0, "z": 0 }
+        ]
+    },
+    "Modifiers":[
+    	{
+    		"id": "weight", "type": "additive",
+    		"target": "vehicle:weight",
+    		"value": "20", "priority": "veryhigh"
+    	}
+    ],
+    "Function":{
+	    "id": "fvtm:part_slots",
+		"slots":[
+			[ 47.47, -7.43, 0, "license_plate", "license_plate_front", 4, [ 0, 0, 2.32 ] ]
+		]
+    },
+    "Model": "bump_frocol;bump_frobl;bump_frobl1;bump_froext;vehlight;d33chevrolet:textures/model/camaro3.obj",
+    "ModelData":{	
+    	"Transforms": [
+			"rotation 0 0 1 180",
+			"rotation 0 1 0 90",
+			"scale 0.2",
+			"rescale_normal"
+		],
+		
+		"Programs": [
+			"bump_frocol fvtm:rgb_primary",
+			
+			"bump_frocol fvtm:bind_texture d33lib:textures/model/paint.png",
+			"bump_frobl d33:col 25 25 25",
+			"bump_frobl1 d33:col 25 25 25",
+			
+			"bump_froext fvtm:bind_texture d33lib:textures/model/camaro_exterior.png",
+			"vehlight fvtm:bind_texture d33lib:textures/model/vehiclelights.png"
+		],
+		
+		"FlipV": true
+		
+	}
+}

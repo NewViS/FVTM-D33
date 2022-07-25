@@ -1,0 +1,29 @@
+{
+    "RegistryName": "d33chevrolet:irocz_cr_wheel",
+    "Addon": "fvtm:d33chevrolet",
+    "Name": "Iroc Z Grey Wheel",
+    "Model": "d33chevrolet:models/part/iroczcr_wheel",
+    "Category": "wheel",
+    "CreativeTab": "d33lib:rims",
+    "Functions": [
+    	"fvtm:wheel",
+    	{
+    		"id": "fvtm:tire",
+    		"stiffness": 6,
+    		"steering_stiffness": 5.8,
+    		"step_height": 1.2
+    	}	
+	],
+    "Installation":{
+    	"Handler": "wheel",
+        "Removable": true,
+        "Radius": 7, "Width": 4
+    },
+    "Modifiers":[
+    	{
+    		"id": "weight", "type": "additive",
+    		"target": "vehicle:weight",
+    		"value": "30", "priority": "veryhigh"
+    	}
+    ]
+}
