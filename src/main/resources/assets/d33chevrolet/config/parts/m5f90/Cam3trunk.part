@@ -23,7 +23,7 @@
     		"value": "36.78", "priority": "veryhigh"
     	}
     ],
-    "Model": "boot_col;boot_bl;boot_in;d33chevrolet:textures/model/camaro3.obj",
+    "Model": "boot_col;boot_bl;boot_gl;boot_in;d33chevrolet:textures/model/camaro3.obj",
     "ModelData":{	
     	"Transforms": [
 			"rotation 0 0 1 180",
@@ -38,10 +38,12 @@
 			"boot_col fvtm:bind_texture d33lib:textures/model/paint.png",
 			"boot_in fvtm:bind_texture d33chevrolet:textures/model/denx_tkan.png",
 			"boot_bl d33:col 25 25 25",
+			"boot_gl d33:cola 25 25 25 0.9",
 			
 			"boot_col d33:atrot cam3_trunk true -60 0 -1 0 116.41 -90.25 1 0 0",
 			"boot_in d33:atrot cam3_trunk true -60 0 -1 0 116.41 -90.25 1 0 0",
-			"boot_bl d33:atrot cam3_trunk true -60 0 -1 0 116.41 -90.25 1 0 0"
+			"boot_bl d33:atrot cam3_trunk true -60 0 -1 0 116.41 -90.25 1 0 0",
+			"boot_gl d33:atrot cam3_trunk true -60 0 -1 0 116.41 -90.25 1 0 0"
 		],
 		
 		"FlipV": true

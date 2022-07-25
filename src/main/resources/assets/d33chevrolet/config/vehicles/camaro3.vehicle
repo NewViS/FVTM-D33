@@ -2,7 +2,7 @@
     "RegistryName": "d33chevrolet:camaro3",
     "Addon": "fvtm:d33chevrolet",
     "Name": "Chevrolet Camaro III",
-    "PrimaryColor": "#212C2F",
+    "PrimaryColor": "#0D0D0D",
     "CreativeTab": "d33lib:vehicles",
     "Attributes": [
     	{ "id":"weight", "type": "float", "value": 1450 }
@@ -24,10 +24,10 @@
     ],
     "PreInstalled": {
     	"seats": "d33chevrolet:cam3_seats",
-    	"right_front_wheel": "d33bmw:f90_wheel",
-    	"left_front_wheel": "d33bmw:f90_wheel",
-    	"right_back_wheel": "d33bmw:f90_wheel",
-    	"left_back_wheel": "d33bmw:f90_wheel",
+    	"right_front_wheel": "d33chevrolet:irocz_cr_wheel",
+    	"left_front_wheel": "d33chevrolet:irocz_cr_wheel",
+    	"right_back_wheel": "d33chevrolet:irocz_cr_wheel",
+    	"left_back_wheel": "d33chevrolet:irocz_cr_wheel",
     	"s:vehicle_partslots:steering_wheel:1": "d33chevrolet:cam3_steer",
     	"bumper_front": "d33chevrolet:cam3_bumf",
     	"bumper_rear": "d33chevrolet:cam3_bumr",
@@ -52,7 +52,7 @@
     "PartSlots":[
     	[ 21.43, -4.84, 0, "engine", "engine" ],
     	[ 5.08, -13.9, 7.98, "steering_wheel", "steering_wheel", 4, [ 0, 0, 6.9]],
-    	[ -46.76, 16.9, 0, "license_plate", "license_plate_rear", 4, [ 0, 180, -15.33 ] ]
+    	[ -43.27, -14.19, 0, "license_plate", "license_plate_rear", 4, [ 0, 180, -5.01 ]]
     ],
     "Model": "col;wing_rf_col;wing_lf_col;wing_rf_1;bak;zercin;bl;bl1;blm;wing_lf_bl;wing_rf_bl;luk;wipers;colins;zerc;wing_lf_ext;wing_rf_ext;ext;pol;carpet;pumbas;rad;int;eng_int;motor;d33chevrolet:textures/model/camaro3.obj",
     "ModelData":{	

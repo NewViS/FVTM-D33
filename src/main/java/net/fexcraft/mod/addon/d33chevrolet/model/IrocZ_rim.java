@@ -11,7 +11,7 @@ public class IrocZ_rim extends D33Wheel{
 	public IrocZ_rim(){
 		super(mdl_rim);
 		
-		rad = 1.15;
+		rad = 1.2;
 		wid = 1.3;
 		
 		e34wheel = new ResourceLocation("d33chevrolet:textures/model/wheel/irocz_br.png");

@@ -22,10 +22,10 @@
     "Function": {
     	"id": "fvtm:seats",
     	"seats":[
-    		{ "x": -3, "y": 0, "z": -8, "name": "driver", "driver": true, "min_yaw": -120, "max_yaw": 120 },
-    		{ "x": -3, "y": 0, "z": 8, "name": "pass_front" },
-    		{ "x": -19, "y": 0, "z": -8, "name": "pass_rear_left" },
-    		{ "x": -19, "y": 0, "z": 8, "name": "pass_rear_right" }
+    		{ "x": -3, "y": -1, "z": -8, "name": "driver", "driver": true, "min_yaw": -120, "max_yaw": 120 },
+    		{ "x": -3, "y": -1, "z": 8, "name": "pass_front" },
+    		{ "x": -19, "y": -2, "z": -8, "name": "pass_rear_left" },
+    		{ "x": -19, "y": -2, "z": 8, "name": "pass_rear_right" }
     	]
     },
     "Model": "sedup;sedown;d33chevrolet:textures/model/camaro3.obj",

@@ -9,7 +9,7 @@ public class IrocZ_cr extends D33Wheel{
 	static ResourceLocation mdl_rim = new ResourceLocation("d33chevrolet:textures/model/wheel/irocz_rim.obj");
 	public IrocZ_cr(){
 		super(mdl_rim);
-		rad = 1.15;
+		rad = 1.2;
 		wid = 1.3;
 		e34wheel = new ResourceLocation("d33chevrolet:textures/model/wheel/irocz_cr.png");
 	}
