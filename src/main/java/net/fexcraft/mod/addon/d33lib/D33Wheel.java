@@ -34,14 +34,14 @@ public class D33Wheel extends PartModel {
 	//IModelCustom rim = AdvancedModelLoader.loadModel(mdl_rim);
 	public ResourceLocation e34wheel = new ResourceLocation("d33lib:textures/model/wheel/statusdisk.png");
 	public ResourceLocation status_tyre = new ResourceLocation("d33lib:textures/model/wheel/status_tyre.png");
-	ObjModel tyrem = new ObjParser(Resources.getModelInputStream(mdl_tyre)).flipAxes(false).readComments(false).noNormals(false).parse();
+	ObjModel tyrem = new ObjParser(Resources.getModelInputStream(mdl_tyre)).flipAxes(false).readComments(true).noNormals(false).parse();
 	
 	private ObjModel rimOM;
 	private ModelRendererTurbo rimMRT;
 	
 	public D33Wheel(ResourceLocation mdl_rim){
 		super(); 
-		rimOM = new ObjParser(Resources.getModelInputStream(mdl_rim)).flipUV(false, true).flipAxes(false).readComments(false).noNormals(false).parse(); 
+		rimOM = new ObjParser(Resources.getModelInputStream(mdl_rim)).flipUV(false, true).flipAxes(false).readComments(true).noNormals(false).parse(); 
 		rimMRT = new ModelRendererTurbo(null, 0, 0, textureX, textureY).setRotationPoint(0, 0, 0).setRotationAngle(0, 180F, 0);
 		rimOM.polygons.forEach((key, val) -> rimMRT.copyTo(val));
 		
@@ -62,7 +62,7 @@ public class D33Wheel extends PartModel {
 	public D33Wheel(ResourceLocation mdl_rim, ResourceLocation mdl_tyre){
 		super(); 
 		
-		rimOM = new ObjParser(Resources.getModelInputStream(mdl_rim)).flipUV(false, true).flipAxes(false).readComments(false).noNormals(false).parse(); 
+		rimOM = new ObjParser(Resources.getModelInputStream(mdl_rim)).flipUV(false, true).flipAxes(false).readComments(true).noNormals(false).parse(); 
 		rimMRT = new ModelRendererTurbo(null, 0, 0, textureX, textureY).setRotationPoint(0, 0, 0).setRotationAngle(0, 180F, 0);
 		rimOM.polygons.forEach((key, val) -> rimMRT.copyTo(val));
 		

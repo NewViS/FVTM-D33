@@ -1,0 +1,98 @@
+{
+    "RegistryName": "d33ford:cr_victoria",
+    "Addon": "fvtm:d33ford",
+    "Name": "Ford Crown Victoria",
+    "PrimaryColor": "#bf3326",
+    "CreativeTab": "d33lib:vehicles",
+    "Attributes": [
+    	{ "id": "weight", "type": "float", "value": 2000 },
+    	{ "id": "cv_trunk", "type": "boolean", "value": false, "editable": true, "seat": "driver" }
+    ],
+    "Category": "car, sedan",
+    "WheelPositions":[
+        { "x":  27.6, "y": -6.2, "z":  12.2, "id": "left_front_wheel", "radius": 7, "steering": true },
+        { "x":  27.6, "y": -6.2, "z": -12.2, "id": "right_front_wheel", "radius": 7, "y_rot": 180, "steering": true },
+        { "x": -22.6, "y": -6.2, "z":  12.2, "id": "left_back_wheel", "radius": 7, "drive": true },
+        { "x": -22.6, "y": -6.2, "z": -12.2, "id": "right_back_wheel", "radius": 7, "y_rot": 180, "drive": true }
+    ],
+    "RequiredParts": [
+    	"right_front_wheel",
+        "left_front_wheel",
+        "right_back_wheel",
+        "left_back_wheel",
+        "seats",
+        "steering_wheel"
+    ],
+    "PreInstalled": {
+    	"seats": "d33ford:m15_seats",
+    	"right_front_wheel": "d33ford:m15_white",
+    	"left_front_wheel": "d33ford:m15_white",
+    	"right_back_wheel": "d33ford:m15_white",
+    	"left_back_wheel": "d33ford:m15_white",
+    	"steering_wheel": "d33ford:m15_steer",
+    	"bumper_front": "d33ford:cv_bumf",
+    	"bumper_rear": "d33ford:cv_bumr",
+    	"hood": "d33ford:m15_hood",
+    	"lights": "d33ford:m15_lights",
+    	"trunk": "d33ford:m15_trunk",
+    	"doors": "d33ford:cv_doors",
+    	"engine": "gep:engine_petrol",
+    	"transmission": "gep:transmission"
+    },
+    "LegacyData":{
+    	"MaxPositiveThrottle": 2.7,
+    	"MaxNegativeThrottle": 0.89,
+    	"TurnLeftModifier": 0.8,
+    	"TurnRightModifier": 0.8
+    },
+    "LiftingPoints":{
+    	"left_front": [ 10, -4, 11, "left_rear" ],
+    	"left_rear": [ -16, -4, 11, "left_front" ],
+    	"right_front": [ 10, -4, -11, "right_rear" ],
+    	"right_rear": [ -16, -4, -11, "right_front" ]
+    },
+    "Model": "body1;wingl_col;mord_col;wingr_col;bl;reshet;dno;windscrebl;glrea_bl;motor_niz;podv_pered;podv_rea;radiator;motor_ver;inter;logo;far;wingl_in;wingr_in;motor;d33ford:textures/model/cr_victoria.obj",
+    "ModelData":{	
+    	"FlipV": true,
+    	"Transforms": [
+			"rotation 0 0 1 180",
+			"rotation 0 1 0 90",
+			"scale 0.2",
+			"rescale_normal"
+		],
+		
+		"Programs": [
+			"body1 fvtm:rgb_primary",
+			"wingl_col fvtm:rgb_primary",
+			"mord_col fvtm:rgb_primary",
+			"wingr_col fvtm:rgb_primary",
+			
+			"body1 fvtm:bind_texture d33lib:textures/model/paint.png",
+			"bl d33:col 135 135 135",
+			"reshet d33:col 135 135 135",
+			
+			"dno fvtm:bind_texture d33ford:textures/model/cv_under.png",
+			"motor_ver fvtm:bind_texture d33ford:textures/model/cv_ext.png",
+			"motor fvtm:bind_texture d33lib:textures/model/eng2105.png"
+		]
+		
+	},
+	
+    "SwivelPoints":[
+		{
+			"id": "cv_trunk",
+			"parent": "vehicle",
+			"pos": [ -32.5, 19.58, 0 ],
+			"movers":[
+				{
+					"attribute": "cv_trunk",
+					"var": "pitch",
+					"speed": 3,
+					"bool_based": true,
+					"min": 0,
+					"max": 60
+				}
+			]
+		}
+	]
+}

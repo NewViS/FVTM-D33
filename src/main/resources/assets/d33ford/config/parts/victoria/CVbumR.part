@@ -1,7 +1,7 @@
 {
-    "RegistryName": "d33chevrolet:cam3_bumr",
-    "Addon": "fvtm:d33chevrolet",
-    "Name": "Camaro III Bumper R",
+    "RegistryName": "d33ford:cv_bumr",
+    "Addon": "fvtm:d33ford",
+    "Name": "Crown Victoria Bumper R",
     "Category": "bumper_rear",
     "CreativeTab": "d33lib:parts",
     "ItemTexture": "d33lib:textures/items/bumr.png",
@@ -9,7 +9,7 @@
     	"Handler": "default",
         "Removable": true,
         "Compatible":[
-           { "vehicle": "d33chevrolet:camaro3", "x": 0, "y": 0, "z": 0 }
+           { "vehicle": "d33ford:cr_victoria", "x": 0, "y": 0, "z": 0 }
         ]
     },
     "Modifiers":[
@@ -19,7 +19,7 @@
     		"value": "20", "priority": "veryhigh"
     	}
     ],
-    "Model": "bump_reacol;bump_reabl;d33chevrolet:textures/model/camaro3.obj",
+    "Model": "bumpreacol;bumpreabl;d33ford:textures/model/cr_victoria.obj",
     "ModelData":{	
     	"Transforms": [
 			"rotation 0 0 1 180",
@@ -29,11 +29,10 @@
 		],
 		
 		"Programs": [
-			"bump_reacol fvtm:rgb_primary",
+			"bumpreacol fvtm:rgb_primary",
 			
-			"bump_reacol fvtm:bind_texture d33lib:textures/model/paint.png",
-			"bump_reabl d33:col 25 25 25",
-			"bump_frobl1 d33:col 25 25 25"
+			"bumpreacol fvtm:bind_texture d33lib:textures/model/paint.png",
+			"bumpreabl fvtm:bind_texture d33ford:textures/model/cv_under.png"
 		],
 		
 		"FlipV": true

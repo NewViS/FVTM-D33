@@ -1,0 +1,47 @@
+{
+    "RegistryName": "d33ford:cv_bumf",
+    "Addon": "fvtm:d33ford",
+    "Name": "Crown Victoria Bumper F",
+    "Category": "bumper_front",
+    "CreativeTab": "d33lib:parts",
+    "ItemTexture": "d33lib:textures/items/bumf.png",
+    "Installation":{
+    	"Handler": "default",
+        "Removable": true,
+        "Compatible":[
+            { "vehicle": "d33ford:cr_victoria", "x": 0, "y": 0, "z": 0 }
+        ]
+    },
+    "Modifiers":[
+    	{
+    		"id": "weight", "type": "additive",
+    		"target": "vehicle:weight",
+    		"value": "20", "priority": "veryhigh"
+    	}
+    ],
+    "Function":{
+	    "id": "fvtm:part_slots",
+		"slots":[
+			[ 54.73, -8.35, 0, "license_plate", "license_plate_front", 4, [ 0, 0, -11.1 ] ]
+		]
+    },
+    "Model": "bumpf_col;bunmpf_bl;d33ford:textures/model/cr_victoria.obj",
+    "ModelData":{	
+    	"Transforms": [
+			"rotation 0 0 1 180",
+			"rotation 0 1 0 90",
+			"scale 0.2",
+			"rescale_normal"
+		],
+		
+		"Programs": [
+			"bumpf_col fvtm:rgb_primary",
+			
+			"bumpf_col fvtm:bind_texture d33lib:textures/model/paint.png",
+			"bunmpf_bl fvtm:bind_texture d33ford:textures/model/cv_under.png"
+		],
+		
+		"FlipV": true
+		
+	}
+}

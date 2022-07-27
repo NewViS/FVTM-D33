@@ -1,0 +1,41 @@
+{
+    "RegistryName": "d33chevrolet:cam3_bumr",
+    "Addon": "fvtm:d33chevrolet",
+    "Name": "Camaro III Bumper R",
+    "Category": "bumper_rear",
+    "CreativeTab": "d33lib:parts",
+    "ItemTexture": "d33lib:textures/items/bumr.png",
+    "Installation":{
+    	"Handler": "default",
+        "Removable": true,
+        "Compatible":[
+           { "vehicle": "d33chevrolet:camaro3", "x": 0, "y": 0, "z": 0 }
+        ]
+    },
+    "Modifiers":[
+    	{
+    		"id": "weight", "type": "additive",
+    		"target": "vehicle:weight",
+    		"value": "20", "priority": "veryhigh"
+    	}
+    ],
+    "Model": "bump_reacol;bump_reabl;d33chevrolet:textures/model/camaro3.obj",
+    "ModelData":{	
+    	"Transforms": [
+			"rotation 0 0 1 180",
+			"rotation 0 1 0 90",
+			"scale 0.2",
+			"rescale_normal"
+		],
+		
+		"Programs": [
+			"bump_reacol fvtm:rgb_primary",
+			
+			"bump_reacol fvtm:bind_texture d33lib:textures/model/paint.png",
+			"bump_reabl d33:col 25 25 25"
+		],
+		
+		"FlipV": true
+		
+	}
+}

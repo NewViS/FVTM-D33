@@ -1,0 +1,41 @@
+{
+    "RegistryName": "d33chevrolet:cam3_steer",
+    "Addon": "fvtm:d33chevrolet",
+    "Name": "Camaro III Steer",
+    "Category": "steering_wheel",
+    "CreativeTab": "d33lib:parts",
+    "ItemTexture": "d33lib:textures/items/steer.png",
+    "Installation":{
+    	"Handler": "default",
+        "Removable": true,
+        "SlotBased": true,
+        "HotSwap": true
+    },
+    "Modifiers":[
+    	{
+    		"id": "weight", "type": "additive",
+    		"target": "vehicle:weight",
+    		"value": "2", "priority": "veryhigh"
+    	}
+    ],
+    "Model": "steer_int;steer_ext;d33chevrolet:textures/model/camaro3.obj",
+    "ModelData":{	
+    	"Transforms": [
+			"rotation 0 0 1 180",
+			"rotation 0 1 0 90",
+			"scale 0.2",
+			"rescale_normal"
+		],
+		
+		"Programs": [
+			"steer_ext fvtm:bind_texture d33lib:textures/model/camaro_exterior.png",
+			"steer_int fvtm:bind_texture d33chevrolet:textures/model/w220_leather.png",
+			
+			"steer_ext d33:steer 0 0 0 0 0",
+			"steer_int d33:steer 0 0 0 0 0"
+		],
+		
+		"FlipV": true
+		
+	}
+}
