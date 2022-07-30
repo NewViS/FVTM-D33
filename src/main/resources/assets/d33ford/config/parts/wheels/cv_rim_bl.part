@@ -1,0 +1,45 @@
+{
+    "RegistryName": "d33ford:cv_bl_wheel",
+    "Addon": "fvtm:d33ford",
+    "Name": "Crown Victoria Wheel",
+    "Model": "bl_cap;tyre;rim;d33ford:textures/model/wheel/cv_rim.obj",
+    "Texture": "Default;d33ford:textures/model/wheel/cv_rim.png",
+    "Category": "wheel",
+    "CreativeTab": "d33lib:rims",
+    "Functions": [
+    	"fvtm:wheel",
+    	{
+    		"id": "fvtm:tire",
+    		"stiffness": 6,
+    		"steering_stiffness": 5.8,
+    		"step_height": 1.2
+    	}	
+	],
+    "Installation":{
+    	"Handler": "wheel",
+        "Removable": true,
+        "Radius": 6.5, "Width": 4.5
+    },
+    "Modifiers":[
+    	{
+    		"id": "weight", "type": "additive",
+    		"target": "vehicle:weight",
+    		"value": "30", "priority": "veryhigh"
+    	}
+    ],
+    "ModelData":{	
+    	"Transforms": [
+    		"scale 1.15 1.15 1.3",
+			"rescale_normal"
+		],
+		
+		"Programs": [
+			"bl_cap fvtm:wheel_auto_all",
+			"tyre fvtm:wheel_auto_all",
+			"rim fvtm:wheel_auto_all"
+		],
+		
+		"FlipV": true
+		
+	}
+}

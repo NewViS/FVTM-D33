@@ -22,7 +22,7 @@
     "Function":{
 	    "id": "fvtm:part_slots",
 		"slots":[
-			[ 54.73, -8.35, 0, "license_plate", "license_plate_front", 4, [ 0, 0, -11.1 ] ]
+			[ 54.75, -8.0, 0, "license_plate", "license_plate_front", 4, [ 0, 0, 11.1 ] ]
 		]
     },
     "Model": "bumpf_col;bunmpf_bl;d33ford:textures/model/cr_victoria.obj",

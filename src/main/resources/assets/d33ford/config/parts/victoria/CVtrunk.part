@@ -1,0 +1,53 @@
+{
+    "RegistryName": "d33ford:cv_trunk",
+    "Addon": "fvtm:d33ford",
+    "Name": "Crown Victoria Trunk",
+    "Category": "trunk",
+    "CreativeTab": "d33lib:parts",
+    "ItemTexture": "d33lib:textures/items/trunk.png",
+    "Installation":{
+    	"Handler": "default",
+        "Removable": true,
+        "Compatible":[ 
+        	{ "vehicle": "d33ford:cr_victoria", "x": 32.5, "y": -19.58, "z": 0 }
+        ],
+        "SwivelPoint": "cv_trunk",
+        "SwivelPointRequired": true
+    },
+    
+    "Modifiers":[
+    	{
+    		"id": "weight", "type": "additive",
+    		"target": "vehicle:weight",
+    		"value": "36.78", "priority": "veryhigh"
+    	}
+    ],
+    "Function":{
+	    "id": "fvtm:part_slots",
+		"slots":[
+			[ -51.84, 14.69, 0, "license_plate", "license_plate_rear", 4, [ 0, 180, -10.47 ] ]
+		]
+    },
+    "Model": "trunk_col;trunk_cr;trunk_bl;trunk_main;trunk_shild;trunk_light;d33ford:textures/model/cr_victoria.obj",
+    "ModelData":{	
+    	"Transforms": [
+			"rotation 0 0 1 180",
+			"rotation 0 1 0 90",
+			"scale 0.2",
+			"rescale_normal"
+		],
+		
+		"Programs": [
+			"trunk_col fvtm:rgb_primary",
+			"trunk_main fvtm:rgb_primary",
+			"trunk_cr fvtm:rgb_primary",
+			
+			"trunk_col fvtm:bind_texture d33lib:textures/model/paint.png",
+			"trunk_shild fvtm:bind_texture d33ford:textures/model/cv_ext.png",
+			"trunk_bl d33:col 135 135 135"
+		],
+		
+		"FlipV": true
+		
+	}
+}

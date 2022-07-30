@@ -1,0 +1,82 @@
+{
+    "RegistryName": "d33lib:engine_fmod46",
+    "Addon": "fvtm:d33lib",
+    "Name": "Ford Modular 4.6L Engine",
+    "Model": "d33lib:textures/model/gm_fmod_46.obj",
+    "CreativeTab": "d33lib:parts",
+    "Category": [
+    	"engine", "ballast", "decoration"
+    ],
+    "Textures": "fvtm:textures/entity/null.png",
+    "Installation":{
+    	"Handler": "default",
+        "Removable": true,
+        "SlotBased": true
+    },
+    "Modifiers":[
+    	{ "id": "weight", "type": "additive", "target": "vehicle:weight", "value": "104", "priority": "veryhigh" }
+    ],
+    "Functions": [
+    	{
+	    	"id": "fvtm:engine",
+	    	"engine_speed": 1,
+	    	"idle_consumption": 1.5,
+	    	"active_consumption": 14,
+	    	"consumptions": {
+	    		"super98": 10.8,
+	    		"e10": 8.7
+	    	},
+	    	"fuel_group": "petrol",
+
+	    	"min_rpm": 1500,
+		    "max_rpm": 6000,
+		    "torque_chart":{
+		        "1500": 350,
+		        "3000": 380,
+		        "3500": 450,
+		        "4600": 470,
+		        "6200": 430
+		    },
+		    "__comment": "example/testing values"
+	    },
+    	{
+    		"id": "fvtm_potr:emission_emitter",
+    		"emissions": [ 0.25, 0.01, 0.25 ],
+    		"engine": true
+    	}
+	],
+    "Sounds":[
+    	{
+    		"event": "engine_start",
+    		"sound": "d33lib:vaz_start"
+    	},
+    	{
+    		"event": "engine_stop",
+    		"sound": "minecraft:block.dispenser.fail"
+    	},
+    	{
+    		"event": "engine_running",
+    		"sound": "d33lib:vaz_engine",
+    		"volume": 0.2
+    	}
+    ],
+    
+    "ModelData":{	
+    	"Transforms": [
+			"rotation 0 0 1 180",
+			"rotation 0 1 0 90",
+			"scale 0.2",
+			"rescale_normal"
+		],
+		
+		"Programs": [
+			"generat fvtm:bind_texture d33lib:textures/model/mod_generat.png",
+			"oil fvtm:bind_texture d33lib:textures/model/mod_oil.png",
+			"valve fvtm:bind_texture d33lib:textures/model/mod_valve.png",
+			"eng_ext fvtm:bind_texture d33lib:textures/model/eng2105.png"
+		],
+		
+		"FlipV": true
+		
+	}
+}

@@ -1,0 +1,45 @@
+{
+    "RegistryName": "d33ford:cv_hood",
+    "Addon": "fvtm:d33ford",
+    "Name": "Crown Victoria Hood",
+    "Category": "hood",
+    "CreativeTab": "d33lib:parts",
+    "ItemTexture": "d33lib:textures/items/hood.png",
+    "Installation":{
+    	"Handler": "default",
+        "Removable": true,
+        "Compatible":[
+            { "vehicle": "d33ford:cr_victoria", "x": 0, "y": 0, "z": 0 }
+        ]
+    },
+    "Attributes":[
+    	{ "id":"cv_hood", "type": "boolean", "value": false, "editable": true, "seat": "driver" }
+    ],
+    "Modifiers":[
+    	{
+    		"id": "weight", "type": "additive",
+    		"target": "vehicle:weight",
+    		"value": "50", "priority": "veryhigh"
+    	}
+    ],
+    "Model": "bonnet;d33ford:textures/model/cr_victoria.obj",
+    "ModelData":{	
+    	"Transforms": [
+			"rotation 0 0 1 180",
+			"rotation 0 1 0 90",
+			"scale 0.2",
+			"rescale_normal"
+		],
+		
+		"Programs": [
+			"bonnet fvtm:rgb_primary",
+			
+			"bonnet fvtm:bind_texture d33lib:textures/model/paint.png",
+			
+			"bonnet d33:atrot cv_hood true 0 60 1 0 88.41 93.72 1 0 0"
+		],
+		
+		"FlipV": true
+		
+	}
+}

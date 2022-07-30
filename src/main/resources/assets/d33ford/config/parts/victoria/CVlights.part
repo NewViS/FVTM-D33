@@ -1,0 +1,46 @@
+{
+    "RegistryName": "d33ford:cv_lights",
+    "Addon": "fvtm:d33ford",
+    "Name": "Crown Victoria Lights",
+    "Category": "lights",
+    "CreativeTab": "d33lib:parts",
+    "ItemTexture": "d33lib:textures/items/lights.png",
+    "Installation":{
+    	"Handler": "default",
+        "Removable": true,
+        "Compatible":[
+            { "vehicle": "d33ford:cr_victoria", "x": 0, "y": 0, "z": 0 }
+        ]
+    },
+    "Modifiers":[
+    	{
+    		"id": "weight", "type": "additive",
+    		"target": "vehicle:weight",
+    		"value": "20", "priority": "veryhigh"
+    	}
+    ],
+    "Model": "farr_bl;farl_bl;farr_in;farl_in;farr_pov;farl_pov;farr_cr;farl_cr;farr_gl;farl_gl;d33ford:textures/model/cr_victoria.obj",
+    "ModelData":{	
+    	"Transforms": [
+			"rotation 0 0 1 180",
+			"rotation 0 1 0 90",
+			"scale 0.2",
+			"rescale_normal"
+		],
+		
+		"Programs": [
+			"farr_cr fvtm:bind_texture d33lib:textures/model/paint.png",
+			"farr_bl fvtm:bind_texture d33ford:textures/model/cv_under.png",
+			"farr_in fvtm:bind_texture d33ford:textures/model/cv_ext.png",
+			
+			"farr_cr d33:col 135 135 135",
+			"farl_cr d33:col 135 135 135",
+			
+			"farr_gl d33:cola 205 205 205 0.6",
+			"farl_gl d33:cola 205 205 205 0.6"
+		],
+		
+		"FlipV": true
+		
+	}
+}

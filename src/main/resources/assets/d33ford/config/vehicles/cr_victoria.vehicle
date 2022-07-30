@@ -2,18 +2,18 @@
     "RegistryName": "d33ford:cr_victoria",
     "Addon": "fvtm:d33ford",
     "Name": "Ford Crown Victoria",
-    "PrimaryColor": "#bf3326",
+    "PrimaryColor": "#545245",
     "CreativeTab": "d33lib:vehicles",
     "Attributes": [
-    	{ "id": "weight", "type": "float", "value": 2000 },
+    	{ "id": "weight", "type": "float", "value": 1840 },
     	{ "id": "cv_trunk", "type": "boolean", "value": false, "editable": true, "seat": "driver" }
     ],
     "Category": "car, sedan",
     "WheelPositions":[
-        { "x":  27.6, "y": -6.2, "z":  12.2, "id": "left_front_wheel", "radius": 7, "steering": true },
-        { "x":  27.6, "y": -6.2, "z": -12.2, "id": "right_front_wheel", "radius": 7, "y_rot": 180, "steering": true },
-        { "x": -22.6, "y": -6.2, "z":  12.2, "id": "left_back_wheel", "radius": 7, "drive": true },
-        { "x": -22.6, "y": -6.2, "z": -12.2, "id": "right_back_wheel", "radius": 7, "y_rot": 180, "drive": true }
+        { "x":  32.1, "y": -6.2, "z":  14.5, "id": "left_front_wheel", "radius": 7, "steering": true },
+        { "x":  32.1, "y": -6.2, "z": -14.5, "id": "right_front_wheel", "radius": 7, "y_rot": 180, "steering": true },
+        { "x": -27.7, "y": -6.2, "z":  15, "id": "left_back_wheel", "radius": 7, "drive": true },
+        { "x": -27.7, "y": -6.2, "z": -15, "id": "right_back_wheel", "radius": 7, "y_rot": 180, "drive": true }
     ],
     "RequiredParts": [
     	"right_front_wheel",
@@ -24,19 +24,19 @@
         "steering_wheel"
     ],
     "PreInstalled": {
-    	"seats": "d33ford:m15_seats",
-    	"right_front_wheel": "d33ford:m15_white",
-    	"left_front_wheel": "d33ford:m15_white",
-    	"right_back_wheel": "d33ford:m15_white",
-    	"left_back_wheel": "d33ford:m15_white",
-    	"steering_wheel": "d33ford:m15_steer",
+    	"seats": "d33ford:cv_seats",
+    	"right_front_wheel": "d33ford:cv_cr_wheel",
+    	"left_front_wheel": "d33ford:cv_cr_wheel",
+    	"right_back_wheel": "d33ford:cv_cr_wheel",
+    	"left_back_wheel": "d33ford:cv_cr_wheel",
+    	"s:vehicle_partslots:steering_wheel:1": "d33ford:cv_steer",
     	"bumper_front": "d33ford:cv_bumf",
     	"bumper_rear": "d33ford:cv_bumr",
-    	"hood": "d33ford:m15_hood",
-    	"lights": "d33ford:m15_lights",
-    	"trunk": "d33ford:m15_trunk",
+    	"hood": "d33ford:cv_hood",
+    	"lights": "d33ford:cv_lights",
+    	"trunk": "d33ford:cv_trunk",
     	"doors": "d33ford:cv_doors",
-    	"engine": "gep:engine_petrol",
+    	"s:vehicle_partslots:engine:0": "d33lib:engine_fmod46",
     	"transmission": "gep:transmission"
     },
     "LegacyData":{
@@ -51,6 +51,10 @@
     	"right_front": [ 10, -4, -11, "right_rear" ],
     	"right_rear": [ -16, -4, -11, "right_front" ]
     },
+    "PartSlots":[
+    	[ 24.29, -7.18, 0, "engine", "engine" ],
+    	[ 9.3, -16.7, 7.8, "steering_wheel", "steering_wheel", 4, [ 0, 0, 25.3]]
+    ],
     "Model": "body1;wingl_col;mord_col;wingr_col;bl;reshet;dno;windscrebl;glrea_bl;motor_niz;podv_pered;podv_rea;radiator;motor_ver;inter;logo;far;wingl_in;wingr_in;motor;d33ford:textures/model/cr_victoria.obj",
     "ModelData":{	
     	"FlipV": true,

@@ -1,7 +1,7 @@
 {
-    "RegistryName": "d33chevrolet:cam3_steer",
-    "Addon": "fvtm:d33chevrolet",
-    "Name": "Camaro III Steer",
+    "RegistryName": "d33ford:cv_steer",
+    "Addon": "fvtm:d33ford",
+    "Name": "Crown Victoria Steer",
     "Category": "steering_wheel",
     "CreativeTab": "d33lib:parts",
     "ItemTexture": "d33lib:textures/items/steer.png",
@@ -18,7 +18,7 @@
     		"value": "2", "priority": "veryhigh"
     	}
     ],
-    "Model": "steer_int;steer_ext;d33chevrolet:textures/model/camaro3.obj",
+    "Model": "steer;d33ford:textures/model/cr_victoria.obj",
     "ModelData":{	
     	"Transforms": [
 			"rotation 0 0 1 180",
@@ -28,11 +28,8 @@
 		],
 		
 		"Programs": [
-			"steer_ext fvtm:bind_texture d33lib:textures/model/camaro_exterior.png",
-			"steer_int fvtm:bind_texture d33chevrolet:textures/model/w220_leather.png",
-			
-			"steer_ext d33:steer 0 0 0 0 0",
-			"steer_int d33:steer 0 0 0 0 0"
+			"steer fvtm:bind_texture d33ford:textures/model/cv_ext.png",
+			"steer d33:steer 0 0 0 0 0"
 		],
 		
 		"FlipV": true

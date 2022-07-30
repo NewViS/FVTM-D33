@@ -1,0 +1,49 @@
+{
+    "RegistryName": "d33ford:cv_seats",
+    "Addon": "fvtm:d33ford",
+    "Name": "Crown Victoria Seats",
+    "Category": "seats",
+    "CreativeTab": "d33lib:parts",
+    "ItemTexture": "d33lib:textures/items/seat.png",
+    "Installation":{
+    	"Handler": "default",
+        "Removable": true,
+        "Compatible":[
+            { "vehicle": "d33ford:cr_victoria", "x": 0, "y": 0, "z": 0 }
+        ]
+    },
+    "Modifiers":[
+    	{
+    		"id": "weight", "type": "additive",
+    		"target": "vehicle:weight",
+    		"value": "120.50", "priority": "veryhigh"
+    	}
+    ],
+    "Function": {
+    	"id": "fvtm:seats",
+    	"seats":[
+    		{ "x": -3, "y": 3, "z": -8, "name": "driver", "driver": true, "min_yaw": -120, "max_yaw": 120 },
+    		{ "x": -3, "y": 3, "z": 8, "name": "pass_front" },
+    		{ "x": -19, "y": 2, "z": -8, "name": "pass_rear_left" },
+    		{ "x": -19, "y": 2, "z": 8, "name": "pass_rear_right" }
+    	]
+    },
+    "Model": "seat;d33ford:textures/model/cr_victoria.obj",
+    "ModelData":{	
+    	"Transforms": [
+			"rotation 0 0 1 180",
+			"rotation 0 1 0 90",
+			"scale 0.2",
+			"rescale_normal"
+		],
+		
+		"Programs": [
+		
+			"seat fvtm:bind_texture d33ford:textures/model/cv_ext.png"
+			
+		],
+		
+		"FlipV": true
+		
+	}
+}
