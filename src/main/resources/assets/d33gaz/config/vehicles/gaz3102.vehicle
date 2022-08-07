@@ -1,0 +1,80 @@
+{
+    "RegistryName": "d33gaz:gaz3102",
+    "Addon": "fvtm:d33gaz",
+    "Name": "Volga GAZ 3102",
+    "PrimaryColor": "#0d0d0d",
+    "CreativeTab": "d33lib:vehicles",
+    "Attributes": [
+    	{ "id": "weight", "type": "float", "value": 1500 }
+    ],
+    "Category": "car, sedan",
+    "WheelPositions":[
+        { "x":  31.04, "y": -4.5, "z":  14, "id": "left_front_wheel", "radius": 7, "steering": true },
+        { "x":  31.04, "y": -4.5, "z": -14, "id": "right_front_wheel", "radius": 7, "y_rot": 180, "steering": true },
+        { "x": -26.83, "y": -4.5, "z":  14, "id": "left_back_wheel", "radius": 7, "drive": true },
+        { "x": -26.83, "y": -4.5, "z": -14, "id": "right_back_wheel", "radius": 7, "y_rot": 180, "drive": true }
+    ],
+    "RequiredParts": [
+    	"right_front_wheel",
+        "left_front_wheel",
+        "right_back_wheel",
+        "left_back_wheel",
+        "seats",
+        "steering_wheel"
+    ],
+    "PreInstalled": {
+    	"seats": "d33gaz:g3102_seats",
+    	"right_front_wheel": "d33gaz:vlg3102_wheel",
+    	"left_front_wheel": "d33gaz:vlg3102_wheel",
+    	"right_back_wheel": "d33gaz:vlg3102_wheel",
+    	"left_back_wheel": "d33gaz:vlg3102_wheel",
+    	"s:vehicle_partslots:steering_wheel:1": "d33gaz:g3102_steer",
+    	"bumper_front": "d33gaz:g3102_bumf",
+    	"bumper_rear": "d33gaz:g3102_bumr",
+    	"hood": "d33gaz:g3102_hood",
+    	"lights": "d33gaz:g3102_lights",
+    	"trunk": "d33gaz:g3102_trunk",
+    	"doors": "d33gaz:g3102_doors",
+    	"s:vehicle_partslots:engine:0": "d33lib:engine_zmz402",
+    	"transmission": "gep:transmission"
+    },
+    "LegacyData":{
+    	"MaxPositiveThrottle": 2.7,
+    	"MaxNegativeThrottle": 0.89,
+    	"TurnLeftModifier": 0.8,
+    	"TurnRightModifier": 0.8
+    },
+    "LiftingPoints":{
+    	"left_front": [ 10, -3, 11, "left_rear" ],
+    	"left_rear": [ -16, -3, 11, "left_front" ],
+    	"right_front": [ 10, -3, -11, "right_rear" ],
+    	"right_rear": [ -16, -3, -11, "right_front" ]
+    },
+    "PartSlots":[
+    	[ 24.17, -5.86, 0, "engine", "engine" ],
+    	[ 11.88, -15.13, 7.45, "steering_wheel", "steering_wheel", 4, [ 0, 0, 17.31]],
+		[ -50.33, -11.78, -0.26, "license_plate", "license_plate_rear", 4, [ 0, 180, 3.44 ] ]
+    ],
+    "Model": "color;salo_color;lea_bl_1;main_tex;main_tex2;Dvigatel_main;salo_main;logo;salon;d33gaz:textures/model/gaz3102.obj",
+    "ModelData":{	
+    	"FlipV": true,
+    	"Transforms": [
+			"rotation 0 0 1 180",
+			"rotation 0 1 0 90",
+			"scale 0.2",
+			"rescale_normal"
+		],
+		
+		"Programs": [
+			"color fvtm:rgb_primary",
+			"salo_color fvtm:rgb_primary",
+			
+			"color fvtm:bind_texture d33lib:textures/model/paint.png",
+			
+			"lea_bl_1 fvtm:bind_texture d33lib:textures/model/material/leather_black.png",
+			"main_tex fvtm:bind_texture d33lib:textures/model/volga_main.png",
+			"logo fvtm:bind_texture d33gaz:textures/model/volga_salon.png"
+		]
+		
+	}
+}

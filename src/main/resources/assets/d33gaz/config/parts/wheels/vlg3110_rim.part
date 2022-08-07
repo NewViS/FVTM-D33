@@ -1,0 +1,30 @@
+{
+    "RegistryName": "d33gaz:vlg3110_wheel",
+    "Addon": "fvtm:d33gaz",
+    "Name": "GAZ 3110 Wheel",
+    "Model": "d33gaz:models/part/vlg3110_wheel",
+    "Category": "wheel",
+    "CreativeTab": "d33lib:rims",
+    "Functions": [
+    	"fvtm:wheel",
+    	{
+    		"id": "fvtm:tire",
+    		"stiffness": 6,
+    		"steering_stiffness": 5.8,
+    		"step_height": 1.2
+    	}	
+	],
+    
+    "Installation":{
+    	"Handler": "wheel",
+        "Removable": true,
+        "Radius": 6, "Width": 3
+    },
+    "Modifiers":[
+    	{
+    		"id": "weight", "type": "additive",
+    		"target": "vehicle:weight",
+    		"value": "30", "priority": "veryhigh"
+    	}
+    ]
+}

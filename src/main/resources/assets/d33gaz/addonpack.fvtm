@@ -1,0 +1,15 @@
+{
+  "RegistryName": "fvtm:d33gaz",
+  "Name": "D33 GAZ",
+  "URL": "https://www.curseforge.com/minecraft/mc-mods/d33-gaz-package",
+  "UpdateID": "addon-d33gaz",
+  "License": "http://fexcraft.net/license?id=mods",
+  "Dependencies": ["fvtm:gep","fvtm:d33lib"],
+  "Authors": [
+    "MaximD33"
+  ],
+  "Version": "1.0",
+  "GenerateItemJson": false,
+  "GenerateLang": false,
+  "CreativeTabs":[]
+}

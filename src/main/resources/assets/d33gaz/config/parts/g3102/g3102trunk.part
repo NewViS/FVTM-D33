@@ -1,0 +1,48 @@
+{
+    "RegistryName": "d33gaz:g3102_trunk",
+    "Addon": "fvtm:d33gaz",
+    "Name": "GAZ 3102 Trunk",
+    "Category": "trunk",
+    "CreativeTab": "d33lib:parts",
+    "ItemTexture": "d33lib:textures/items/trunk.png",
+    "Installation":{
+    	"Handler": "default",
+        "Removable": true,
+        "Compatible":[ 
+        	{ "vehicle": "d33gaz:gaz3102", "x": 0, "y": 0, "z": 0 }
+        ]
+    },
+    "Attributes":[
+    	{ "id":"g3102_trunk", "type": "boolean", "value": false, "editable": true, "seat": "driver" }
+    ],
+    
+    "Modifiers":[
+    	{
+    		"id": "weight", "type": "additive",
+    		"target": "vehicle:weight",
+    		"value": "36.78", "priority": "veryhigh"
+    	}
+    ],
+    "Model": "boot_color;boot_main;d33gaz:textures/model/gaz3102.obj",
+    "ModelData":{	
+    	"Transforms": [
+			"rotation 0 0 1 180",
+			"rotation 0 1 0 90",
+			"scale 0.2",
+			"rescale_normal"
+		],
+		
+		"Programs": [
+			"boot_color fvtm:rgb_primary",
+			
+			"boot_color fvtm:bind_texture d33lib:textures/model/paint.png",
+			"boot_main fvtm:bind_texture d33lib:textures/model/volga_main.png",
+			
+			"boot_color d33:atrot g3102_trunk true -60 0 -1 0 89.78 -156.04 1 0 0",
+			"boot_main d33:atrot g3102_trunk true -60 0 -1 0 89.78 -156.04 1 0 0"
+		],
+		
+		"FlipV": true
+		
+	}
+}

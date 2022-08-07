@@ -1,0 +1,73 @@
+{
+    "RegistryName": "d33gaz:g3102_doors",
+    "Addon": "fvtm:d33gaz",
+    "Name": "Crown Victoria Doors",
+    "Category": "doors",
+    "CreativeTab": "d33lib:parts",
+    "ItemTexture": "d33lib:textures/items/doors.png",
+    "Installation":{
+    	"Handler": "default",
+        "Removable": true,
+        "Compatible":[
+            { "vehicle": "d33gaz:gaz3102", "x": 0, "y": 0, "z": 0 }
+        ]
+    },
+    "Attributes":[
+    	{ "id":"g02_doors_fl", "type": "boolean", "value": false, "editable": true, "seat": "driver" },
+    	{ "id":"g02_doors_fr", "type": "boolean", "value": false, "editable": true, "seat": "pass_front" },
+    	{ "id":"g02_doors_bl", "type": "boolean", "value": false, "editable": true, "seat": "pass_rear_left" },
+    	{ "id":"g02_doors_br", "type": "boolean", "value": false, "editable": true, "seat": "pass_rear_right" }
+    ],
+    "Modifiers":[
+    	{
+    		"id": "weight", "type": "additive",
+    		"target": "vehicle:weight",
+    		"value": "125", "priority": "veryhigh"
+    	}
+    ],
+    "Model": "door_rr_color;door_rf_color;door_lf_color;door_lr_color;door_rr_leabl;door_rf_leabl;door_lr_leabl;door_lf_leabl;door_rr_main;door_rf_main;door_lf_main;door_lr_main;door_rr_salon;door_rf_salon;door_lr_salon;door_lf_salon;d33gaz:textures/model/gaz3102.obj",
+    "ModelData":{	
+    	"Transforms": [
+			"rotation 0 0 1 180",
+			"rotation 0 1 0 90",
+			"scale 0.2",
+			"rescale_normal"
+		],
+		
+		"Programs": [
+			"door_rr_color fvtm:rgb_primary",
+			"door_rf_color fvtm:rgb_primary",
+			"door_lf_color fvtm:rgb_primary",
+			"door_lr_color fvtm:rgb_primary",
+			
+			"door_rr_color fvtm:bind_texture d33lib:textures/model/paint.png",
+			
+			"door_rr_main fvtm:bind_texture d33lib:textures/model/volga_main.png",
+			"door_rr_salon fvtm:bind_texture d33gaz:textures/model/volga_salon.png",
+			"door_rr_leabl fvtm:bind_texture d33lib:textures/model/material/leather_black.png",
+
+			"door_rf_color d33:atrot g02_doors_fr true 0 60 1 90.51 0 90.92 0 1 0",
+			"door_rf_main d33:atrot g02_doors_fr true 0 60 1 90.51 0 90.92 0 1 0",
+			"door_rf_leabl d33:atrot g02_doors_fr true 0 60 1 90.51 0 90.92 0 1 0",
+			"door_rf_salon d33:atrot g02_doors_fr true 0 60 1 90.51 0 90.92 0 1 0",
+			
+			"door_rr_color d33:atrot g02_doors_br true 0 60 1 91.6 0 -12.04 0 1 0",
+			"door_rr_main d33:atrot g02_doors_br true 0 60 1 91.6 0 -12.04 0 1 0",
+			"door_rr_leabl d33:atrot g02_doors_br true 0 60 1 91.6 0 -12.04 0 1 0",
+			"door_rr_salon d33:atrot g02_doors_br true 0 60 1 91.6 0 -12.04 0 1 0",
+			
+			"door_lf_color d33:atrot g02_doors_fl true -60 0 -1 -90.51 0 90.92 0 1 0",
+			"door_lf_main d33:atrot g02_doors_fl true -60 0 -1 -90.51 0 90.92 0 1 0",
+			"door_lf_leabl d33:atrot g02_doors_fl true -60 0 -1 -90.51 0 90.92 0 1 0",
+			"door_lf_salon d33:atrot g02_doors_fl true -60 0 -1 -90.51 0 90.92 0 1 0",
+			
+			"door_lr_color d33:atrot g02_doors_bl true -60 0 -1 -91.6 0 -12.04 0 1 0",
+			"door_lr_main d33:atrot g02_doors_bl true -60 0 -1 -91.6 0 -12.04 0 1 0",
+			"door_lr_leabl d33:atrot g02_doors_bl true -60 0 -1 -91.6 0 -12.04 0 1 0",
+			"door_lr_salon d33:atrot g02_doors_bl true -60 0 -1 -91.6 0 -12.04 0 1 0"
+		],
+		
+		"FlipV": true
+		
+	}
+}

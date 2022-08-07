@@ -1,0 +1,49 @@
+{
+    "RegistryName": "d33gaz:g3102_seats",
+    "Addon": "fvtm:d33gaz",
+    "Name": "GAZ 3102 Seats",
+    "Category": "seats",
+    "CreativeTab": "d33lib:parts",
+    "ItemTexture": "d33lib:textures/items/seat.png",
+    "Installation":{
+    	"Handler": "default",
+        "Removable": true,
+        "Compatible":[
+            { "vehicle": "d33gaz:gaz3102", "x": 0, "y": 0, "z": 0 }
+        ]
+    },
+    "Modifiers":[
+    	{
+    		"id": "weight", "type": "additive",
+    		"target": "vehicle:weight",
+    		"value": "120.50", "priority": "veryhigh"
+    	}
+    ],
+    "Function": {
+    	"id": "fvtm:seats",
+    	"seats":[
+    		{ "x": 3, "y": 3, "z": -8, "name": "driver", "driver": true, "min_yaw": -120, "max_yaw": 120 },
+    		{ "x": 3, "y": 3, "z": 8, "name": "pass_front" },
+    		{ "x": -14, "y": 2, "z": -8, "name": "pass_rear_left" },
+    		{ "x": -14, "y": 2, "z": 8, "name": "pass_rear_right" }
+    	]
+    },
+    "Model": "seats;d33gaz:textures/model/gaz3102.obj",
+    "ModelData":{	
+    	"Transforms": [
+			"rotation 0 0 1 180",
+			"rotation 0 1 0 90",
+			"scale 0.2",
+			"rescale_normal"
+		],
+		
+		"Programs": [
+		
+			"seats fvtm:bind_texture d33gaz:textures/model/volga_salon.png"
+			
+		],
+		
+		"FlipV": true
+		
+	}
+}

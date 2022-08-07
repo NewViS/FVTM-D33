@@ -1,0 +1,45 @@
+{
+    "RegistryName": "d33gaz:g3102_hood",
+    "Addon": "fvtm:d33gaz",
+    "Name": "GAZ 3102 Hood",
+    "Category": "hood",
+    "CreativeTab": "d33lib:parts",
+    "ItemTexture": "d33lib:textures/items/hood.png",
+    "Installation":{
+    	"Handler": "default",
+        "Removable": true,
+        "Compatible":[
+            { "vehicle": "d33gaz:gaz3102", "x": 0, "y": 0, "z": 0 }
+        ]
+    },
+    "Attributes":[
+    	{ "id":"g3102_hood", "type": "boolean", "value": false, "editable": true, "seat": "driver" }
+    ],
+    "Modifiers":[
+    	{
+    		"id": "weight", "type": "additive",
+    		"target": "vehicle:weight",
+    		"value": "50", "priority": "veryhigh"
+    	}
+    ],
+    "Model": "bonnet;d33gaz:textures/model/gaz3102.obj",
+    "ModelData":{	
+    	"Transforms": [
+			"rotation 0 0 1 180",
+			"rotation 0 1 0 90",
+			"scale 0.2",
+			"rescale_normal"
+		],
+		
+		"Programs": [
+			"bonnet fvtm:rgb_primary",
+			
+			"bonnet fvtm:bind_texture d33lib:textures/model/paint.png",
+			
+			"bonnet d33:atrot g3102_hood true 0 60 1 0 88.41 116.85 1 0 0"
+		],
+		
+		"FlipV": true
+		
+	}
+}

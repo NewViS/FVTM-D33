@@ -1,0 +1,38 @@
+{
+    "RegistryName": "d33gaz:g3102_bumr",
+    "Addon": "fvtm:d33gaz",
+    "Name": "GAZ 3102 Bumper R",
+    "Category": "bumper_rear",
+    "CreativeTab": "d33lib:parts",
+    "ItemTexture": "d33lib:textures/items/bumr.png",
+    "Installation":{
+    	"Handler": "default",
+        "Removable": true,
+        "Compatible":[
+           { "vehicle": "d33gaz:gaz3102", "x": 0, "y": 0, "z": 0 }
+        ]
+    },
+    "Modifiers":[
+    	{
+    		"id": "weight", "type": "additive",
+    		"target": "vehicle:weight",
+    		"value": "20", "priority": "veryhigh"
+    	}
+    ],
+    "Model": "bump_rea;d33gaz:textures/model/gaz3102.obj",
+    "ModelData":{	
+    	"Transforms": [
+			"rotation 0 0 1 180",
+			"rotation 0 1 0 90",
+			"scale 0.2",
+			"rescale_normal"
+		],
+		
+		"Programs": [
+			"bump_rea fvtm:bind_texture d33lib:textures/model/volga_main.png"
+		],
+		
+		"FlipV": true
+		
+	}
+}

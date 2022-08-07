@@ -158,6 +158,24 @@ task d33bmw(type: Jar){
     version = '0.4'
 }
 
+task d33chevrolet(type: Jar){
+	from (zipTree("${destinationDir}/${archiveName}")) { include 'net/fexcraft/mod/addon/d33chevrolet/'}
+    from ('src/main/resources/') { include 'assets/d33chevrolet/'}
+    from ('src/main/resources/') { include 'pack.mcmeta'}
+    baseName = 'D33CHEVROLET'
+    appendix = 'FVTM'
+    version = '0.1'
+}
+
+task d33dodge(type: Jar){
+	from (zipTree("${destinationDir}/${archiveName}")) { include 'net/fexcraft/mod/addon/d33dodge/'}
+    from ('src/main/resources/') { include 'assets/d33dodge/'}
+    from ('src/main/resources/') { include 'pack.mcmeta'}
+    baseName = 'D33DODGE'
+    appendix = 'FVTM'
+    version = '0.3'
+}
+
 task d33ford(type: Jar){
 	from (zipTree("${destinationDir}/${archiveName}")) { include 'net/fexcraft/mod/addon/d33ford/'}
     from ('src/main/resources/') { include 'assets/d33ford/'}
@@ -175,6 +193,7 @@ task d33rolls(type: Jar){
     appendix = 'FVTM'
     version = '0.3'
 }
+
 task d33vaz(type: Jar){
 	from (zipTree("${destinationDir}/${archiveName}")) { include 'net/fexcraft/mod/addon/d33vaz/'}
     from ('src/main/resources/') { include 'assets/d33vaz/'}
@@ -183,6 +202,7 @@ task d33vaz(type: Jar){
     appendix = 'FVTM'
     version = '0.4'
 }
+
 task d33trail(type: Jar){
 	from (zipTree("${destinationDir}/${archiveName}")) { include 'net/fexcraft/mod/addon/d33trail/'}
     from ('src/main/resources/') { include 'assets/d33trail/'}
@@ -191,14 +211,7 @@ task d33trail(type: Jar){
     appendix = 'FVTM'
     version = '0.0'
 }
-task d33dodge(type: Jar){
-	from (zipTree("${destinationDir}/${archiveName}")) { include 'net/fexcraft/mod/addon/d33dodge/'}
-    from ('src/main/resources/') { include 'assets/d33dodge/'}
-    from ('src/main/resources/') { include 'pack.mcmeta'}
-    baseName = 'D33DODGE'
-    appendix = 'FVTM'
-    version = '0.3'
-}
+
 task d33lambo(type: Jar){
 	from (zipTree("${destinationDir}/${archiveName}")) { include 'net/fexcraft/mod/addon/d33lambo/'}
     from ('src/main/resources/') { include 'assets/d33lambo/'}
@@ -229,6 +242,7 @@ task d33lib(type: Jar){
 
 task contentPacks(){
 	dependsOn d33bmw
+	dependsOn d33chevrolet
 	dependsOn d33ford
 	dependsOn d33lib
 	dependsOn d33lambo
