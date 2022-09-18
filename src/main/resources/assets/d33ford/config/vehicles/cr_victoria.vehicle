@@ -53,7 +53,9 @@
     },
     "PartSlots":[
     	[ 24.29, -7.18, 0, "engine", "engine" ],
-    	[ 9.3, -16.7, 7.8, "steering_wheel", "steering_wheel", 4, [ 0, 0, 25.3]]
+    	[ 9.3, -16.7, 7.8, "steering_wheel", "steering_wheel", 4, [ 0, 0, 25.3]],
+    	[ 0, 0, 0, "search_light", "search_light_left" ],
+    	[ 0, -42.8, 0, "search_light", "search_light_right",  4, [ 180, 0, 0]]
     ],
     "Model": "body1;wingl_col;mord_col;wingr_col;bl;reshet;dno;windscrebl;glrea_bl;motor_niz;podv_pered;podv_rea;radiator;motor_ver;inter;logo;far;wingl_in;wingr_in;motor;d33ford:textures/model/cr_victoria.obj",
     "ModelData":{	

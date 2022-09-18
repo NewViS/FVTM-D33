@@ -1,0 +1,39 @@
+{
+    "RegistryName": "d33ford:cv_bullbar",
+    "Addon": "fvtm:d33ford",
+    "Name": "Crown Victoria Bullbar",
+    "Category": "bullbar",
+    "CreativeTab": "d33lib:parts",
+    "ItemTexture": "d33lib:textures/items/bullbar.png",
+    "Installation":{
+    	"Handler": "default",
+        "Removable": true,
+        "Compatible":[
+            { "vehicle": "d33ford:cr_victoria", "x": 0, "y": 0, "z": 0 }
+        ]
+    },
+    "Modifiers":[
+    	{
+    		"id": "weight", "type": "additive",
+    		"target": "vehicle:weight",
+    		"value": "20", "priority": "veryhigh"
+    	}
+    ],
+    "Model": "kang;d33ford:textures/model/cr_victoria.obj",
+    "ModelData":{	
+    	"Transforms": [
+			"rotation 0 0 1 180",
+			"rotation 0 1 0 90",
+			"scale 0.2",
+			"rescale_normal"
+		],
+		
+		"Programs": [
+			"kang fvtm:bind_texture d33lib:textures/model/paint.png",
+			"kang d33:col 20 20 20"
+		],
+		
+		"FlipV": true
+		
+	}
+}

@@ -1,0 +1,38 @@
+{
+    "RegistryName": "d33ford:cv_p_stuff",
+    "Addon": "fvtm:d33ford",
+    "Name": "Crown Victoria Police Stuff",
+    "Category": "police_stuff",
+    "CreativeTab": "d33lib:parts",
+    "ItemTexture": "d33lib:textures/items/p_stuff.png",
+    "Installation":{
+    	"Handler": "default",
+        "Removable": true,
+        "Compatible":[
+            { "vehicle": "d33ford:cr_victoria", "x": 0, "y": 0, "z": 0 }
+        ]
+    },
+    "Modifiers":[
+    	{
+    		"id": "weight", "type": "additive",
+    		"target": "vehicle:weight",
+    		"value": "20", "priority": "veryhigh"
+    	}
+    ],
+    "Model": "polin1;polin2;d33ford:textures/model/cr_victoria.obj",
+    "ModelData":{	
+    	"Transforms": [
+			"rotation 0 0 1 180",
+			"rotation 0 1 0 90",
+			"scale 0.2",
+			"rescale_normal"
+		],
+		
+		"Programs": [
+			"polin1 fvtm:bind_texture d33ford:textures/model/cv_ext.png"
+		],
+		
+		"FlipV": true
+		
+	}
+}

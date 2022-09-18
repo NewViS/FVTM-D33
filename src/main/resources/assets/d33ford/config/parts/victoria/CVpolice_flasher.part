@@ -1,0 +1,38 @@
+{
+    "RegistryName": "d33ford:cv_p_flash",
+    "Addon": "fvtm:d33ford",
+    "Name": "Crown Victoria Police Flasher",
+    "Category": "police_flasher",
+    "CreativeTab": "d33lib:parts",
+    "ItemTexture": "d33lib:textures/items/p_flash.png",
+    "Installation":{
+    	"Handler": "default",
+        "Removable": true,
+        "Compatible":[
+            { "vehicle": "d33ford:cr_victoria", "x": 0, "y": 0, "z": 0 }
+        ]
+    },
+    "Modifiers":[
+    	{
+    		"id": "weight", "type": "additive",
+    		"target": "vehicle:weight",
+    		"value": "20", "priority": "veryhigh"
+    	}
+    ],
+    "Model": "migl_;mig_;d33ford:textures/model/cr_victoria.obj",
+    "ModelData":{	
+    	"Transforms": [
+			"rotation 0 0 1 180",
+			"rotation 0 1 0 90",
+			"scale 0.2",
+			"rescale_normal"
+		],
+		
+		"Programs": [
+			"migl_ fvtm:bind_texture d33ford:textures/model/cv_ext.png"
+		],
+		
+		"FlipV": true
+		
+	}
+}

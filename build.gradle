@@ -185,6 +185,15 @@ task d33ford(type: Jar){
     version = '0.3'
 }
 
+task d33gaz(type: Jar){
+	from (zipTree("${destinationDir}/${archiveName}")) { include 'net/fexcraft/mod/addon/d33gaz/'}
+    from ('src/main/resources/') { include 'assets/d33gaz/'}
+    from ('src/main/resources/') { include 'pack.mcmeta'}
+    baseName = 'D33GAZ'
+    appendix = 'FVTM'
+    version = '0.1'
+}
+
 task d33rolls(type: Jar){
 	from (zipTree("${destinationDir}/${archiveName}")) { include 'net/fexcraft/mod/addon/d33rolls/'}
     from ('src/main/resources/') { include 'assets/d33rolls/'}

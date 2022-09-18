@@ -1,0 +1,40 @@
+{
+    "RegistryName": "d33ford:cv_s_lights",
+    "Addon": "fvtm:d33ford",
+    "Name": "Crown Victoria Search Lights",
+    "Category": "search_light",
+    "CreativeTab": "d33lib:parts",
+    "ItemTexture": "d33lib:textures/items/s_lights.png",
+    "Installation":{
+    	"Handler": "default",
+        "Removable": true,
+        "Compatible":[
+            { "vehicle": "d33ford:cr_victoria"}
+        ],
+        "SlotBased": true
+    },
+    "Modifiers":[
+    	{
+    		"id": "weight", "type": "additive",
+    		"target": "vehicle:weight",
+    		"value": "20", "priority": "veryhigh"
+    	}
+    ],
+    "Model": "inter2;dno2;d33ford:textures/model/cr_victoria.obj",
+    "ModelData":{	
+    	"Transforms": [
+			"rotation 0 0 1 180",
+			"rotation 0 1 0 90",
+			"scale 0.2",
+			"rescale_normal"
+		],
+		
+		"Programs": [
+			"dno2 fvtm:bind_texture d33ford:textures/model/cv_under.png",
+			"inter2 fvtm:bind_texture d33ford:textures/model/cv_ext.png"
+		],
+		
+		"FlipV": true
+		
+	}
+}
